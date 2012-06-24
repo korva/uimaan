@@ -1,0 +1,1968 @@
+Kemiö;Folkhälsan solbad uimaranta;60.180497357;22.844631656
+Jalasjärvi;Koskuen leirintäal.uimapaikka;62.356217046;22.847305757
+Suodenniemi;Makkosranta;61.590357901;22.847509522
+Luoto;Bosund simstrand;63.808383695;22.851359517
+Hämeenkyrö;Hirvonjärven uimapaikka;61.641425372;22.860165790
+Tammisaari;Padva simstrand;59.960269456;22.860331217
+Mouhijärvi;Pääjärven uimapaikka;61.454561999;22.893653285
+Vammala;Alasenrannan rantauimala;61.346265187;22.895931663
+Kokkola;Långön uimapaikka;63.835693065;22.901808784
+Vammala;Kaalisaaren uimala;61.337617543;22.902677095
+Vammala;Pororannan rantauimala;61.338365637;22.906919097
+Jalasjärvi;Saarijärven uimapaikka;62.278332978;22.909499020
+Nurmo;Tanelinrannan uimaranta;62.795641244;22.910684136
+Ikaalinen;Kovelahden uimapaikka;61.918500451;22.910702990
+Tammisaari;Orvlax simstrand;59.976610928;22.911078469
+Tammisaari;Nitlax simstrand;59.976510144;22.911306090
+Vammala;Tervakallion uimapaikka;61.348459421;22.922814412
+Hanko;Tullstranden;59.822787008;22.924672603
+Halikko;Kokkilan rantauimala;60.318624346;22.945509463
+Hanko;Lill-Märsan;59.843632046;22.960321479
+Halikko;Kankareenjärven uimapaikka;60.439384242;22.965839515
+Alahärmä;Haaruksen uimapaikka;63.259380958;22.968215975
+Hanko;Regatta-stranden;59.821553958;22.970655145
+Lapua;Saarenkankaan uimapaikka;62.970365668;22.973714055
+Hanko;Plagen-Långsanda;59.825296013;22.983392880
+Mouhijärvi;Uotsolan uimaranta;61.511880736;22.999189679
+Ikaalinen;Heittolan yhteisranta;61.863501334;23.001438100
+Kokkola;Palman uimapaikka;63.825816041;23.007455254
+Mouhijärvi;Iirolan uimapaikka;61.505137245;23.012525409
+Tammisaari;Furutorp simstrand;59.987464723;23.030970082
+Kokkola;Lahdenperän rantauimala;63.833827346;23.042269957
+Ikaalinen;Uimapaikka;61.779037631;23.042557470
+Ikaalinen;Toivolansaaren uimaranta;61.776019526;23.044767118
+Halikko;Märynummen rantauimala;60.445383083;23.049579969
+Salo;Lehmijärven uimala;60.300126989;23.076331413
+Ikaalinen;Kiviniemen uimapaikka;61.778810512;23.079677181
+Kokkola;Valkohiekka;63.908686884;23.080138550
+Mouhijärvi;Särkijärven uimapaikka;61.510111401;23.087382697
+Hämeenkyrö;Kelhäjärven uimapaikka;61.552608912;23.101123153
+Tammisaari;Framnäs simstrand;60.005355991;23.101752201
+Kokkola;Punakallio;63.891645947;23.102090007
+Peräseinäjoki;Kalajärven uimaranta;62.573091755;23.109155691
+Kokkola;Halkokarin rantauimala;63.859939175;23.117259969
+Lapua;Hirvijärven uimapaikka;62.836734423;23.117471240
+Kauhava;Oijärven uimapaikka;63.064325406;23.120533078
+Kihniö;Pyhäniemen uimaranta;62.184586750;23.125577400
+Hämeenkyrö;Niemen rantauimala;61.691194720;23.132885689
+Kihniö;Taupilan uimaranta;62.143218783;23.152778538
+Hämeenkyrö;Herttualan uimapaikka;61.595900495;23.160155400
+Mouhijärvi;Otamussillan uimapaikka;61.481541974;23.176673964
+Kihniö;Aitolahden uimala;62.226068698;23.177371300
+Kihniö;Korhosjärven uimaranta;62.234969451;23.181847027
+Närpiö;Töjby simplats;62.637598991;21.142478884
+Maalahti;Bergö friluftsområde;62.972351238;21.155736300
+Närpiö;Norrnäs simplats;62.569430376;21.170861963
+Närpiö;Fagerö simplats;62.613688847;21.200697334
+Närpiö;Eskilsö simplats;62.382099327;21.213735873
+Närpiö;Tjärlax simplats;62.440294981;21.221331892
+Mustasaari;Bulleråsens badplats;63.174229225;21.231141505
+Kaskinen;Marianrannan uimaranta;62.393491468;21.237747640
+Närpiö;Varvholmens simplats;62.431071044;21.239096050
+Mustasaari;Södra Vallgrunds badplats;63.170459739;21.272609052
+Mustasaari;Björköby badplats;63.362545719;21.301784404
+Kristiinankaupunki;Skoängenin uimapaikka;62.107742453;21.322296032
+Maalahti;Vägvik simstrand;62.879158911;21.335148936
+Uusikaupunki;Haimion uimapaikka;60.887496941;21.338932308
+Uusikaupunki;Karhuluodon uimaranta;60.829800862;21.340337205
+Närpiö;Skrattnäs simplats;62.323145873;21.345355865
+Närpiö;Klubbskatans simplats;62.365250835;21.359642102
+Kristiinankaupunki;Campingalueen uimapaikka;62.263991387;21.363548208
+Uusikaupunki;Pyhämaan uimapaikka;60.952024399;21.376983215
+Uusikaupunki;Eräistenkarin uimapaikka;60.666897073;21.380523844
+Uusikaupunki;Hiun uimapaikka;60.824454236;21.390337869
+Uusikaupunki;Santtion rantauimala;60.809212261;21.394616072
+Uusikaupunki;Raulion uimaranta;60.896587560;21.399242225
+Pori;Reposaaren uimapaikka;61.621593565;21.426959517
+Uusikaupunki;Lautveden uimapaikka;60.760164618;21.428323966
+Mustasaari;Replot badplats;63.235879254;21.444364306
+Rauma;Merirauman uimapaikka;61.149752301;21.463426895
+Pori;Kallon uimapaikka;61.590426053;21.466635868
+Merikarvia;Mericampingin uimaranta;61.848028983;21.469679882
+Rauma;Saharannan uimapaikka;61.143210494;21.472169576
+Rauma;Otanlahden maauimala;61.137971319;21.472529951
+Maalahti;+minne simstrand;62.975957769;21.483048740
+Pori;Karhuluodon uimapaikka;61.578298177;21.496603662
+Uusikaupunki;Karparannan uimapaikka;60.660157075;21.519425852
+Uusikaupunki;Taipaleenjärven uimapaikka;60.723327605;21.524466615
+Vaasa;Kronvikin uimaranta;63.057441714;21.525703354
+Rauma;Monnan sorak. uimapaikka;61.104225124;21.546285211
+Karijoki;Myrkyn uimapaikka;62.384981018;21.548819966
+Uusikaupunki;Rohijärven uimapaikka;60.842687600;21.563804123
+Eurajoki;Lahdenperän uimaranta;61.241116896;21.566205076
+Vaasa;Leirintäalueen uimaranta;63.102212798;21.569283254
+Vaasa;Mansikkasaaren uimaranta;63.104698810;21.586491609
+Vaasa;Paratiisisaari;63.090579131;21.589859110
+Vaasa;Hietasaari;63.093927594;21.593443311
+Vaasa;Vikingan uimaranta;63.115898484;21.593558959
+Vaasa;Isolahden uimaranta;63.120563173;21.600994152
+Rauma;Pitkäjärven uimaranta;61.061639743;21.605732590
+Närpiö;Pörtom utebassäng;62.708875724;21.610250619
+Vaasa;Kustaanlinnan uimala;63.083374964;21.612254732
+Pori;Ahlaisten uimapaikka;61.668043554;21.623906868
+Pori;Etelärannan uimapaikka;61.515817488;21.623906295
+Mustasaari;Köklot badplats;63.276181046;21.629967675
+Kristiinankaupunki;Pyhävuoren uimapaikka;62.280997933;21.630545828
+Vaasa;Ahvensaari;63.075805744;21.636729478
+Pori;Lyttylän uimapaikka;61.590331792;21.651287800
+Uusikaupunki;Kaukjärven uimapaikka;60.782658058;21.665080804
+Mustasaari;Karperö badplats;63.161710393;21.704457065
+Maalahti;Törn utebassäng;62.898178340;21.727241246
+Karijoki;Peurajärven uimapaikka;62.315053839;21.760816603
+Siikainen;Otamon uimapaikka;61.827670096;21.761114420
+Pori;Maauimala;61.472133955;21.766044741
+Karkkila;Siikalan uimala;60.592117827;24.217169648
+Soini;Lauttosen ranta;62.860388740;24.220783125
+Inkoo;Stävö simplats;60.054004666;24.221134168
+Soini;Seurakunnan ranta;62.856509657;24.221208924
+Hattula;Kosken kyläranta;60.995216231;24.231559131
+Lohja;Nummenkylän uimapaikka;60.311400510;24.235758845
+Vihti;Myllylammen uimaranta;60.310662454;24.236110877
+Vihti;Varikkaan uimaranta;60.371565110;24.237261924
+Pyhäjoki;Kielosaaren uimapaikka;64.459021772;24.239448843
+Valkeakoski;Hakalanrannan uimapaikka;61.229978107;24.248527296
+Tornio;Alaraumon uimapaikka;65.853399752;24.257799992
+Pyhäjoki;Parhalahden rantauimala;64.520370809;24.263717695
+Vihti;Rämäkän uimaranta;60.361491764;24.266941262
+Kangasala;Kautialan uimapaikka;61.531750105;24.267335365
+Hattula;Pelkolan kyläranta;61.041893231;24.278779831
+Vihti;Hopeaniemen uimapaikka;60.395993961;24.283593922
+Vihti;Hiidenrannan uimaranta;60.346258876;24.287878039
+Tornio;Kantojärven uimapaikka;65.981327729;24.288605325
+-htäri;Myllymäen uimapaikka;62.525520142;24.294784225
+Soini;Kivijärven uimapaikka;62.741781855;24.301440625
+Pyhäjoki;Pirttikosken uimapaikka;64.410932577;24.301574510
+Sahalahti;Jauksan uimapaikka;61.465517509;24.303285235
+Vihti;Kirkonkylän uimaranta;60.411565460;24.315450222
+Orivesi;Teerijärven rantauimala;61.660410725;24.318560930
+Hattula;Suontaan kyläranta;61.112927440;24.321758397
+Hattula;Suotaalan-Lahdentaan kyläranta 1;61.158409967;24.330947820
+Suolahti;Suojärven uimala;62.561555683;25.882979773
+Rovaniemen mlk;Vaaralan uimapaikka;66.513420008;25.885130686
+Jyväskylän mlk;Janakan uimapaikka;62.260103165;25.889637029
+Laukaa;Pölkinahon uimapaikka;62.435361356;25.890460620
+Jyväskylän mlk;Uimalanniemen rantauimala;62.244794236;25.890758348
+Porvoo;Lindvikin uimapaikka;60.394890219;25.891965077
+Pyhäjärvi;Emolahden rantauimala;63.663964610;25.899226337
+Heinola;Vierumäen uimapaikka;61.129584246;25.901578023
+Myrskylä;Syväjärven rantauimala;60.672734182;25.906097374
+Porvoo;Virvikin uimapaikka;60.341643317;25.911356643
+Laukaa;Kuhajärven uimapaikka;62.378239089;25.921582448
+Tyrnävä;Uimapaikka suutarinjärvi;64.631203892;25.921625374
+Viitasaari;Kymönkosken uimapaikka;63.110383759;25.924035683
+Piippola;Paskokankaan maauimala;64.201672466;25.931964038
+Laukaa;Vuojärven uimapaikka ii/ Vuolake;62.417931647;25.936041768
+Laukaa;Vuojärven uimapaikka i/ Lemettilä;62.410340854;25.937298001
+Jyväskylän mlk;Leppälahden leirikeskuksen uimapaikka;62.208518396;25.948917235
+Laukaa;Kuhaniemen uimapaikka;62.394789635;25.956219363
+Jyväskylän mlk;Tervatehtaan uimapaikka;62.237055653;25.959830766
+Leivonmäki;Rautsillan uimapaikka;61.993150745;25.963177823
+Joutsa;Pappisten uimapaikka;61.808249807;25.965190074
+Laukaa;Rantapuiston uimapaikka;62.411592733;25.965327326
+Heinola;Hevossaaren uimaranta;61.213355677;25.966468395
+Pyhäjärvi;Kirkonkylän uimapaikka;63.638177141;25.976619527
+Rantsila;Uimapaikka (Järvitalonjärvi);64.473833496;25.978682908
+Heinola;Myllykylän uimapaikka;61.164628516;25.979099398
+Pyhäjärvi;Uimapaikka lossinranta;63.679583649;25.993454129
+Lapinjärvi;Pyhäjärven uimapaikka;60.705091583;26.006381820
+Viitasaari;Kumpumäen uimapaikka;63.197923728;26.007343196
+Pyhäjärvi;Uimapaikka pumppuranta;63.660680561;26.008987005
+Heinola;Urheiluopiston uimapaikka;61.119621707;26.009531725
+Joutsa;Joutsenlammen uimapaikka;61.781909857;26.015025767
+Heinola;Kaivannon uimaranta;61.214146558;26.017243913
+Leivonmäki;Harjunlahden uimapaikka;61.910543587;26.021602821
+Heinola;Kylpylän rantauimala;61.202551494;26.024729700
+Heinola;Jyrängön uimaranta;61.191531490;26.038663399
+Pyhäjärvi;Rannan uimapaikka;63.620611407;26.043152021
+Muurla;Pullolan uimapaikka;60.326773116;23.214471278
+Ypäjä;Ypäjänkylän uimakulju;60.865770169;23.218225515
+Viljakkala;Paijalan uimaranta;61.668810600;23.228615420
+Viljakkala;Haverin uimaranta;61.709506023;23.236358499
+Nokia;Sarkolan uimaranta;61.416054343;23.244076536
+Somero;Kerkolan ranta;60.586243660;23.251085105
+Punkalaidun;Järvelän uimaranta;61.043440650;23.254858301
+Hämeenkyrö;Sirkkalan uimapaikka;61.548589501;23.255523448
+Punkalaidun;Kivirannan uimaranta;61.056345097;23.257225731
+Tammisaari;Vikstrand badplats;60.064733944;23.260156281
+Alavus;Jääskänjärven ranta;62.617891737;23.271279623
+Kihniö;Raskin ranta;62.170635540;23.278131924
+Muurla;Takapellon uimaranta;60.363505639;23.281660547
+Muurla;Pyölin uimapaikka;60.358951484;23.282343110
+Viljakkala;Kurjen uimaranta;61.706458532;23.288925741
+Somero;Pitkäjärven ranta;60.667361296;23.292786665
+Alavus;Hukkalan ranta;62.684515250;23.296860567
+Kälviä;Pirskerin uimapaikka;63.936806772;23.303500533
+Vesilahti;Rämsöön uimapaikka;61.327388535;23.315507419
+Hämeenkyrö;Miharin uimapaikka;61.572352444;23.321582083
+Ypäjä;Murskan uimala;60.767076084;23.325603731
+Tammisaari;Skogby simstrand;59.926416767;23.331120200
+Nokia;Siuron uimala;61.476720035;23.332545694
+Nokia;Linnavuoren uimala;61.493993379;23.342482357
+Nokia;Taulajärven uimaranta;61.448929315;23.346419029
+Alavus;Iso-allasjärven ranta;62.572669755;23.349492346
+Muurla;Piiljärven uimaranta;60.363642066;23.350429721
+Kisko;Lammijärven uimapaikka;60.314042075;23.354794787
+Pertteli;Hossuksen rantauimala;60.408110458;23.363389960
+Viljakkala;Nisun uimapaikka/Väinän ranta;61.762851613;23.376636774
+Tammisaari;Grabbskog simplats;60.016254828;23.376902971
+Tammisaari;Trollböle simplats;59.942982565;23.378446099
+Nokia;Pajulahden uimala;61.399954815;23.380835698
+Pertteli;Varvojärven uimapaikka;60.427453947;23.385162756
+Pertteli;Iso-Rytkön uimapaikka;60.364153555;23.389879551
+Kälviä;Klapurinjärven uimapaikka;63.830714057;23.397045818
+Nokia;Joenpohjan uimaranta;61.356125864;23.400499805
+Lohtaja;Harjukarin uimapaikka, Marinkainen;63.946572180;23.404531104
+Vesilahti;Krääkkiön uimapaikka;61.235397490;23.406942257
+Kuortane;Salmen uimaranta;62.862804436;23.408710500
+Somero;Pusulanjärven ranta;60.642723522;23.411891700
+Lohtaja;Vattajan uimaranta, Ohtakarintie;64.082877088;23.419648976
+Tammisaari;Ramsholmens simplats;59.966694155;23.423236987
+Nokia;Riihilahden uimaranta;61.421742343;23.424398493
+Tammisaari;Siminrättningens badplats;59.975649034;23.430766579
+Tammisaari;Bajons simplats;59.896462854;23.429530277
+Kisko;Iso-Kiskon uimapaikka;60.181351624;23.432698334
+Viljakkala;Karhen uimaranta;61.728265089;23.435810019
+Urjala;Nuutajärven uimapaikka;61.047640000;23.437691991
+Tammisaari;Sjövik simplats;59.992024046;23.438613606
+Vimpeli;Uimapaikka/Sääksjärvi;63.220440530;23.962592965
+Nummi-Pusula;Vaherman uimaranta;60.564906193;23.966416497
+Lohja;Lasitehtaan uimala;60.186923717;23.968993758
+Lohja;Pähkinäniemen uimaranta;60.197884714;23.981729754
+Nummi-Pusula;Kirkonkylän uimaranta;60.466585387;23.982170498
+Lohja;Vohloisten uimaranta;60.228176883;23.982788851
+Lohja;Partioniemen leirikeskuksen uimaranta;60.263977658;23.985167613
+-htäri;Peränteen uimapaikka;62.476467158;23.987032642
+Kangasala;Halimajärven uimapaikka;61.502612172;23.991866218
+Inkoo;Björkuddens simplats;60.032760880;24.002078294
+Valkeakoski;Lotilan uimaranta;61.278883915;24.005795343
+Lohja;Paloniemen uimapaikka;60.266848661;24.008442643
+Helsinki;Aurinkopuisto/lasten kahluuallas;60.198386128;24.946545397
+Helsinki;Brahenpuisto/lasten kahluuallas;60.188563064;24.949971794
+Kinnula;Uimala;63.371036338;24.951507867
+Helsinki;Uunisaaren uimaranta;60.152815930;24.952000832
+Kivijärvi;Lahdenperän uimapaikka;63.154558978;24.952315932
+Helsinki;Kumpulan maauimala;60.208704036;24.958294138
+Helsinki;Jyrängönpuisto/lasten kahluuallas;60.211750390;24.959638306
+Helsinki;Mäkitorpan puisto/lasten kahluuallas;60.228973770;24.960426679
+Helsinki;Vallilan perhepuisto/lasten kahluuallas;60.197842333;24.960754621
+Tuusula;Häklin uimapaikka;60.407172503;24.967538327
+Tuusula;Rusutjärven kylänranta;60.426355068;24.968501643
+Tervola;Mattisen uimapaikka;66.124452929;24.969796703
+Kivijärvi;Perkauden uimapaikka;63.082652162;24.972303295
+Helsinki;Pakilan uimaranta;60.246206304;24.972358895
+Helsinki;Pukinmäen uimaranta;60.249276217;24.975257776
+Tervola;Louen uimapaikka;66.142698950;24.975780778
+Helsinki;Malmin uimaranta;60.257154006;24.977282450
+Reisjärvi;Susisaaren uimapaikka;63.602066829;24.980009142
+Helsinki;Suomenlinnan uimaranta;60.143868947;24.980933442
+Helsinki;Pikkukosken uimaranta;60.228036389;24.983084995
+Tervola;Kätkäjärven uimapaikka;66.227646116;24.985070224
+Helsinki;Siltamäen aluepuisto/lasten kahluuallas;60.275433716;24.986746804
+Helsinki;Siltalanpuisto/lasten kahluuallas;60.266944081;24.988172163
+Tuusula;Rusutjärven rantauimala;60.430093389;24.988846988
+Helsinki;Säveltäjänpuisto/lasten kahluuallas;60.245226657;24.989992417
+Tuusula;Metsäpirtin leirikeskus;60.426972695;24.990274804
+Helsinki;Tapaninvainion aluep./lasten kahluuallas;60.260363812;24.991774350
+Helsinki;Green star/ulkouima-allas;60.251448420;24.992952775
+Helsinki;Mustikkamaan ulkoilupuisto/uimaranta;60.178979200;24.993701557
+Jämsänkoski;Luomen koulun ranta;62.045383423;24.995462360
+Helsinki;Ylä-Malmin leikkip./lasten kahluuallas;60.251709522;24.995971556
+Jämsänkoski;Luomen leirikeskus/uimapaikka;62.045424641;24.997065685
+Jämsä;Heräjärven uimapaikka;61.907876552;25.003312335
+Helsinki;Salpausselän leikkip./lasten kahluuallas;60.232039768;25.004394477
+Helsinki;Kiillepuisto/lasten kahluuallas;60.234069934;25.005065368
+Nokia;Teernijärven uimaranta;61.452077990;23.439444034
+Urjala;Urjalankylän uimapaikka;61.083384917;23.445523046
+Tammisaari;Campingens simplats;59.965250504;23.447261757
+Nokia;Sorvan uimaranta;61.421457454;23.449181109
+Hämeenkyrö;Lavajärven uimapaikka;61.659265392;23.459942773
+Nokia;Alinenjärven uimala;61.495446644;23.463163061
+Kuortane;Länsirannan uimaranta;62.802891144;23.467102905
+Somero;Lamminjärven ranta;60.697090559;23.468173451
+Kisko;Kirkonkylän uimapaikka;60.250553118;23.469160090
+Alavus;Ilosalon ranta;62.529828132;23.470925082
+Kuortane;Ruonan uimaranta;62.834911208;23.471742866
+Nokia;Kuusiston uimaranta;61.440889793;23.486273983
+Somero;Härkälän ranta;60.623179629;23.490565154
+Nokia;Lehtiniemen uimaranta;61.438183553;23.490705911
+Ylöjärvi;Työläjärven uimaranta;61.579870015;23.490719682
+Tammisaari;Dragsvik simplats;59.984814701;23.493447796
+Kuortane;Kirkkoranta;62.805821324;23.494090082
+Nokia;Viinikanniemen uimaranta;61.447892354;23.494473475
+Ylöjärvi;Koo-Vee:n uimaranta;61.616930689;23.496236796
+Nokia;Liukuslahden uimala;61.452852997;23.496299235
+Nokia;Kehon uimaranta;61.447849736;23.502941368
+Viljakkala;Toivolan uimaranta;61.750237170;23.506260878
+Alavus;Vetämäjärven leirikeskus;62.634880965;23.515699023
+Ylöjärvi;Julkujärven rantauimala;61.560034758;23.520477630
+Vesilahti;Narvan uimapaikka;61.291842087;23.523829501
+Tammisaari;Langansböle simplats;59.983231095;23.524578263
+Alajärvi;Menkijärven uimapaikka;62.950022701;23.529716665
+Ylöjärvi;Lepojärven uimaranta;61.617072772;23.532786020
+Nokia;Vanhainkodin uimala;61.484783847;23.533737777
+Somero;Havuharjun ranta;60.616969615;23.535568821
+Urjala;Laukeelan uimapaikka;61.078842264;23.536500873
+Nokia;Vihnuksen uimala;61.482550403;23.540223270
+Kisko;Orijärven uimapaikka;60.224835131;23.549427616
+Ylöjärvi;Mutalan uimaranta;61.662245666;23.576996616
+Ylöjärvi;Pohjankylän uimaranta;61.665945537;23.579837023
+Somero;Ahveniston ranta;60.687590754;23.586755491
+Kiikala;Härjänvatsan uimala;60.432289745;23.595102991
+Kisko;Tynnyrlammen uimapaikka;60.293908903;23.598825088
+Karjaa;Svedja simplats;60.043937856;23.599898070
+Ylöjärvi;Räikän uimala;61.557707222;23.600600589
+Ylöjärvi;Aron uimaranta;61.552488656;23.600964879
+Alavus;Harrin rantauimala;62.575126336;23.609958988
+Vesilahti;Kirkonkylän uimapaikka;61.311900356;23.610070482
+Tampere;Tesoma-Ikurin uimaranta;61.507899160;23.610632442
+Ylöjärvi;Keijärven uimaranta;61.571172135;23.613631014
+Pirkkala;Turrin uimala;61.471216957;23.613929251
+Tampere;Tesoma-Ristimäen uimaranta;61.508055685;23.615484667
+Tampere;Saarenkärjen uimaranta;61.491302202;23.624465459
+Alavus;Tusan ranta;62.583264398;23.624476225
+Somero;Hirsjärven leirikeskuksen ranta;60.602402500;23.626622250
+Somero;Hovimäen ranta;60.596719852;23.628183889
+Alavus;Sapsalammin ranta;62.446830824;23.632289072
+Tampere;Tohloppi uusi uimaranta;61.512818641;23.640632475
+Viiala;Arajärven rantauimala;61.196894042;23.641585569
+Tampere;Raholan uimaranta;61.495119990;23.642655749
+Lappajärvi;Uimapaikka nykälä;63.247408331;23.644062560
+Tampere;Tohloppi-Epilän uimaranta;61.514681980;23.645903150
+Lappajärvi;Uimapaikka kirkkoranta;63.210703778;23.648201502
+Pirkkala;Vähäjärven uimapaikka;61.460401480;23.650563373
+Pirkkala;Rantaniityn uimaranta;61.469108646;23.651073143
+Urjala;Huhdin uimapaikka;61.061814757;23.651593180
+Alavus;Kätkänjoen ranta;62.693789507;23.660237563
+Karjaa;Bastsjö simplats;60.147904308;23.669514339
+Karjaa;Pumpvikens simplats;60.076746210;23.676898007
+Tampere;Viikinsaaren uimaranta;61.474866115;23.680050994
+Pirkkala;Loukonlahden uimapaikka;61.474398788;23.680776854
+Ylöjärvi;Honkasalon uimaranta;61.540794960;23.683828402
+Tampere;Niemen uimaranta;61.533212939;23.690056204
+Tampere;Suomensaaren uimaranta;61.536175832;23.704473897
+Tampere;Tahmelan uimaranta;61.500479961;23.708085759
+Viiala;Heinäsuon uimapaikka;61.237392315;23.712130270
+Kuru;Hevossaaren uimaranta;61.886224745;23.717731321
+Kuru;Hoppasojan uimaranta;61.873793913;23.727871014
+Somero;Somerniemen kirkkoranta;60.574920512;23.729742934
+Tampere;Elianderin uimaranta;61.503749008;23.733453627
+Kuru;Kirkonkylän uimaranta;61.880055734;23.733614170
+Tampere;Pyynikin hiekkaranta;61.491437014;23.734651684
+Karjalohja;Uimapaikka;60.251040677;23.735358369
+Tampere;Peltolammi Multisilta uimaranta;61.445359830;23.743960651
+Tampere;Rantaperkiön uimaranta;61.472583199;23.745472211
+Tampere;Peltolammin pohjoinen uimaranta;61.448696636;23.746407971
+Karjalohja;Päiväkummun uimapaikka;60.254307289;23.754264266
+Alajärvi;Kurejoen uimapaikka;62.977941246;23.767103568
+Veteli;Alaspään uimapaikka;63.409556173;23.768475899
+Vimpeli;Uimapaikka/Rantakylä;63.163786927;23.770830747
+Vimpeli;Uimapaikka/Rinne;63.181097078;23.771087829
+Somero;Oinasjärven ranta;60.538250906;23.773504713
+Töysä;Tohnin uimaranta;62.707609129;23.778390047
+Tampere;Rauhaniemen uimala;61.515424905;23.786343208
+Karjaa;Bråtans simplats;60.182726344;23.791925912
+Vimpeli;Uimapaikka/Lakaniemi;63.112613945;23.792342724
+Lehtimäki;Valkeisjärven uimapaikka;62.876069048;23.801655172
+Tampere;Lahdesjärven uimaranta;61.455947310;23.803379264
+Tampere;Kaupinojan uimaranta;61.514514917;23.803791839
+Viiala;Luttusen rantauimala;61.202945808;23.806629831
+Inkoo;Fagervik simplats;60.021437411;23.810547154
+Veteli;Ahon uimaranta;63.387547508;23.814834373
+Tampere;Särkijärven uimaranta;61.451111503;23.817779091
+Töysä;Kirkonkylän uimaranta;62.636996415;23.827111990
+Tampere;Kämmenniemen uimaranta;61.629851626;23.833124350
+Lehtimäki;Kätkänjärven uimapaikka;62.845648666;23.833200367
+Lehtimäki;Valkealammen uimapaikka;62.776661809;23.867506636
+Tampere;Alasjärven uimaranta;61.502920578;23.868021147
+Alajärvi;Hoiskon uimapaikka;63.023585616;23.877294662
+Valkeakoski;Metsäkansan uimapaikka;61.216115257;23.879154784
+Nummi-Pusula;Peltosen ranta;60.393259162;23.880845540
+Somero;Salkolanjärven ranta;60.639898518;23.886630726
+Tampere;Kaukajärvi, Riihiniemi;61.472118607;23.892447231
+Inkoo;Marsjö simplats;60.046615534;23.892689720
+Tampere;Kaukajärven uimala;61.475810023;23.896397974
+Lehtimäki;Kangaslammen uimapaikka;62.777625822;23.898003595
+Veteli;Aittaniemen uimapaikka;63.317117438;23.905097748
+Inkoo;Tammiston uimapaikka;59.980219046;23.906071595
+Lohja;Lohjansaaren uimapaikka;60.225897062;23.911094738
+Alajärvi;Paalijärven uimapaikka;63.055043899;23.912214207
+Nummi-Pusula;Iloitun uimaranta;60.457569692;23.914028949
+Inkoo;Södervidjan uimaranta;59.977937167;23.916410691
+Inkoo;Gölisnäsin uimaranta;59.950924368;23.917418402
+Töysä;Jouttilammen uimaranta;62.607041737;23.919244726
+Lohja;Karstun uimapaikka;60.293280969;23.921615868
+Kangasala;Vatialan uimala;61.471641011;23.936372814
+Tampere;Kumpulan uimaranta;61.519236577;23.939488642
+Tampere;Olkahisten uimaranta;61.518964265;23.942561632
+Kaarina;Kuuslahden uimaranta;60.386768669;22.337125873
+Kemiö;Lappdalin uimaranta;60.236519510;22.727776825
+Kemiö;Kiilan uimaranta;60.244011978;22.862770709
+Muhos;Holapan monttu;64.882307321;25.877962451
+Heinola;Sinilähteen uimapaikka;61.193242766;25.983008609
+Muhos;Kirkkosaaren uimapaikka;64.815592224;25.992918085
+Muhos;Montan uimaranta;64.824451055;26.011036901
+Heinola;Heinäsaaren uimapaikka;61.212685250;26.012525910
+Heinola;Kylpylän talviuinti;61.202306282;26.024328050
+Kälviä;Pirskerin uimaranta 2;63.935581185;23.301232753
+Nokia;Halkoniemen uimaranta;61.458565634;23.522200022
+Vesilahti;Onkemäen uimapaikka;61.247837147;23.581796972
+Ylöjärvi;Veittijärven uimaranta;61.578684263;23.601467212
+Alavus;Vähäjärven ranta;62.593332073;23.630424529
+Kuru;Länsi-Teiskon uimaranta;61.719306619;23.644013849
+Ylitornio;Vasken ranta;66.319836591;23.662773708
+Kuru;Parkkuun uimaranta;61.829210291;23.720695780
+Ulvila;Pappilanlampi;61.429413062;21.893900028
+Ulvila;Harjunpään uimaranta;61.494394634;21.906782942
+Säkylä;Arena;61.084835198;22.230353958
+Säkylä;Hiekkaranta;61.084764057;22.230884517
+Säkylä;Leirintäalueen uimaranta;61.055654829;22.302894819
+Säkylä;Katismaan uimalaitos;61.046206138;22.321242995
+Säkylä;Honkalan uimaranta;61.040125467;22.366668104
+Säkylä;Röhöranta;61.003340095;22.379779582
+Säkylä;Nummiojan ranta;60.935368670;22.413392577
+Säkylä;Lomasäkylä;60.944140413;22.416230618
+Säkylä;Katismaan avantouintikeskus;61.046222080;22.320925436
+Valkeakoski;Tarttilan uimapaikka;61.169216758;24.012451613
+Kangasala;Liuksialan uimapaikka;61.433553007;24.013900818
+Lehtimäki;Mustaniemen uimapaikka;62.794986328;24.018895464
+Lohja;Liessaaren rantauimala;60.245282025;24.019517286
+Lohja;Voudinrannan uimapaikka;60.238227340;24.024927388
+Tornio;Karungin uimapaikka;66.023648897;24.030977844
+Lohja;Hormajärven uimapaikka;60.276127807;24.033708401
+Alajärvi;Iiruunjärven uimapaikka;63.058538546;24.034879787
+Lohja;Myllylammen uimapaikka;60.243462672;24.039338752
+Kangasala;Ruutanan uimapaikka;61.521431085;24.040517035
+Valkeakoski;Kirjaslammen uimala;61.272326832;24.040913402
+Lohja;Kisakallion uimaranta;60.324279310;24.042286834
+Valkeakoski;Apian uimaranta;61.267074618;24.043030669
+Lohja;Aurlahden rantauimala;60.247398278;24.053130652
+Karkkila;Vuotinaisten uimala;60.615490050;24.058883470
+-htäri;Rantapellon uimapaikka;62.548601502;24.061775937
+-htäri;Ouluveden rantauimala;62.549918003;24.065458313
+Lohja;Suittilan uimapaikka;60.335852939;24.067671477
+Soini;Laasalan uimaranta;62.892779250;24.067819243
+Inkoo;Djupträsk simplats;60.118641949;24.068110750
+Ruovesi;Haapasaaren leirintäalueen uimaranta;61.993026156;24.073623557
+Lohja;Moision uimapaikka;60.260534657;24.080200637
+Ruovesi;Kirkonkylän uimaranta;61.989462991;24.082175009
+Kangasala;Vesaniemen uimala;61.467555821;24.083665124
+Ruovesi;Jäminkipohjan uimaranta;61.897880498;24.094886603
+Pyhäjoki;Yppärin rantauimala;64.417418181;24.095806593
+Halsua;Masalan uimaranta;63.449965318;24.098309175
+Kangasala;Haviseva uimapaikka;61.543375244;24.100580220
+Kangasala;Huutijärven uimapaikka;61.456911037;24.111306737
+Soini;Kukonkylän uimaranta;62.799664083;24.111790280
+Nummi-Pusula;Kotojärvi;60.492303573;24.123757715
+Valkeakoski;Koivuniemen uimapaikka;61.263544606;24.129056076
+Pyhäjoki;Grekunperän uimapaikka;64.363118368;24.137017961
+Inkoo;Svenviken simplats;60.047398632;24.138438065
+Kalvola;Keskuskentän ranta;61.080866995;24.141124665
+-htäri;Inhan aseman uimapaikka;62.550118300;24.144017270
+Tornio;Saarenpään uimapaikka;65.861494656;24.146203487
+Keuruu;Kangasjärven uimapaikka;62.289050007;24.147891431
+Tornio;Palojärven uimapaikka;66.133339836;24.151824404
+Soini;Iso-Hykkösen ranta;62.760909616;24.154311052
+Tornio;Pikisaasen uimala;65.850133707;24.155967883
+Hattula;Lehijärven uimaranta ii;61.047653477;24.338420911
+Hattula;Kalkkosten kyläranta;61.047782263;24.338576785
+Hattula;Lehijärven uimaranta i;61.043580735;24.339984781
+Vihti;Enärannan uimaranta;60.335052496;24.343949428
+Hattula;Merven uimaranta;61.094114561;24.344902018
+Soini;Parviaisen ranta;62.823159137;24.346448516
+Hattula;Armijärven uimaranta;61.021947087;24.348533138
+Hattula;Pikku-Merven kyläranta;61.098474392;24.352011818
+Karkkila;Haaviston uimaranta;60.527399283;24.354585653
+Vihti;Olkkalan uimaranta;60.451173141;24.360663978
+Orivesi;Kirkkolahden rantauimala;61.671531909;24.361332857
+Hattula;Suotaalan-Lahdentaan kyläranta 2;61.139422070;24.362232647
+Alavieska;Rilkkeen uimapaikka;64.173449227;24.362479997
+Keuruu;Koipijärven uimapaikka;62.343216425;24.363786948
+Orivesi;Nihuan rantauimala;61.699885301;24.365471382
+Orivesi;Nihuanperän rantauimala;61.716268818;24.365812961
+Raahe;Lännenrannan uimapaikka;64.563441536;24.365863761
+Sahalahti;Lindellin uimapaikka;61.513728109;24.368166948
+Soini;Hankajärven uimapaikka;62.889332092;24.370388652
+Raahe;Siniluodon uimapaikka;64.611268742;24.381242671
+Hattula;Lusin kyläranta;61.150261713;24.386837582
+Orivesi;Holman rantauimala;61.691949550;24.391329802
+Vihti;Palojärven uimaranta;60.291160428;24.392104717
+Sahalahti;Pakkalan uimapaikka;61.447143748;24.397737751
+Vihti;Ojakkalan uimaranta;60.365658977;24.403176211
+Keuruu;Valkeisen uimapaikka;62.304596912;24.405458902
+Hattula;Herniäisten uimaranta;61.047488537;24.406031475
+Tornio;Kivijärven uimapaikka;66.084659457;24.411238690
+Hattula;Katinalan kyläranta;61.039810624;24.411602662
+Vihti;Moksin uimaranta;60.479618669;24.414591981
+Hattula;Eerolan uimaranta;61.053686971;24.418823944
+Keuruu;Hylkysen uimapaikka;62.259014164;24.422671139
+Raahe;Maivaperän uimapaikka;64.671581109;24.423428693
+Halsua;Kalottimenjärven uimaranta;63.433114745;24.427417237
+Vihti;Tervalammen uimaranta;60.338199585;24.436065780
+Toholampi;Maauimala/betoniallas;63.611002985;24.449156178
+Alavieska;Petäjälammen uimapaikka;64.203296293;24.450955886
+Raahe;Pikkulahden uimaranta;64.689743415;24.462673791
+Hämeenlinna;Uimahallin uimaranta;60.991247685;24.466690359
+Merijärvi;Pyhänkosken uimamonttu;64.337603954;24.471484601
+Vilppula;Ajosharjun uimala;62.027977807;24.476612903
+Vihti;Otalammen uimala;60.397862166;24.487450907
+Keminmaa;Kallijärven rantauimala;65.782610533;24.489003539
+Vihti;Haimoon maauimala;60.466981900;24.494384115
+Vilppula;Kolhon uimala;62.138438075;24.495292289
+Tuulos;Teuron ranta;61.070792169;24.850321839
+Helsinki;Pihkapuisto/lasten kahluuallas;60.253584190;24.853482785
+Helsinki;Konalan puisto/lasten kahluuallas;60.233233069;24.853677184
+Helsinki;Piianpuisto/lasten kahluuallas;60.244580027;24.857449677
+Helsinki;Nuolipuisto/lasten kahluuallas;60.229000643;24.863467647
+Helsinki;Ulvilanpuisto/lasten kahluuallas;60.206675742;24.865984632
+Helsinki;Trumpettikujan puisto/lasten kahluuallas;60.237933187;24.866750011
+Helsinki;Lauttasaari/uimaranta;60.155072386;24.871889425
+Helsinki;Munkinpuisto/lasten kahluuallas;60.199731706;24.871900716
+Helsinki;Munkkiniemen uimaranta;60.193124036;24.871931965
+Helsinki;Laurinniityn leikkip./lasten kahluuallas;60.232096007;24.877871704
+Helsinki;Seurasaaren uimala;60.182508922;24.879054717
+Hyvinkää;Kaupunkisillan uimala;60.638740826;24.879862868
+Oulainen;Ahonperän uimapaikka;64.342012901;24.880680889
+Helsinki;Vanhaistenpuisto/lasten kahluuallas;60.243456188;24.881958585
+Helsinki;Seurasaaren ulkoilupuisto/uimaranta;60.184661583;24.882287022
+Helsinki;Lauttasaaren ulkoilupuisto/uimaranta;60.146370821;24.882445766
+Helsinki;Haagan puisto/lasten kahluuallas;60.213143653;24.892015988
+Helsinki;Aalberginpuisto/lasten kahluuallas;60.228821559;24.896641015
+Helsinki;Hietarannan uimaranta;60.174218704;24.907091069
+Helsinki;Pihlajasaaren ulkoilupuisto/uimaranta;60.139181092;24.912540833
+Helsinki;Pirkkolan liikuntapuisto/uimaplotti;60.232066126;24.915624103
+Helsinki;Hesperian esplanadi/lasten kahluuallas;60.176352253;24.918850508
+Helsinki;Sannanpuisto/lasten kahluuallas;60.198291860;24.922059756
+Padasjoki;Kasiniemen uimapaikka;61.434327591;24.925341097
+Reisjärvi;Saarisen uimapaikka;63.662531893;24.926173839
+Helsinki;Maunulan leikkipuisto/lasten kahluuallas;60.230920507;24.929038061
+Reisjärvi;Terveystalon rannan uimapaikka;63.602670203;24.929126169
+Helsinki;Uimastadion/maauimala;60.188813212;24.930826610
+Helsinki;Sysiniitty/lasten kahluuallas;60.254425577;24.932485090
+Helsinki;Sinebrychoffin puisto/lasten kahluuallas;60.161382165;24.934137350
+Oulainen;Kurjenrannan uimapaikka;64.295476633;24.936079637
+Tuusula;Jokelan lampi;60.543557954;24.939610897
+Nivala;Kiviojan uimaranta;63.900165701;24.941546466
+Helsinki;Kimmonpuisto/lasten kahluuallas;60.210106729;24.942168118
+Nivala;Pidisjärven uimaranta;63.917218641;24.942966186
+Helsinki;Ilolanpuisto/lasten kahluuallas;60.182925263;24.944212408
+Helsinki;Mustankivenpuisto/kahluuallas;60.204354023;25.141052274
+Helsinki;Vuosaaren uimaranta;60.202300852;25.159907945
+Jämsänkoski;Oinaalan uimaranta;61.928448228;25.160430959
+Jämsänkoski;Kukkassalmen uimaranta;62.077035523;25.162237288
+Petäjävesi;Olkkosniemen rantauimala;62.262673555;25.163680613
+-änekoski;Parantalan ranta;62.640502490;25.516625938
+Oulu;Värtön uimapaikka;65.017691143;25.527918385
+Oulu;Parkkisenkankaan uimapaikka;65.018988141;25.532090314
+Kempele;Kalliomonttu, uimapaikka;64.938959750;25.533342346
+Askola;Monninkylän maauimala;60.494710931;25.534688570
+Asikkala;Vääksyn uimapaikka 2;61.170487605;25.541953479
+Rantsila;Pikkulan uimapaikka;64.620994509;25.544026884
+Oulu;Myllyojan uimapaikka;65.013963861;25.546727510
+Oulu;Pikkaraisen uimapaikka;65.008369373;25.548007309
+Oulu;Lämsänjärven uimapaikka;64.995897363;25.548705729
+Viitasaari;Vuorilahden uimapaikka;62.978468980;25.551323085
+Asikkala;Vääksyn uimapaikka 3;61.162787081;25.554553171
+-änekoski;Järvenpään ranta;62.694210618;25.561422569
+-änekoski;Hietaman ranta;62.608685850;25.563539437
+Lahti;Likolammen uimaranta;60.991736780;25.563774773
+Hollola;Messilän uimapaikka;61.019016891;25.564872131
+Viitasaari;Keihärinkosken uimapaikka;63.110517468;25.567869609
+Korpilahti;Keskustan rantauimala;62.014266419;25.568834924
+Jyväskylän mlk;Vesangan uimapaikka;62.268939876;25.570528777
+Viitasaari;Huopanan uimapaikka;63.055852960;25.570556343
+Haukipudas;Onkamon uimaranta;65.222946857;25.574345406
+Asikkala;Vääksyn uimapaikka 1;61.172014118;25.575726797
+Korpilahti;Ainolan uimapaikka;62.014973728;25.581711411
+Oulu;Maikkulan uimapaikka;64.989486623;25.581754955
+Korpilahti;Talvilahden uimapaikka;62.017901543;25.586292567
+Askola;Takajärven rantauimala;60.541031331;25.597574393
+Lahti;Kankolan uimaranta;61.000974927;25.598941362
+Askola;Uimaranta;60.539597726;25.599531476
+Jyväskylän mlk;Kuikan uimapaikka;62.375044903;25.601848631
+Viitasaari;Keitelepohjan uimapaikka;63.187514591;25.603796994
+Jyväskylän mlk;Pilkkurin uimapaikka;62.265485423;25.604100971
+Muurame;Isolahden uimaranta;62.134807702;25.608107754
+Rovaniemen mlk;Alakorkalon uimapaikka;66.477724459;25.625852468
+Hollola;Kalliolan uimapaikka;61.070447541;25.628754909
+Yli-Ii;Jakkukylän uimapaikka;65.302754312;25.628898174
+Hollola;Paimelan uimapaikka;61.094047690;25.629976484
+Lahti;Lahden maauimala;60.983331401;25.630645040
+Myrskylä;Kirkkojärven uimapaikka;60.670602836;25.863580728
+Jyväskylän mlk;Kivilammen uimapaikka;62.271443992;25.877144458
+Sumiainen;Kirkonkylän uimaranta;62.657331457;26.043863856
+Muhos;Leppiniemen uimapaikka;64.847955902;26.044364970
+Heinola;Tommolan uimaranta;61.193739386;26.048842724
+Heinola;Lemmenlammen uimaranta;61.222390436;26.051961167
+Heinola;Lusin uimapaikka;61.293079933;26.064398300
+Viitasaari;Suovanlahden uimapaikka;63.003690617;26.066571941
+Heinola;Kirkonkylän uimapaikka;61.248813941;26.071731554
+Ylikiiminki;Valkeisjärven uimapaikka;65.005630740;26.075436298
+Toivakka;Rantauimala;62.104112321;26.088240962
+Konnevesi;Uimapaikka Tankolampi;62.578343628;26.095178956
+Joutsa;Joutsan uimala;61.739646520;26.107365793
+Jämsänkoski;Avouimala;61.919940481;25.165226550
+Saarijärvi;Särkilammen uimaranta;62.751787462;25.168371634
+Kannonkoski;Piispalan uimapaikka;63.014352766;25.175224880
+Kuhmoinen;Kirkonkylän uimala;61.567513824;25.177352582
+Jämsänkoski;Laukkalammen uimaranta;61.914571481;25.178626664
+Jämsänkoski;Vanhainkodin ranta;61.914753368;25.178806206
+Reisjärvi;Valkeisjärven uimapaikka;63.608401959;25.179282238
+Jämsä;Jaatilanjärven uimapaikka i;61.877277248;25.184018562
+Lumijoki;Viinavuoren luontokeidas;64.825007596;25.195950959
+Jämsä;Hiidenmäen maauimala;61.864477355;25.202413652
+Jämsä;Särkijärven uimapaikka;61.875800078;25.215856835
+Jämsä;Pitkäjärven rantauimala;61.826134967;25.220450710
+Tervola;Koivun uimapaikka;66.167866341;25.221344384
+Kivijärvi;Talviaisten uimapaikka;63.196018027;25.235613406
+Kivijärvi;Lokakylän uimapaikka;63.095315015;25.235880576
+Jämsä;Tiirinniemen maauimala;61.805736933;25.242326681
+Helsinki;Maasälvänpuisto/lasten kahluuallas;60.237274452;25.012797082
+Helsinki;Filpuksenpuisto/lasten kahluuallas;60.248439315;25.017340370
+Helsinki;Tullisaaren ulkoilupuisto/uimapaikka;60.177491310;25.021331907
+Helsinki;Herttoniemen leikkipuisto/kahluuallas;60.197992097;25.033045824
+Helsinki;Rudolfin leikkipuisto/lasten kahluuallas;60.171810471;25.039603624
+Oulainen;Sukkakosken uimaranta;64.202143229;25.042416663
+Helsinki;Myllynsiiven leikkipuisto/kahluuallas;60.221645764;25.067000944
+Helsinki;Ruonasalmenpuisto/uimapaikka;60.195413873;25.068346115
+Helsinki;Puotilan leikkimäki/lasten kahluuallas;60.212477170;25.100395235
+Helsinki;Haruspuisto/lasten kahluuallas;60.202628200;25.121796939
+Korpilahti;Hangasjärven uimapaikka;62.177505565;25.429197975
+Rovaniemen mlk;Marraskosken uimapaikka;66.777066017;25.434054836
+Uurainen;Uimapaikka kuukanpuisto;62.496736076;25.436489976
+Uurainen;Uimapaikka ,ala-aste;62.497523107;25.437050338
+Hollola;Hollolan kk uimapaikka;61.052470189;25.438009124
+Oulu;Korkeasaaren uimapaikka;65.021461930;25.445804318
+Kempele;Vihiluodon uimapaikka;64.947220743;25.448968225
+Hollola;Kutajoen uimapaikka;61.073754267;25.450652747
+Hollola;Herralan uimapaikka;60.891235719;25.455351319
+Oulu;Kuusisaaren uimapaikka;65.020975935;25.457778934
+Jyväskylän mlk;Kuohun uimapaikka;62.259812592;25.461358073
+Liminka;Tupoksen uimapaikka;64.860510816;25.462721012
+Hollola;Kotomäen uimapaikka;61.058302088;25.462815382
+Rovaniemen mlk;Sinetän uimapaikka;66.645751909;25.465824497
+Haukipudas;Mursun uimaranta;65.185396977;25.467073261
+Rovaniemen mlk;Rautiosaaren uimapaikka;66.421629493;25.471375829
+Hollola;Työtjärven uimapaikka;60.991769168;25.472019571
+Uurainen;Uimapaikka jokihaara;62.453239277;25.473061261
+Oulu;Kuivasjärven uimapaikka;65.068976602;25.483656613
+Oulu;Kiviniemen uimapaikka;64.968372321;25.485353932
+Ii;Väli-Olhavan uimaranta;65.487328604;25.486434119
+Oulu;Tuiran uimapaikka;65.022785297;25.488231797
+Oulu;Pyykösjärven uimapaikka;65.049027318;25.491906429
+Korpilahti;Tikkalan uimapaikka;62.141010183;25.493376694
+Orimattila;Salusjärven uimapaikka;60.779155826;25.501779759
+Asikkala;Asikkalan kirkonkylän uimapaikka;61.218589285;25.502595315
+Orimattila;Salusjärven uimala;60.775717772;25.503372011
+Hollola;Tiilijärven uimala;60.991348078;25.504102640
+Jyväskylän mlk;Nyrölän uimapaikka, Luukkonen;62.376282849;25.504248788
+Joutsa;Niemistenkylän uimapaikka;61.651748811;26.111827463
+Viitasaari;Mäntylän uimapaikka;63.055805616;26.120407592
+Joutsa;Valklammen uimapaikka;61.753963634;26.135975614
+Ylikiiminki;Keskusten uimapaikka;65.032370249;26.140073591
+Ylikiiminki;Kk:n uimapaikka;65.032272331;26.140204091
+Muhos;Repokankaan uimapaikka;64.811011479;26.159219956
+Vesanto;Vesijärven uimapaikka;62.933704599;26.180470738
+Jyväskylän mlk;Luonetjärven uimapaikka;62.393110445;25.630843877
+Orimattila;Järvikylän uimaranta;60.817270147;25.631445013
+Lahti;Mytäjäisten uimaranta;60.978909725;25.637171232
+Muurame;Keinolanniemen uimaranta;62.132056504;25.637354261
+Muurame;Verkkoniemen uimaranta;62.125732962;25.641337498
+Lahti;Mukkulan uimaranta;61.014325193;25.643160659
+Lahti;Kilpiäisten uimapaikka;61.023485493;25.643675802
+Oulu;Konttisenkankaan uimapaikka;64.965251120;25.644950956
+Porvoo;Kokonniemen uimala;60.382893204;25.647721586
+Rantsila;Maauimala;64.517278852;25.649979172
+Jyväskylän mlk;Myllylammen rantauimala;62.389584125;25.652969305
+Sysmä;Särkilahden uimapaikka;61.581954984;25.653023686
+Oulu;Valkeisen uimapaikka;65.020293950;25.655611429
+Tyrnävä;Uimapaikka, kirkonkylän maauimala;64.752639986;25.659961668
+Sysmä;Nuijanpohjan uimapaikka;61.521656640;25.663509677
+Orimattila;Kalliojärven uimaranta;60.801170830;25.663856570
+Jyväskylä;Kolmisoppisen uimapaikka;62.207753998;25.666941175
+Jyväskylän mlk;Kumpulammen uimapaikka;62.385610422;25.668072249
+Asikkala;Kalkkisen uimapaikka;61.295649040;25.669217914
+Tyrnävä;Uimapaikka Murto;64.843160198;25.670213971
+Jyväskylän mlk;Lummelahden uimapaikka;62.271926629;25.673444867
+Jyväskylä;Köhniön uimaranta;62.241601807;25.674200665
+-änekoski;Kotakennään salmen uimapaikka;62.602892350;25.694934951
+Yli-Ii;Martimon uimapaikka;65.298125801;25.696675959
+Luhanka;Kirkonkylän uimaranta;61.791393992;25.697190665
+Lahti;Suopursunpuiston uimapaikka;60.978876288;25.702895776
+Jyväskylä;Myllyjärven uimapaikka;62.218684404;25.710600183
+Jyväskylä;Rantueen uimapaikka;62.269128376;25.711736182
+-änekoski;Koiviston ranta;62.538515256;25.719090239
+Jyväskylän mlk;Kirrin uimapaikka;62.301380727;25.719532552
+Jyväskylän mlk;Heikkilän uimapaikka;62.305326125;25.722121820
+Lahti;Kotiniemen uimaranta;61.011284061;25.725185805
+Jyväskylän mlk;Ollilan uimapaikka;62.297416231;25.725599408
+Jyväskylä;Viitaniemen uimapaikka;62.254269416;25.726517933
+Jyväskylän mlk;Kotirannan uimapaikka;62.286893342;25.726950227
+Lahti;Takkulan uimaranta;61.024372004;25.729174126
+Korpilahti;Putkilahden uimapaikka;61.880230428;25.729634862
+Jyväskylä;Sääksjärven uimaranta;62.179081739;25.730950178
+-änekoski;Kirkon ranta uinti/avantouinti;62.607856910;25.731293629
+Jyväskylän mlk;Pappilanrinteen uimapaikka;62.287301484;25.731345548
+-änekoski;Kasperin ranta;62.614723512;25.731506872
+-änekoski;Lossinranta;62.634739845;25.732132966
+Jyväskylä;Mattilanniemen uimapaikka;62.229212434;25.732190372
+Orimattila;Virenojan uimaranta;60.859390503;25.733692588
+Luhanka;Kesäniemen uimaranta;61.740385965;25.738808005
+Porvoo;Staffaksen uimaranta;60.402704348;25.739199582
+-änekoski;Kellokannan uimapaikka;62.622207609;25.739488099
+Porvoo;Tervajärven uimala;60.389466731;25.742287106
+Rovaniemi;Ounaskosken uimaranta;66.501235766;25.743602801
+Jyväskylä;Tuomion uimaranta;62.255390025;25.744121458
+Rovaniemen mlk;Ounaspaviljongin uimapaikka;66.518915722;25.745004868
+Iisalmi;Makkaralahden uimapaikka;63.563958644;27.218907633
+Iisalmi;Pöllösenlahden uimapaikka;63.553146632;27.220172626
+Iisalmi;Lippuniemen uimaranta;63.564118389;27.225831444
+Iisalmi;Kangaslammin uimapaikka;63.545949445;27.233088811
+Juuka;Paalasmaan uimapaikka;63.286542486;29.482445966
+Juuka;Kuhnustan uimapaikka;63.099762416;29.492629551
+Liperi;Honkalammen uimaranta;62.615532843;29.492878136
+Liperi;Vaivion uimaranta;62.672388872;29.495140677
+Parikkala;Harjunlinnan uimaranta;61.551671926;29.497114225
+Suomussalmi;Juntusrannan uimapaikka;65.216728070;29.503735723
+Parikkala;Likolammen rantauimala;61.544447089;29.509214412
+Kuhmo;Ruukinrannan rantauimala;64.130987268;29.520909648
+Juuka;Tuopanjoen uimapaikka;63.046674946;29.531086428
+Liperi;Roukalahden uimaranta;62.482894168;29.552566540
+Juuka;Larinsaaren uimapaikka;63.173646246;29.569772098
+Juuka;Ahmovaaran uimapaikka;63.100331839;29.626145726
+Rääkkylä;Rääkkylän rantauimala;62.331555662;29.627049481
+Mikkeli;Pitkäjärven uimaranta;61.674466296;27.247195901
+Vieremä;Pyöree-niemisen uimapaikka;63.746106020;27.250489654
+Hamina;Pitkienhiekkojen rantauimala;60.525789842;27.251337496
+Mikkeli;Urpolan uimaranta;61.677100588;27.263741331
+Anjalankoski;Leirintäalueen uimapaikka;60.851240187;27.319557923
+Savitaipale;Kaukheimosen uimapaikka;61.125263098;27.348701853
+Hamina;Mustaniemen uimapaikka;60.741160876;27.353993946
+Savitaipale;Puntaniemen uimapaikka;61.159607506;27.362287155
+Lapinlahti;Kirkonkylän uimala;63.362034862;27.368280492
+Lapinlahti;Kunnanrannan uimapaikka;63.371042137;27.381928083
+Lapinlahti;Lahdenperän uimapaikka;63.373433670;27.399731322
+Savitaipale;Laarin uimapaikka;61.075463746;27.409994193
+Hamina;Lauanniemen uimapaikka;60.806769682;27.423991911
+Hamina;Valkialammen uimapaikka;60.806769451;27.424065390
+Miehikkälä;Lapjärven uimapaikka;60.742025197;27.449135604
+Miehikkälä;Syväjärven uimaranta/Lapjärvi;60.741438550;27.450117408
+Puolanka;Pirttijärven uimapaikka;65.001640579;27.457245969
+Miehikkälä;Vallanjärven uimaranta;60.640196812;27.502199365
+Savitaipale;Salmensillan uimapaikka;61.139321422;27.513550289
+Luumäki;Taavetin rantauimala;60.930073929;27.538895532
+Miehikkälä;Syväjärven uimaranta/ Pitkäkoski;60.695066728;27.548729454
+Miehikkälä;Halmaanjärven uimaranta;60.721387220;27.551614662
+Lapinlahti;Alapitkän uimapaikka;63.210012164;27.552105738
+Miehikkälä;Pitkäkosken uimapaikka;60.682561229;27.575252683
+Posio;Pernun uimapaikka;66.183974072;27.598584242
+Virolahti;Pyyhinlammen uimapaikka;60.649206439;27.602664837
+Kuopio;Kolmisopen uimapaikka;62.869688738;27.603256116
+Kuopio;Viinaniemen uimapaikka;62.900587762;27.605562338
+Kajaani;Nuottijärven uimapaikka;64.186695745;27.606849305
+Paltamo;Iso-Melasen uimapaikka;64.439782430;27.609469449
+Leppävirta;Oravikosken rantauimala;62.587329577;27.611638241
+Kuopio;Aurinkorannan uimapaikka;62.829570977;27.616463429
+Kuopio;Niuvan uimapaikka;62.906012736;27.622788654
+Kuopio;Julkulan uimapaikka;62.924604429;27.626509767
+Kuopio;Miettilän uimapaikka;62.937569408;27.628460563
+Mikkeli;Kirkonkylän uimala;61.589900846;27.643826389
+Miehikkälä;Likolammen uimaranta;60.789877793;27.647368438
+Kuopio;Särkiniemen uimapaikka;62.875782459;27.647420363
+Kuopio;Katiskaniemen uimapaikka;62.865725088;27.649281376
+Kuopio;Kirveslahden uimala;62.829796764;27.650078798
+Kuopio;Leipäniemen uimapaikka;62.879436691;27.650763410
+Leppävirta;Sorsakosken rantauimala;62.448191812;27.653327922
+Kajaani;Paltaniemen uimapaikka;64.294586342;27.653956242
+Kuopio;Jynkän uimapaikka;62.849525309;27.654244901
+Kuopio;Jynkänlahden uimapaikka;62.846935110;27.655581242
+Lemi;Kotalahden uimapaikka;61.014563335;27.661365419
+Miehikkälä;Hurttalan uimapaikka;60.689884250;27.730272801
+Virolahti;Huvisaaren rantauimala;60.571547926;27.736594295
+Varpaisjärvi;Keskimmäisen uimapaikka;63.445605684;27.738728816
+Leppävirta;Uitukanharjun uimapaikka;62.505207629;27.755861787
+Kuopio;Hietasalon uimapaikka;62.851831356;27.756441531
+Varpaisjärvi;Kirkonkylän uimapaikka;63.354474350;27.758845700
+Kajaani;Kesäniemen uimala;64.224905507;27.764599902
+Virolahti;Campingalueen uimaranta;60.580507869;27.768047364
+Leppävirta;Mansikkaharjun uimapaikka;62.486839195;27.770875191
+Joroinen;Kolpan uimaranta;62.180129465;27.778188340
+Luumäki;Jurvalan rantauimala;60.957110737;27.778560085
+Leppävirta;Kirkonkylän rantauimala;62.484773699;27.780887629
+Rantasalmi;Hakojärven uimapaikka;62.020690377;28.039037036
+Sotkamo;Pohjavaaran uimapaikka;64.211129182;28.055167440
+Rantasalmi;Kolkonniemen uimapaikka;62.039637155;28.056366988
+Kangaslampi;Harjurannan uimaranta;62.255175925;28.062052129
+Nilsiä;Simolan uimapaikka;63.217338845;28.069236378
+Sotkamo;Laakajärven uimapaikka;63.783720340;28.072927207
+Paltamo;Kontiomäen uimapaikka;64.348173512;28.075707138
+Nilsiä;Kirkonkylän uimapaikka;63.202649795;28.077737267
+Lappeenranta;Parkinmäen uimaranta;61.069976426;28.089061649
+Lappeenranta;Moision uimapaikka;60.945956441;28.092647526
+Rautavaara;Syväkankaisen uimapaikka;63.408051023;28.098927326
+Nilsiä;Pappilan uimapaikka;63.199185971;28.100063845
+Lappeenranta;Korkea-ahon uimaranta;60.974835694;28.101819664
+Varpaisjärvi;-länteen uimapaikka;63.466933313;28.116529134
+Posio;Jumiskon uimapaikka;66.369422411;28.120687732
+Juankoski;Kesämäen uimapaikka;63.038549849;28.122009795
+Lappeenranta;Sammonlahden uimaranta;61.052145061;28.123885386
+Rautavaara;Rouskunhiekan uimapaikka;63.505919097;28.128856392
+Posio;Kuloharjun uimapaikka;65.904598584;28.133676914
+Lappeenranta;Kuusimäen uimaranta;61.055427606;28.133833498
+Lappeenranta;Voisalmen uimaranta;61.083702095;28.137754042
+Lappeenranta;Ruokosenjärven uimaranta;60.891454555;28.139727625
+Leppävirta;Kurjalan uimapaikka;62.557610572;28.149633439
+Lappeenranta;Tyysterniemen uimaranta;61.070287781;28.150073374
+Lappeenranta;Kivisalmen uimaranta;61.092613282;28.151661972
+Lappeenranta;Mattilan uimaranta;61.030542054;28.155776102
+Posio;Keskustaajaman uimapaikka;66.107491101;28.160132286
+Nilsiä;Tiirinlahden uimapaikka;63.184799879;28.161389307
+Lappeenranta;Korkkitehtaan uimaranta;61.055836792;28.164862617
+Lappeenranta;Hytin uimaranta;60.972754512;28.165756787
+Juankoski;Kumpuniemen uimapaikka;63.010323086;28.187837557
+Nilsiä;Palonurmen uimapaikka;63.281347365;28.192432635
+Leppävirta;Niinimäen uimapaikka;62.401316524;28.192961248
+Lappeenranta;Myllysaaren uimaranta ja uimala;61.066226824;28.200103020
+Ristijärvi;Kirkonkylän uimapaikka;64.508605745;28.210170149
+Sotkamo;Vuokatin uimapaikka;64.150120316;28.223493062
+Taivalkoski;Tynnyrimutkan uimapaikka;65.574024018;28.225630684
+Posio;Vääräjärven uimapaikka;66.399670541;28.226031859
+Sotkamo;Paakin uimapaikka;64.262968165;28.235663095
+Sotkamo;Katinkullan uimaranta;64.146142496;28.237721340
+Taivalkoski;Siikalammen uimaranta;65.580077466;28.247825714
+Sotkamo;Teerivaaran uimapaikka;63.992491359;28.267234561
+Kangaslampi;Kirkonkylän uimaranta;62.288638463;28.271531946
+Lappeenranta;Vainikkalan uimaranta;60.879845554;28.277126185
+Rautavaara;Saarelan uimapaikka;63.489517178;28.279485936
+Juankoski;Juanlammin uimapaikka;63.066802587;28.307506574
+Lappeenranta;Mustolan uimapaikka;61.069378608;28.309201325
+Rautavaara;Hiekkahäikän uimapaikka;63.432509477;28.310861448
+Sotkamo;Juurikkalahden uimapaikka;64.053082398;28.313193957
+Lappeenranta;Haapajärven uimapaikka;60.921711175;28.315918074
+Lappeenranta;Kasukkalan uimaranta;60.964483904;28.326491288
+Posio;Kynsilän uimapaikka;65.890998691;28.330613111
+Juankoski;Akonpohjan uimapaikka;63.016546440;28.333319984
+Juankoski;Pitkämäen uimapaikka;62.965902332;28.342802788
+Juankoski;Irvinlahden uimapaikka;63.077577844;28.345036929
+Rautavaara;Lapinjärven uimapaikka;63.528151797;28.348072966
+Nilsiä;Siikajärven nuorisoseurantalon uimapaikk;63.272186752;28.348350324
+Taivalkoski;Metsäkylän uimapaikka, Korvuanj.;65.337751857;28.357007144
+Sotkamo;Hiukan uimaranta;64.128269285;28.380746479
+Rantasalmi;Raudansaaren uimapaikka;62.041248960;28.391126270
+Juankoski;Kellolahden uimapaikka;63.086434973;28.395094882
+Lappeenranta;Rapattilan uimapaikka;60.949594587;28.399175594
+Sotkamo;Maanselän uimapaikka;63.890601618;28.404959816
+Rantasalmi;Asikkalan uimapaikka;62.046527986;28.405112437
+Sotkamo;Saviahon uimapaikka;63.955595799;28.418787055
+Rautavaara;Öljäkän uimapaikka;63.387061553;28.434347965
+Suomussalmi;Näljängän uimapaikka;65.225041547;28.441435088
+Rautavaara;Lehtolammen uimapaikka;63.474192315;28.448119986
+Joutseno;Ahvenlammen uimala;61.119866212;28.459112333
+Kaavi;Kirkonkylän uimala;62.973628459;28.468221886
+Tuusniemi;Kirkonkylän rantauimala;62.806586384;28.479387888
+Siilinjärvi;Leppäkaarre uimapaikka;63.067403329;27.686405450
+Siilinjärvi;Honka-Jälän uimapaikka;63.023331312;27.694119443
+Siilinjärvi;Vuorelan uimapaikka;62.975047528;27.695183015
+Siilinjärvi;Iso-Varpasen uimapaikka;63.213883965;27.719654531
+Siilinjärvi;Toivalan uimapaikka;63.007688601;27.730662572
+Siilinjärvi;Jynkänlahden uimapaikka;63.077846938;27.732955125
+Siilinjärvi;Karpjärven uimapaikka;62.972756505;27.741719688
+Varpaisjärvi;Uimapaikka/avantouimapaikka;63.355511230;27.766285124
+Siilinjärvi;Heinämäen uimapaikka;63.183800556;27.795588897
+Siilinjärvi;Kuuslahden uimapaikka;63.132428902;27.809547629
+Siikainen;Kunnannokan uimapaikka;61.884936563;21.814667300
+Teuva;Parra uimaranta;62.427792473;21.828308845
+Lappi;Kauklaisten uimaranta;61.070755688;21.833008848
+Pori;Isojoenrannan uimapaikka;61.492742220;21.833395635
+Siikainen;Eteläpään uimapaikka;61.887124810;21.838842230
+Noormarkku;Snällin uimaranta;61.596350759;21.856541033
+Noormarkku;Urheilukentän uimaranta;61.593645202;21.863974763
+Raisio;Karhuluodon uimapaikka;60.343794698;21.871589431
+Lappi;Kunnan uimaranta;61.056311287;21.889100124
+Siikainen;Lahnajärven uimapaikka;61.778861050;21.899792078
+Siikainen;Hirvijärven uimapaikka;61.862106767;21.928594131
+Rauma;Vilokarin uimaranta ja rantasauna;61.049191558;21.425564909
+Rauma;Lillonkarin uimaranta ja sauna;61.075953788;21.486684200
+Rauma;Mantereenpään uimaranta jarantasauna;61.206768148;21.507619947
+Pori;Yyterin uimapaikka;61.567131265;21.518849709
+Rauma;Bergströminlammen uimapaikka;61.114676099;21.530682766
+Vaasa;Strömsön uimaranta;63.146367755;21.540421488
+Rauma;Noitajärven uimaranta ja rantasauna;61.033637793;21.601267655
+Velkua;Uimaranta;60.465818704;21.698174691
+Pori;Kirjurinluodon uimaranta;61.491948519;21.790422893
+Askainen;Pikisaaren uimaranta;60.576988949;21.815809988
+Pori;Ruosniemen uimapaikka;61.505732100;21.876766594
+Mustasaari;Österhankmo badplats;63.240287394;21.933906540
+Raisio;Kesärannan uimaranta;60.456127933;21.939312466
+Lemu;Kuurnanpään uimaranta;60.534069853;21.947105646
+Masku;Vähä-Joumon uimapaikka;60.516443284;21.958249483
+Kauhajoki;Kainaston uimapaikka;62.435886314;21.976758600
+Mustasaari;Vassor badplats;63.183901911;21.982082651
+Raisio;Villan uimapaikka;60.428438378;21.989872675
+Masku;Maanpään uimapaikka;60.509312596;21.995215440
+Naantali;Kailon uimaranta;60.474306994;22.003426132
+Maksamaa;Särkimo badplats;63.293773034;22.010413753
+Naantali;Nunnalahden uimaranta;60.472390553;22.014906381
+Naantali;Taimon uimaranta;60.483772399;22.027332843
+Maksamaa;Finnholmen badplats;63.205489557;22.051636508
+Siikainen;Sammijärven uimapaikka;61.880125339;22.067188670
+Maksamaa;Grisgrund badplats;63.360982582;22.074894965
+Turku;Saaronniemen uimaranta;60.421492382;22.094884769
+Kauhajoki;Hiukkajärven uimapaikka;62.309595907;22.099544433
+Vähäkyrö;Kirkkosaaren uimapaikka;63.055425099;22.115503256
+Masku;Humikkalan uimapaikka;60.547988472;22.130857721
+Kankaanpää;Venesjärven uimaranta;61.821095315;22.191460036
+Ilmajoki;Kalajaisjärven uimapaikka;62.727734706;22.220145702
+Ilmajoki;Kalajaisjärvi/vapaa uimaranta;62.728471901;22.220672835
+Köyliö;Tuiskulan uimapaikka;61.176341022;22.225964592
+Turku;Ekvallan uimaranta;60.379389000;22.226313992
+Turku;Brinkhallin ranta (kakskerran järvi);60.365896758;22.237422946
+Kiukainen;Kotkaniemen kesäsiirtola;61.074385067;22.243250631
+Turku;Sorttamäen uimaranta;60.408933069;22.253660467
+Turku;Ispoisten uimaranta;60.414096728;22.260796780
+Turku;Samppalinnan maauimala;60.445753741;22.265602759
+Kauhajoki;Monitoimikeskus asuuli;62.443162666;22.270303194
+Kokemäki;Pitkäjärven toimintakeskus /uinti;61.218875419;22.274061758
+Kokemäki;Pitkäjärven uimaranta;61.218357475;22.274419247
+Köyliö;Ilmijärven uimapaikka;61.188167521;22.275188349
+Pöytyä;Uimapaikka;60.946785325;22.288853132
+Turku;Kupittaan uimala;60.445216010;22.290975599
+Kurikka;Miedon uimaranta;62.580649296;22.317369199
+Kaarina;Kuusiston uimaranta;60.383133827;22.320174730
+Noormarkku;Kairilan uimaranta;61.694117930;22.320471013
+Isokyrö;Pukkilansaaren uimapaikka;62.995797392;22.335746465
+Köyliö;Pappilan uimapaikka;61.110145899;22.338177350
+Turku;Maarian ranta;60.530623432;22.354138545
+Köyliö;Yttilän ottan rantauimala;61.105615519;22.359316377
+Loimaa;Vaapukkarannan rantauimala;61.033394673;22.366743986
+Kaarina;Littoisten hiekkaranta;60.458729593;22.376868412
+Kaarina;Hovirinnan uimaranta;60.395703101;22.377724160
+Ilmajoki;Ollinjärvi;62.783787309;22.379554485
+Isokyrö;Kalliojärven uimapaikka;62.960572619;22.380369008
+Köyliö;Kankaanpään uimapaikka;61.077342902;22.382375652
+Lieto;Järvelän uimapaikka;60.458987357;22.387662929
+Isokyrö;Orisbergin uimapaikka;62.883833368;22.388015886
+Kokemäki;Pälpälän uimaranta;61.272340176;22.389023071
+Kankaanpää;Keskustan uimaranta;61.800014129;22.389832283
+Kankaanpää;Uimaranta;61.800099712;22.389971386
+Kaarina;Ristikallion koulun uimaranta;60.447400995;22.397315793
+Kurikka;Pitkämön uimaranta;62.583573019;22.406212744
+Aura;Koivuniemen uimaranta;60.742928133;22.411571109
+Kauhajoki;Seurakunnan leirikeskuksen uimapaikka;62.298715356;22.418214155
+Kauhajoki;Salakarin uimapaikka;62.298898707;22.434405425
+Kauhajoki;Nummijärven leirintäalueen uimapaikka;62.277693209;22.436832632
+Kankaanpää;Niinisalon uimaranta;61.841450250;22.488111767
+Ilmajoki;Tiilitehtaan uimapaikka;62.693877639;22.489802845
+Kokemäki;Kauvatsanjoki, Yttilä 1;61.334791270;22.493867165
+Kokemäki;Kauvatsanjoki, Rutuna 2;61.324703870;22.504913750
+Kokemäki;Kauvatsanjoki, Ahvenus 3;61.296983842;22.524510874
+Kankaanpää;Maauimala;61.775902538;22.526413483
+Kankaanpää;Vihteljärven uimapaikka;61.729713859;22.526777404
+Kurikka;Luovan uimaranta;62.585081605;22.544346144
+Ylistaro;Rajamäen uimapaikka;62.997914201;22.559636269
+Kauhajoki;Ikkelänjärven uimapaikka;62.399281726;22.594224396
+Kemiö;Eknäsin leirialueen rantauimala;60.223784586;22.597982856
+Karvia;Sarvelan uimaranta;62.175153361;22.607416469
+Kurikka;Luovan alueen uimaranta;62.614483307;22.617488169
+Jalasjärvi;Korvajärven uimapaikka;62.403501172;22.663559361
+Karvia;Rastiaisten uimaranta;62.152155449;22.674154408
+Luoto;Sonamo simstrand;63.799909522;22.688397956
+Paimio;Paimion maauimala;60.477264455;22.691644773
+Jämijärvi;Urheilukentän uimaranta;61.814193301;22.694606466
+Luoto;Kackur simstrand;63.770472646;22.703801564
+Suodenniemi;Putajan uimaranta;61.495152431;22.719453055
+Luoto;Assarskär simstrand;63.718339361;22.763325152
+Suodenniemi;Saharanta;61.555477786;22.763844432
+Suodenniemi;Kelaranta;61.551888697;22.769815988
+Luoto;Annäsgrundets simstrand;63.800984351;22.782448084
+Luoto;Fagernäs simstrand;63.740301242;22.793376086
+Alahärmä;Hakolan uimapaikka;63.166734411;22.809646634
+Seinäjoki;Kyrkösjärven rantauimala;62.768872558;22.813704006
+Seinäjoki;Tärnävän rantauimala;62.760378084;22.837474834
+Seinäjoki;Sahanlammen rantauimala;62.776627379;22.838788396
+Kihniö;Naarminjärven uimaranta;62.233253849;23.190998931
+Ypäjä;Piilinkankaan uimapaikka;60.750778128;23.208213092
+Karkkila;Saarlammen uimala;60.507608291;24.156493842
+Halsua;Halsuan järven uimaranta;63.458802965;24.158831761
+Tornio;Kivirannan uimapaikka;65.857563573;24.162159654
+Lohja;Lehmijärven uimapaikka;60.307197327;24.164600940
+-htäri;Inhan tehtaan uimapaikka;62.518936814;24.165676073
+Kangasala;Raikun uimapaikka;61.409300105;24.166408622
+Tornio;Aapajärven uimapaikka;66.078978975;24.167092092
+-htäri;Mekkorannan rantauimala;62.539385998;24.171235475
+Tornio;Pirkkiön uimapaikka;65.828456368;24.180632275
+Karkkila;Pyhäjärven uimala;60.538196730;24.190012151
+Pyhäjoki;Pyhäluodon rantauimala;64.472392373;24.196534703
+Karkkila;Tuorilan uimala;60.546630758;24.197339592
+Tornio;Yliliakan uimapaikka;65.935130833;24.199380805
+Lohja;Nälköönlammen uimaranta;60.299491941;24.206129495
+-htäri;-htärinrannan uimapaikka;62.702032122;24.009459154
+Kangasala;Suoramajärven uimapaikka;61.461499269;24.011824834
+-htäri;Pusaan uimapaikka;62.456843396;24.011891611
+Saarijärvi;Summassaaren uimaranta;62.658839177;25.335502322
+Liminka;Rantakylän uimapaikka;64.807573827;25.345366916
+Oulunsalo;Papinjärven uimapaikka;64.935957355;25.346735759
+Haukipudas;Kirkonrannan uimaranta;65.180859155;25.349584303
+Hollola;Laitialan uimapaikka;61.090621621;25.350703611
+Rovaniemen mlk;Pasmajärven uimapaikka;66.372570759;25.356480027
+Ii;Seljänperän uimaranta;65.432699965;25.358531411
+Haukipudas;Niemeläntörmän uimaranta;65.180545896;25.358654995
+Petäjävesi;Ylä-Kintauden uimapaikka;62.341972799;25.370703747
+Padasjoki;Maakesken uimapaikka;61.278056485;25.376515234
+Rovaniemen mlk;Muurolan uimapaikka;66.366192517;25.378690168
+Ii;Vihkosaaren uimala;65.329880649;25.379217594
+Oulunsalo;Niemenranta;64.964217530;25.380204811
+Korpilahti;Saakosken uimapaikka;61.974760742;25.388316434
+Oulu;Pateniemen uimapaikka;65.081067116;25.388925630
+Saarijärvi;Lanneveden uimaranta;62.609957669;25.392452917
+Uurainen;Uimapaikka Tehlo;62.446285569;25.396429602
+Kuhmoinen;Tehin uimaranta;61.562950203;25.399002067
+Korpilahti;Sarvenperän uimapaikka;62.234022123;25.401231875
+Pornainen;Laukkosken koulun uimaranta;60.439206918;25.402509436
+Asikkala;Viitailan uimapaikka;61.118494381;25.405471615
+Oulu;Rajahaudan uimapaikka;65.062084246;25.406585743
+Haukipudas;Aseman uimaranta;65.193992277;25.409359078
+Oulu;Nallikarin uimaranta;65.032427785;25.410245356
+Uurainen;Uimapaikka Nevala;62.489842271;25.425171616
+Viitasaari;Kotvalan uimapaikka;63.198889710;25.427447192
+Uurainen;Akon uimaranta;62.489987720;25.427724868
+Tampere;Suolijärven uimaranta;61.442645209;23.834081198
+Karjaa;Svartå bruks simplats;60.153475831;23.836185815
+Alajärvi;Hauta-ahon uimapaikka;62.993066068;23.838219928
+Kalajoki;Tapiolandin maauimala;64.240556213;23.843457547
+Tampere;Hervantajärven uimaranta;61.435460124;23.862378848
+Töysä;Valkeislammen uimaranta;62.709559234;23.866442551
+Janakkala;Valajärven uimaranta;60.793191074;24.501335263
+Orivesi;Rönnin rantauimala;61.618585042;24.507235333
+Hämeenlinna;Idänpään uimaranta;60.999949948;24.508692680
+Raahe;Mikonkarin uimaranta;64.713278266;24.511967634
+Tornio;Ruottalan uimapaikka;65.846346407;24.515594615
+Espoo;Siikajärven uimapaikka;60.280738156;24.517331376
+Janakkala;Rehakanjärven uimaranta;60.842943418;24.525087221
+Keminmaa;Pappilanrannan uimapaikka;65.807954386;24.550534107
+Espoo;Solvallan urh.opiston uimaranta;60.293091785;24.554961424
+Espoo;Solvallan uimapaikka;60.292597943;24.555450561
+Orivesi;Eräjärven rantauimala;61.584645738;24.555815403
+Perho;Korpijärven uimapaikka;63.285055909;24.558515194
+Kemi;Mansikkanokan uimaranta;65.726891386;24.560965291
+Merijärvi;Ylipään hyttikallion uimapaikka;64.332413878;24.573220252
+Janakkala;Pappilanranta;60.893488690;24.580031525
+Keminmaa;Liedakkalan uimapaikka;65.853269055;24.587146032
+Kemi;Ajoksen uimaranta;65.693324411;24.589409746
+Multia;Väätäiskylän uimapaikka;62.586786539;24.590408371
+Espoo;Kallvikin uimapaikka;60.162514213;24.592312757
+Janakkala;Tietyn uimaranta;60.803597742;24.601744846
+Kyyjärvi;Kalliorannan uimapaikka;63.044517488;24.602568743
+Mänttä;Tiiliruukinrannan uimapaikka;62.046913820;24.607838139
+Kemi;Takajärven uimala;65.738116685;24.616598989
+Janakkala;Suruttoman uimaranta;60.802579627;24.616668915
+Janakkala;Kernaalan uimaranta;60.857860937;24.619213017
+Espoo;Kattilajärven uimapaikka;60.298896063;24.619914314
+Kuhmalahti;Siuronsalmen uimapaikka;61.507430739;24.622107181
+Espoo;Kivenlahden rantauimala;60.153744201;24.625791404
+Perho;Ulkoilukeskuksen uimapaikka;63.211119683;24.629590655
+Hyvinkää;Rytkön uimaranta/leirikeskus;60.613861231;24.631083735
+Mänttä;Rusinlahden uimaranta;62.035095641;24.639409393
+Hyvinkää;Hirvijärven uimaranta/ulkoilualue;60.657285328;24.648052327
+Mänttä;Keskisenlahden rantauimala;62.032121654;24.649254175
+Hyvinkää;Sääksjärven uimaranta;60.514660249;24.649681428
+Espoo;Klobbenin rantauimala;60.135312558;24.650613353
+Espoo;Sorvalammen uimapaikka;60.295910643;24.651446399
+Kemi;Paavonkarin uimala;65.680008713;24.652720424
+Nurmijärvi;Sääksjärven Röykän uimaranta;60.498636516;24.653445369
+Espoo;Myllyjärven (etelä) uimapaikka;60.282855070;24.655511552
+Riihimäki;Hirvijärven uimaranta;60.668972235;24.657593495
+Keuruu;Lomahotellin uimapaikka;62.204918654;24.657604840
+Espoo;Luukkaan ulkoilualue, Kaitalampi;60.318546826;24.661116472
+Espoo;Oittaan rantauimala;60.240724117;24.661558592
+Keuruu;Otavan uimapaikka;62.264557222;24.666435433
+Keuruu;Ketvelniemen uimapaikka;62.267066913;24.671018192
+Nurmijärvi;Vahaksen uimapaikka;60.484615709;24.671089541
+Riihimäki;Paalijärven uimapaikka;60.680608593;24.674595660
+Raahe;Romuperän uimapaikka;64.560425273;24.676456375
+Mänttä;Tammirannan uimapaikka;62.022449328;24.678184245
+Nurmijärvi;Sääksjärven iso uimaranta;60.514360051;24.690589317
+Espoo;Luukkaan uimapaikka;60.312773301;24.690887224
+Espoo;Suinonsalmen uimaranta;60.128036191;24.692797958
+Keminmaa;Länsikosken uimapaikka;65.944261316;24.700187484
+Mänttä;Juurakonrannan uimapaikka;62.042404191;24.702263480
+Espoo;Myllyljärven (pohj.) uimapaikka;60.323155650;24.703479210
+Keuruu;Nyyssäniemen uimapaikka;62.244545923;24.706690562
+Nurmijärvi;Valkjärven lähtelän uimaranta;60.393956689;24.707292129
+Espoo;Svinön uimapaikka;60.124524410;24.707728632
+Janakkala;Rahitunlammen uimaranta;60.848744825;24.708903118
+Keuruu;Terveyskeskuksen uimapaikka;62.261867984;24.710861818
+Keuruu;Kylmälahden uimapaikka;62.274956712;24.710907988
+Tervola;Paakkolan uimapaikka;66.010208343;24.713202183
+Keuruu;Lapinsalmen rantauimala;62.253415840;24.713274637
+Keuruu;Päkärin uimapaikka;62.256185885;24.714682017
+Nurmijärvi;Valkjärven Tiiran uimaranta;60.394389019;24.720961026
+Tervola;Ylipaakkolan uimapaikka;66.011696684;24.722813062
+Kuhmalahti;Kuhmajärven uimaranta;61.490818685;24.732020406
+Espoo;Lippajärven uimapaikka;60.231061654;24.733923612
+Nurmijärvi;Herusten uimapaikka;60.567000928;24.739878975
+Espoo;Laaksolahden uimaranta;60.246661763;24.749445071
+Tuulos;Rouvin ranta;61.157618319;24.751212011
+Espoo;Matinkylän rantauimala;60.150273170;24.754706413
+Hyvinkää;Usmin eteläinen ranta;60.630516411;24.761367270
+Tuulos;Leheen uimaranta;61.175656114;24.761583954
+Hyvinkää;Usmin pohjoinen ranta;60.633961696;24.762298099
+Riihimäki;Maauimala;60.741614891;24.768468045
+Espoo;Odilammen uimapaikka;60.303949851;24.768809786
+Espoo;Haukilahden rantauimala;60.153803177;24.773395800
+Karstula;Leirintäalueen uimaranta;62.888122530;24.774429679
+Tervola;Alatossavan uimapaikka;66.044532303;24.775968013
+Keuruu;Hakolanhiekan uimapaikka;62.192777796;24.783958789
+Karstula;Rantauimala;62.870408632;24.784380909
+Espoo;Toppelundin uimaranta;60.155994467;24.787351497
+Multia;Keskustan uimapaikka;62.406951030;24.788860929
+Tervola;Kaisajoen uimapaikka;66.083739671;24.790799926
+Tuulos;Kirkon ranta;61.145265970;24.797653202
+Tuulos;Pannujärven ranta;61.093747027;24.800643696
+Espoo;Westendin uimaranta;60.162767052;24.800984790
+Tervola;Kirkonkylän uimapaikka;66.092816888;24.806332105
+Jämsä;Leiriniemen uimapaikka;61.974740538;24.810660525
+Multia;Leirintäalueen uimapaikka;62.406592757;24.812785738
+Pylkönmäki;Vihannin uimaranta;62.722685607;24.813627349
+Siikajoki;Uimapaikka;64.889238269;24.818480626
+Pylkönmäki;Jokilahden uimapaikka;62.738006947;24.820535913
+Pylkönmäki;Papinkallion uimapaikka;62.685557417;24.824318905
+Jämsä;Järvensivun uimapaikka;61.850747020;24.828329485
+Espoo;Laajalahden uimaranta;60.204274072;24.829215268
+Hyvinkää;Sveitsin uimala (ulko);60.630735611;24.832449348
+Jämsä;Hallin uimala;61.855817592;24.836787620
+Jämsä;Patalahden rantauimala;61.872994215;25.245429402
+Haukipudas;Meriniemen uimaranta;65.126691917;25.259379432
+Saarijärvi;Autiolahden uimala;62.713259435;25.262244301
+Saarijärvi;Mansikkaniemen uimala;62.699889015;25.263810969
+Kannonkoski;Kirkonkylän uimapaikka;62.974066462;25.264931429
+Padasjoki;Kirkonkylän uimapaikka;61.356079608;25.273518423
+Haukipudas;Ingon uimaranta;65.178519947;25.275553167
+Padasjoki;Kellosalmen uimapaikka;61.430774518;25.279641820
+Uurainen;Huutoniemen uimaranta;62.470179416;25.286552545
+Sipoo;Molnträsk simstrand;60.313477831;25.295698581
+Oulunsalo;Peuhun uimapaikka;64.919902565;25.298532218
+Haukipudas;Ongan uimaranta;65.197191584;25.304863200
+Uurainen;Uimapaikka kyynämöinen;62.480335902;25.308391173
+Haukipudas;Kiviniemen uimaranta;65.114789323;25.318570313
+Haukipudas;Koljun uimaranta;65.238742158;25.324386884
+Petäjävesi;Kintauden uimapaikka;62.282044727;25.330266165
+Rovaniemen mlk;Lehtojärven uimapaikka;66.638574063;25.330916084
+Oulunsalo;Varjakka;64.988486568;25.331409329
+Padasjoki;Nyystölän uimapaikka;61.316000402;25.331589684
+Sipoo;Savijärvi simstrand;60.364432094;25.335359377
+Haukipudas;Siikasaaren uimaranta;65.190490957;25.335445480
+Helsinki;Kivinokan ulkoilupuisto/uimaranta;60.194980717;25.005762274
+Helsinki;Iltatähdenpuisto/lasten kahluuallas;60.281401638;25.006214117
+Helsinki;Kotinummenpuisto/lasten kahluuallas;60.257543994;25.015000955
+Nivala;Erkkilän uimapaikka;63.973048472;25.024485442
+Helsinki;Leikkipuisto Tapuli/lasten kahluuallas 1;60.273243515;25.027443739
+Helsinki;Leikkipuisto Tapuli/lasten kahluuallas 2;60.273306305;25.027439957
+Padasjoki;Vesijaon uimapaikka;61.355409729;25.027738758
+Tuusula;Urheilukeskuksen uimapaikka;60.390930231;25.029541734
+Kivijärvi;Hoikanperän uimapaikka;63.161572700;25.035176274
+Helsinki;Tuorinniemen uimaranta;60.185879476;25.037809000
+Helsinki;Hevossalmen uimaranta;60.162856997;25.040659657
+Helsinki;Herttoniemen aluepuisto/kahluuallas;60.210418533;25.043414741
+Jämsä;Mustingan uimapaikka;61.941534418;25.051398447
+Helsinki;Roihuvuoren aluep./lasten kahluuallas;60.199467171;25.051461474
+Järvenpää;Niemennokan uimaranta;60.451194699;25.052534255
+Nivala;Sarjankylän uimapaikka;64.019663822;25.058874282
+Helsinki;Furuvikin uimaranta;60.159765305;25.060568307
+Järvenpää;Retkeilymajan uimaranta;60.454863347;25.063402120
+Helsinki;Laajasalon uimaranta;60.177101076;25.063582826
+Helsinki;Jollaksen uimaranta/uimapaikka;60.165428827;25.065369021
+Tuusula;Tuomalan kylänranta;60.441401439;25.065566372
+Helsinki;Kurkimäenpuisto/lasten kahluuallas;60.231755193;25.070719948
+Helsinki;Kiikunpuisto/lasten kahluuallas;60.235847312;25.074920792
+Helsinki;Marjaniemen uimaranta;60.198782606;25.075271658
+Helsinki;Jakomäen leikkipuisto/lasten kahluuallas;60.260375498;25.079298119
+Helsinki;Suopuisto/lasten kahluuallas;60.241348828;25.081604344
+Kivijärvi;Tiaisniemen uimapaikka;63.123609417;25.081675590
+Helsinki;Mustapuron leikkipuisto/kahluuallas;60.217785090;25.081826667
+Helsinki;Ystävyyden puisto/lasten kahluuallas;60.206449530;25.083931856
+Vantaa;Leppäkorven uimala;60.357972361;25.091082329
+Padasjoki;Auttoisten uimapaikka;61.291680423;25.092811435
+Kerava;Maauimala;60.408015406;25.093068776
+Kivijärvi;Puralankylän uimapaikka;63.188778338;25.096079225
+Lumijoki;Varjakan rantauimala;64.921108713;25.100610447
+Tuusula;Kellokosken uimaranta;60.534204631;25.103248388
+Padasjoki;Toritun uimapaikka;61.431186162;25.105794339
+Padasjoki;Mylly-Mäkelän uimapaikka;61.391438927;25.109043968
+Helsinki;Puotilan uimaranta;60.209247484;25.109980967
+Vantaa;Vantaan ulkoilukeskus Kuusijärvi uinti;60.313527897;25.113385771
+Rovaniemen mlk;Ylikylän uimapaikka;66.536954504;25.678749570
+Lahti;Merrasjärven uimaranta;61.021146071;25.679270519
+-änekoski;Mämmen ranta;62.655892598;25.679922551
+Muurame;Kylänlahden uimaranta;62.131424806;25.681454669
+Jyväskylän mlk;Korttajärven uimapaikka;62.329509976;25.681691721
+Muurame;Kotirannan uimaranta;62.134218368;25.683614631
+Askola;Abborsjön uimapaikka;60.513466416;25.684956050
+Muurame;Jaakkolan uimaranta;62.127641050;25.687465268
+Jyväskylä;Vuorilammen uimapaikka;62.260577884;25.690808839
+Sysmä;Rantauimala;61.498566699;25.691543023
+Lahti;Möysän uimaranta;60.979737622;25.691721860
+Askola;Tiiläänjärven uimapaikka;60.537530121;25.692141906
+-änekoski;Likolahden ranta;62.625300326;25.692176699
+Viitasaari;Lonnikon uimapaikka;62.996141746;25.693565461
+Varkaus;Honkakosken uimaranta;62.352626174;27.797477627
+Lemi;Lahnajärven rantauimala;61.065127067;27.797542899
+Varkaus;Turjanvirran uimapaikka;62.308482164;27.820081984
+Varpaisjärvi;Karjalaisen uimapaikka;63.329356608;27.823056705
+Virolahti;Kiiskijärven uimaranta;60.567121256;27.828926647
+Varkaus;Hanhenkaulan uimaranta;62.304565482;27.835899287
+Varpaisjärvi;Syvärinpään uimapaikka;63.427896024;27.842605092
+Leppävirta;Timolan uimapaikka;62.365277347;27.850684756
+Varkaus;Häyrilän uimaranta;62.293163773;27.853119785
+Kajaani;Saarijärven uimapaikka;64.284644341;27.865445528
+Varkaus;Hertunniemen uimaranta;62.322170360;27.869624197
+Varkaus;Pussilantaipaleen uimaranta;62.348271295;27.881325690
+Varkaus;Kankunharjun uimaranta;62.335114598;27.884491137
+Varkaus;Kommilan uimaranta;62.327105121;27.899342861
+Joroinen;Kuvansin uimaranta;62.268518439;27.899464014
+Kajaani;Kuluntalahden uimapaikka;64.269822435;27.900044567
+Miehikkälä;Muurikkalan uimapaikka;60.656878279;27.900625580
+Varkaus;Kämärin uimaranta;62.305560834;27.902073497
+Varkaus;Puurtilannimen uimaranta;62.335659183;27.905851252
+Varpaisjärvi;Karsanlahden uimapaikka;63.366517543;27.989909541
+Posio;Anetjärven uimapaikka;65.923232482;27.990263658
+Nilsiä;Halunan uimapaikka;63.105047587;27.994238621
+Sotkamo;Kontienjoen uimapaikka;64.172851095;27.998843614
+Vehmersalmi;Kirkonkylän uimala;62.763465247;28.016536881
+Kangaslampi;Huhtaus veneidenlaskupaikka;62.248642601;28.017793782
+Lappeenranta;Tanin uimaranta;60.922774986;28.032131547
+Lappeenranta;Rutolan uimaranta;61.039465796;28.033662561
+Helsinki;Rastilan uimaranta;60.207701576;25.115535823
+Helsinki;Mellunmäen leikkip./lasten kahluuallas;60.235035711;25.122270785
+Helsinki;Kallahden kainalo/uimaranta;60.198780410;25.130312682
+Jämsänkoski;Toijalan ranta;61.941256371;25.138377509
+Helsinki;Lohikäärmepuisto/lasten kahluuallas;60.211818825;25.139438955
+Jämsänkoski;Vihatinsalmen ranta;61.991082390;25.141864063
+Helsinki;Kallahdenniemi/uimaranta;60.185986401;25.143677609
+Jämsänkoski;Varpaisniemen uimaranta;61.975669566;25.147742898
+Jämsänkoski;Rasuan uimaranta;61.956156043;25.148373423
+Tervola;Ossauksen uimapaikka;66.157347889;25.152784911
+Jämsänkoski;Virtasalmen ranta;61.931610755;25.153955080
+Jämsänkoski;Alenin uimaranta;61.931641486;25.154238936
+Jämsänkoski;Rekolan ranta;61.937468308;25.155030206
+Nivala;Karvoskylän uimapaikka;63.879164036;25.156313128
+Jämsänkoski;Yläkosken ranta;61.923199608;25.158575799
+Valkeakoski;Aholanrannan uimapaikka;61.219435804;24.015696237
+Tampere;Pulesjärvi;61.602521201;24.032644655
+-htäri;Mustikkavuoren sauna;62.553848889;24.047465790
+Valkeakoski;Sointulan uimapaikka;61.275833343;24.067560890
+Valkeakoski;Leppälän uimapaikka;61.263941717;24.132544482
+Pyhäjoki;Helaakosken uimaranta;64.374156957;24.337893745
+Orivesi;Säynäniemen rantauimala;61.628202328;24.341481148
+Ylitornio;Lohijärven uimaranta;66.447499458;24.355457891
+Orivesi;Hiedan rantauimala;61.640621747;24.359646705
+Vihti;Vihdin pirtin ulkoilu- ja leirikeskus;60.482819790;24.429676515
+Oulainen;Koskikeitaan uimaranta;64.258360235;24.608040669
+Janakkala;Liinalammen uimala;60.921108996;24.627034865
+Kuhmalahti;Vedentaustan uimaranta;61.508589097;24.628821209
+Kuhmalahti;Vehkajärven uimaranta;61.501059008;24.828885878
+Helsinki;Lehtisaari/uimaranta;60.174806581;24.850715501
+Helsinki;Munkkiniemi, Kasinonlahti/uimapaikka;60.193080637;24.872024939
+Helsinki;Lauttasaari, Särkiniemi/uimapaikka;60.145551408;24.872216800
+Helsinki;Korppaanpuisto/lasten kahluuallas;60.204433696;24.888011266
+Helsinki;Tilkanniitty/lasten kahluuallas;60.203606505;24.890192962
+Helsinki;Tullinpuomin puisto/lasten kahluuallas;60.193674772;24.909927302
+Helsinki;Pihlajasaaren ulk.puisto/naturistiranta;60.138411563;24.921266766
+Helsinki;Savelan laiturit, Vantaanjoki/uimapaikka;60.236312643;24.988299770
+Helsinki;Kiertotähdenkuja, Keravanjoki/uimapaikka;60.280526639;24.992237350
+Jyväskylän mlk;Ritopohjan uimapaikka;62.282069853;25.745186529
+Lahti;Herrasmannin uimaranta;61.006867507;25.747141714
+Myrskylä;Teenojärven uimapaikka;60.602205921;25.749733790
+Jyväskylän mlk;Ritoniemen uimapaikka;62.273947213;25.750012342
+Jyväskylä;Lohikosken uimaranta;62.268382448;25.750897803
+Rovaniemi;Pöykkölän uimaranta;66.479805551;25.754380097
+Jyväskylä;Ristikiven uimapaikka;62.207814262;25.755477131
+Jyväskylä;Lehtisaaren uimapaikka;62.131905181;25.755602969
+Korpilahti;Oittilan uimapaikka;61.952860033;25.756269750
+Jyväskylä;Heinälammen uimapaikka/Tyyppälänlahti;62.274618727;25.757842839
+Lahti;Kaukkarin uimaranta;60.985204748;25.759209358
+Yli-Ii;Leuvan uimapaikka;65.477272049;25.760915893
+Jyväskylä;Tikan uimaranta;62.215649718;25.761632579
+Muurame;Kinkomaan uimaranta;62.153452082;25.764674352
+Rovaniemen mlk;Välijoen uimapaikka;66.229527451;25.765977493
+Jyväskylä;Muuratsalon uimala;62.122088470;25.771758245
+Sysmä;Liikolan uimapaikka;61.582169244;25.774918145
+Jyväskylä;Säynätsalon laivaranta;62.143022170;25.777564468
+Jyväskylän mlk;Jylhän uimapaikka, Hiidenjärvi;62.373102341;25.779817232
+Porvoo;Venjärven uimapaikka;60.473481783;25.780766804
+Suolahti;Paatelan uimapaikka;62.569068827;25.784297532
+Askola;Koukjärven uimapaikka;60.573043477;25.786756305
+Askola;Valkjärven uimapaikka;60.573142509;25.786789070
+Asikkala;Urajärven uimapaikka;61.141665329;25.788200598
+Jyväskylä;Halssilan uimapaikka;62.239502476;25.792204672
+Viitasaari;Jurvansalon uimapaikka;63.048101846;25.792299986
+Viitasaari;Niinilahden uimapaikka;62.933527701;25.795449721
+-änekoski;Kovalan ranta;62.608569192;25.796724293
+-änekoski;Ruotinkylän ranta;62.618684662;25.798067981
+Tyrnävä;Uimapaikka Polvenkangas ampumarata;64.784588810;25.800802228
+Myrskylä;Kotojärven uimapaikka;60.584475898;25.807383103
+Jyväskylä;Kangaslammen uimapaikka;62.271680965;25.809711905
+Sysmä;Hiekon uimapaikka;61.529203989;25.809768795
+Sysmä;Nuoramoisten uimapaikka;61.398142825;25.813448675
+Porvoo;Sondbyn uimaranta;60.264623719;25.820418429
+Rovaniemen mlk;Otvotien uimapaikka;66.516659659;25.825293818
+Jyväskylän mlk;Asmalammen uimapaikka;62.253054383;25.830097709
+Jyväskylän mlk;Ilmopohjan uimapaikka;62.144314236;25.831593390
+Luhanka;Tammijärven uimala ja sauna;61.836279415;25.832416227
+Viitasaari;Kurkelan uimapaikka;63.094800355;25.832439302
+Laukaa;Majajärven uimapaikka;62.335632305;25.832539968
+Viitasaari;Uimala;63.081315870;25.838066534
+Porvoo;Sondbyn uimaranta ii;60.267202289;25.841068643
+Jyväskylän mlk;Jyskän rantauimala;62.235902774;25.842592342
+Viitasaari;Miekkarinteen uimapaikka;63.068448400;25.845662152
+Jyväskylän mlk;Haapaniemen uimapaikka;62.224585106;25.846679457
+Porvoo;Köttbodan uimapaikka;60.274768502;25.849240996
+Yli-Ii;Möljän uimapaikka;65.370745410;25.852019461
+Jyväskylän mlk;Niitynpään uimapaikka;62.242738720;25.857510497
+Suolahti;Hankalan lomakeskuksen uimaranta;62.574411761;25.858218751
+Suolahti;Honkalan uimapaikka;62.574438831;25.858237167
+Suolahti;Keskustan uimapaikka (Möljä);62.569912100;25.858819299
+Leivonmäki;Säynätjärven uimapaikka;61.965686662;26.184171298
+Toivakka;Leirintäalueen uimapaikka;62.172305679;26.188492639
+Ylikiiminki;Hiltukylän uimapaikka;65.045679752;26.194537333
+Lapinjärvi;Kirkonkylän uimapaikka;60.628786075;26.198045712
+Laukaa;Lankamaan uimapaikka;62.421056039;26.216499150
+Kestilä;Kangasjärven uimapaikka;64.365720373;26.220191259
+Joutsa;Pynnölän uimapaikka;61.706524106;26.226965176
+Konnevesi;Uimapaikka Välimäki;62.709238578;26.227342524
+Vesanto;Nurmelan uimapaikka;62.865405988;26.237755941
+Loviisa;Loviisan uimaranta;60.443977501;26.238321660
+Rovaniemen mlk;Ylinamman uimapaikka;66.784071427;26.238949508
+Loviisa;Harudd;60.447201190;26.249655410
+Loviisa;Valkon uimaranta;60.397743748;26.255565681
+Elimäki;Siestan uimapaikka;60.932222255;26.278730702
+Joutsa;Uimaniemen uimapaikka;61.652452517;26.306516833
+Loviisa;Källan uimaranta;60.373583384;26.316043502
+Vesanto;Ahvenisen uimapaikka;62.904199516;26.321568462
+Joutsa;Mieskonmäen uimapaikka;61.870692876;26.324922836
+Konnevesi;Uimaranta kirkonkylä;62.624478223;26.344084395
+Keitele;Pappilanniemen uimapaikka;63.183603424;26.344229119
+Joutsa;Pärnämäen uimapaikka;61.758434017;26.352852763
+Hankasalmi;Niemisjärven uimapaikka;62.270112547;26.358067768
+Vesanto;Oinaskylän uimapaikka;62.977078273;26.365627534
+Joutsa;Marjotaipaleen koulun uimapaikka;61.721576773;26.377456218
+Kiuruvesi;Aittojärven uimapaikka;63.674207083;26.384489669
+Keitele;Saunasalmen uimapaikka;63.165794874;26.386451018
+Konnevesi;Uimapaikka Sirkkamäki;62.533708281;26.394958454
+Elimäki;Haukkavuoren uimapaikka;60.720284315;26.403713900
+Vesanto;Kirkonkylän uimapaikka;62.929225545;26.423009128
+Hankasalmi;Kirkonkylän uimapaikka;62.383290142;26.424416965
+Konnevesi;Uimapaikka Neituri;62.760233855;26.424730716
+Elimäki;Teuroisten uimapaikka;60.795105508;26.430052114
+Kiuruvesi;Osmanki, Kytörannan uimapaikka;63.715673694;26.451608252
+Pielavesi;Laukkalan uimapaikka;63.378484932;26.454933205
+Jaala;Kirkonkylän uimapaikka;61.062762779;26.466877648
+Hankasalmi;Aseman uimapaikka;62.305629299;26.471438695
+Vesanto;Niiniveden uimapaikka;62.981551650;26.478796856
+Hankasalmi;Säkinmäen uimapaikka;62.465863536;26.500721701
+Ranua;Ranuan uimapaikka;65.935942130;26.514180988
+Kiuruvesi;Koskenjoen uimapaikka;63.690105321;26.543851002
+Vesanto;Tiitilänkylän uimapaikka;62.860583492;26.572275196
+Rovaniemen mlk;Vanttausjärven uimapaikka;66.456339263;26.597131251
+Sodankylä;Nilimellan uimapaikka;67.417564282;26.603631158
+Sodankylä;Sattasen uimapaikka;67.512796635;26.622020594
+Kiuruvesi;Rantakylän uimapaikka;63.662810536;26.632940657
+Pielavesi;Säviäntaipaleen uimapaikka;63.156274288;26.639545222
+Kiuruvesi;Pappilan rantauimala;63.646480736;26.642556752
+Kangasniemi;Rantauimala;61.984925997;26.644810587
+Valkeala;Torpanlahden uimapaikka;61.054490738;26.665797630
+Rovaniemen mlk;Vanttauskosken uimapaikka;66.391936920;26.684283571
+Sodankylä;Kommatin uimapaikka;67.433725940;26.701376341
+Pielavesi;Sulkavan uimapaikka;63.446169994;26.707707741
+Kouvola;Urheilupuiston maauimala;60.874513978;26.714755190
+Pielavesi;Kirkonkylän rantauimala;63.240286749;26.739600433
+Pyhtää;Huutjärven uimaranta;60.491006199;26.742165393
+Kiuruvesi;Honkarannan rantauimala;63.620232019;26.743321589
+Valkeala;Jokelan uimapaikka;60.917858488;26.754498524
+Sodankylä;Kersilön uimapaikka;67.586220382;26.756940330
+Kouvola;Käyrälammen rantauimala;60.888038248;26.770787654
+Hirvensalmi;Kirkonkylän uimapaikka;61.642750240;26.772060647
+Valkeala;Orilammen uimapaikka;61.209218026;26.776341061
+Pielavesi;Ohemäen uimapaikka;63.117725129;26.780646156
+Valkeala;Lappalan uimapaikka;60.935479261;26.782859171
+Valkeala;Vuohijärven uimapaikka;61.091566693;26.786811540
+Anjalankoski;Koivusaaren uimala;60.755780734;26.787470258
+Valkeala;Hillosensalmen uimapaikka;61.193935740;26.793557122
+Anjalankoski;Sihvakan uimala;60.689896554;26.804434015
+Valkeala;Likolammen uimapaikka;60.941087164;26.805566762
+Rovaniemen mlk;Kaihuajärven uimapaikka;66.375175185;26.834617592
+Vieremä;Nissilän uimapaikka;63.947175964;26.858558014
+Mäntyharju;Haapaseläntien uimapaikka;61.427428607;26.866574268
+Mäntyharju;Urheilualueen uimapaikka;61.413609757;26.867251363
+Valkeala;Utin uimapaikka;60.898059211;26.868171724
+Vieremä;Saarisjärven uimapaikka;63.666194961;26.875210107
+Pielavesi;Heinämäen uimapaikka;63.318035929;26.884645446
+Vieremä;Lapsniemen uimapaikka;63.840800317;26.910322575
+Pielavesi;Lampaanjärven uimapaikka;63.368924752;26.915700417
+Vieremä;Murennusjoen uimapaikka;63.804514622;26.926856883
+Kotka;Kotkan uimalan maauimala;60.456517551;26.938279729
+Vieremä;Haajaisen uimapaikka;63.638965584;26.968142784
+Vieremä;Pänninlahden uimapaikka;63.899438740;26.970308732
+Valkeala;Vekaranjärven uimapaikka;61.109440953;26.988076476
+Valkeala;Ahvenlammen uimapaikka;61.119563807;26.988888797
+Iisalmi;Siikalahden uimapaikka;63.505247693;26.989721557
+Anjalankoski;Orijärven uimapaikka;60.747693212;27.005709167
+Vieremä;Sotkun uimala;63.740877123;27.010752855
+Pielavesi;Katajamäen uimapaikka;63.297634796;27.028637296
+Hamina;Mäkeläntien uimapaikka;60.547824389;27.052163723
+Vieremä;Valkeisen uimapaikka;63.671586812;27.052722889
+Iisalmi;Pörsänmäen uimapaikka;63.405247588;27.071529238
+Pieksänmaa;Vangasjärven rantauimala;62.293861930;27.082056872
+Anjalankoski;Rautjärven uimapaikka;60.910875411;27.112280223
+Rovaniemen mlk;Auttijärven uimapaikka;66.319784497;27.112685629
+Anjalankoski;Kotoselän uimapaikka;60.835201081;27.114222269
+Hamina;Merkjärven uimapaikka;60.655744900;27.123663398
+Vieremä;Vuorisen uimapaikka;63.726003885;27.125257440
+Vieremä;Kapeaveden uimapaikka;63.748792178;27.132386448
+Pieksämäki;Hiekanpään uimaranta;62.302482499;27.140871573
+Pieksämäki;Tahiniemen uimaranta;62.311903686;27.157652210
+Anjalankoski;Sanijärven uimapaikka;60.844316817;27.160620302
+Haukivuori;Syväsalmen rantauimala;62.032520739;27.164462087
+Iisalmi;Mansikkaniemen uimapaikka;63.595256727;27.166567201
+Hamina;Salmenkylän uimapaikka;60.580064078;27.169507502
+Hamina;Salmenvirran uimala;60.580177101;27.172372007
+Iisalmi;Kirkonsalmen uimapaikka;63.567308198;27.177373038
+Vieremä;Saarisen uimapaikka;63.807265702;27.179931318
+Iisalmi;Hiekkarannan uimapaikka;63.555649686;27.181525471
+Jämsä;Jaatilanjärven uimapaikka ii;61.879779845;25.188662042
+Haukipudas;Isoniemen uimaranta;65.170801090;25.229042771
+Haukipudas;Ukkolanranta;65.205460349;25.286406680
+Haukipudas;Halosenniemen uimaranta;65.233144286;25.303608224
+Haukipudas;Ukonkaivoksen uimaranta;65.178378561;25.370529125
+Pornainen;Kotojärven avantouintipaikka;60.451280778;25.398027262
+Pornainen;Kotojärven uimaranta;60.451309002;25.398134908
+Pornainen;Laukkosken kylän ranta;60.445811729;25.421917222
+Orimattila;Kuustjärven uimapaikka;60.806137392;25.548288202
+Rovaniemen mlk;Paavalniemen uimapaikka;66.476642772;25.646833676
+Jyväskylä;Juurikkasaaren uimapaikka;62.148843443;25.775219782
+Rovaniemen mlk;Puistolammen uimapaikka;66.533064046;25.842248236
+Sumiainen;Rupulahden uimaranta;62.660926174;26.044684385
+Heinola;Valkjärven uimapaikka;61.254970088;26.069053201
+Heinola;Reumanlammen uimapaikka;61.206565186;26.076212756
+Leivonmäki;Leivonrannan uimapaikka;61.923980011;26.100963364
+Konnevesi;Uimapaikka Särkisalo;62.790059781;26.180920649
+Hamina;Rampsinkarin uimapaikka;60.557510333;27.183043065
+Nilsiä;Sänkimäen uimapaikka;63.162461525;27.918208050
+Kuopio;Valkeisenlammen uimapaikka;62.887317256;27.661691580
+Kuopio;Pienen valkeisen uimapaikka;62.929598988;27.662546469
+Siilinjärvi;Siilinlahden rantauimala;63.072815630;27.670942721
+Puolanka;Saharanta;64.865165193;27.671538843
+Savitaipale;Olkkolan uimapaikka;61.201771244;27.673858564
+Kuopio;Iso valkeisen uimapaikka;62.927796882;27.682999493
+Kajaani;Vimpelinlammen uimapaikka;64.213767389;27.688111607
+Miehikkälä;Myllylammen rantauimala;60.680536833;27.688687256
+Kuopio;Pitkälammen uimapaikka;62.912364026;27.690530673
+Savitaipale;Marttilan uimapaikka;61.203458827;27.691603167
+Savitaipale;Laksiaisen uimapaikka;61.127399076;27.691982411
+Kuopio;Kettulanlahden uimapaikka;62.921060346;27.693726927
+Puolanka;Taivallahden uimapaikka;64.865722017;27.696758271
+Kuopio;Keiliniemen uimapaikka;62.882112273;27.697328608
+Kuopio;Väinölänniemen uimala;62.884844196;27.698258366
+Kuopio;Peräniemen uimapaikka;62.881174914;27.699999160
+Kajaani;Kaupunginlammen uimapaikka;64.227522633;27.713591451
+Kuopio;Honkalahden uimapaikka;62.900590611;27.726660144
+Puolanka;Valkeisen uimapaikka;65.048127891;27.729038598
+Varkaus;Taipaleen uimaranta;62.295931767;27.922715824
+Varkaus;Puurtilan uimaranta;62.331088984;27.928077281
+Lemi;Kuukanniemen rantauimala;61.077524381;27.931755846
+Posio;Lehtiniemen uimapaikka;66.248652809;27.952123857
+Varkaus;Haijanvirran uimaranta;62.310189323;27.954756225
+Kajaani;Jormuan uimapaikka;64.298568753;27.980456273
+Paltamo;Savirannan uimapaikka;64.362432171;27.981756310
+Paltamo;Melalahden uimapaikka;64.362557317;27.981822894
+Lappeenranta;Vilkjärven uimaranta;60.968105633;27.986902482
+Vehmersalmi;Syvähiekan uimapaikka;62.773285646;27.986969506
+Hamina;Matinsaaren uimapaikka;60.636123415;27.194159074
+Hamina;Vähäjärven uimapaikka;60.635988689;27.194231358
+Haukivuori;Sataman uimaranta;62.017018924;27.196267691
+Pieksämäki;Tahilammen uimala;62.289512697;27.196455877
+Haukivuori;Pitkähiekan uimaranta;62.033563936;27.197042647
+Mikkeli;Orijärven uimaranta;61.664939333;27.207609113
+Kangaslampi;Viljonlahden uimaranta / venelaituri;62.234727182;28.479452145
+Juankoski;Viitaniemen uimapaikka;63.133847244;28.487155183
+Rautavaara;Löytösen uimapaikka;63.357127847;28.492144915
+Hyrynsalmi;Vonkan leirintäalueen uimapaikka;64.694862565;28.494737672
+Juankoski;Säyneisen uimapaikka 2 Ruukki;63.209904617;28.494835607
+Joutseno;Kähärilän tekolampi;61.061619768;28.499586549
+Kaavi;Luotosen uimapaikka;63.019214159;28.502331779
+Juankoski;Säyneisen uimapaikka 1 Valkeis;63.218348226;28.505911012
+Hyrynsalmi;Ahorannan uimapaikka;64.675280903;28.518231392
+Joutseno;Konnunsuon tekolampi;61.031077550;28.521828675
+Joutseno;Sappulan ranta;61.163957667;28.529581320
+Rautavaara;Iso-Valkeisen uimapaikka;63.285749594;28.532488351
+Lappeenranta;Räihän uimapaikka;60.959889091;28.550218708
+Joutseno;Hinkanranta;61.153122822;28.565797782
+Lappeenranta;Marttilan uimapaikka;61.006040326;28.589094298
+Juankoski;Poskijärven uimapaikka;63.166745146;28.607257411
+Ristijärvi;Hiisijärven uimapaikka;64.359457175;28.609175784
+Rantasalmi;Tammenlahden uimapaikka;61.979228820;28.617318092
+Posio;Lohirannan uimapaikka;66.052089542;28.632653089
+Rautavaara;Yläluostan uimapaikka;63.380203821;28.666836800
+Kaavi;Luikonlahden uimapaikka;62.923104948;28.680142711
+Joutseno;Aholan tekolampi;61.132239114;28.698732244
+Kaavi;Mäntyjärven uimapaikka;63.077706648;28.699026871
+Posio;Tolvan uimapaikka;66.212829614;28.715586267
+Suomussalmi;Sakaran uimapaikka;64.763879946;28.719192643
+Imatra;Ukonlinnan rantauimala;61.206688969;28.722762284
+Imatra;Lempeenlietteen rantauimala;61.211293975;28.735408080
+Sotkamo;Sumsan uimapaikka;64.160147258;28.756115140
+Sotkamo;Tipasojan uimapaikka;64.034090762;28.756557188
+Sotkamo;Ontojoen uimapaikka;64.093423742;28.798119629
+Ruokolahti;Rasilan uimapaikka;61.291849987;28.808012112
+Ruokolahti;Vaittilan uimapaikka;61.276437590;28.819434090
+Ruokolahti;Pappilanlahden uimapaikka;61.288575937;28.838587777
+Imatra;Immalan rantauimala;61.222256344;28.850597586
+Imatra;Immalanlietteen rantauimala;61.222129758;28.850664620
+Sotkamo;Lontan uimapaikka;63.967712530;28.859207534
+Suomussalmi;Valkeisen uimapaikka;64.890536228;28.876064015
+Suomussalmi;Pitämän uimapaikka;64.866525728;28.900130874
+Taivalkoski;Polon uimapaikka;65.576807415;28.916138799
+Ruokolahti;Oritlammen uimapaikka;61.266478793;28.920053985
+Suomussalmi;Jätkänpuiston uimaranta;64.884258844;28.921526530
+Outokumpu;Särkiselän uimaranta;62.749311935;28.929000875
+Suomussalmi;Ruomasian puisto;64.877177021;28.944513835
+Outokumpu;Kuusjärven uimaranta;62.686954106;28.947186608
+Rautavaara;Metsäkartanon uimapaikka;63.584529771;28.557012373
+Ruokolahti;Käringin uimaranta;61.291178846;28.858386799
+Enonkoski;Kirkonkylän rantauimala;62.089274329;28.926610183
+Joensuu;Marjalan uimapaikka;62.630745099;29.660002734
+Joensuu;Utran uimapaikka;62.615864794;29.859260948
+Tuupovaara;Koveron uimaranta;62.541568921;30.533127105
+Tuupovaara;Loitimon uimaranta;62.456504796;30.578677678
+Tuupovaara;Porttilahden uimaranta;62.493751749;30.745102655
+Tuupovaara;Niiralanniemen uimaranta;62.503914035;30.795555641
+Tuupovaara;Kanajärven uimaranta;62.290083415;30.806415055
+Tuupovaara;Koskenniskan uimaranta;62.339505698;30.838339416
+Tuupovaara;Luutalahden seuran ranta;62.393324171;30.880929953
+Nurmes;Savikylän uimaranta;63.538393463;28.959375722
+Nurmes;Kuokkastenkosken uimaranta;63.539338063;28.959862926
+Suomussalmi;Kirkonkylän uimapaikka;64.902597568;28.973757475
+Juuka;Kajoon uimapaikka;63.105549805;28.974314624
+Suomussalmi;Mannilanrannan uimapaikka;64.895659440;28.992786634
+Ruokolahti;Pohja-lankilan uimapaikka;61.468609357;29.038879794
+Nurmes;Ylikylän uimaranta;63.635919701;29.044723104
+Suomussalmi;Piispajärven uimapaikka;65.296343644;29.075438588
+Liperi;Korpijärven uimaranta;62.549763095;29.081565729
+Juuka;Kiteenpuron uimapaikka;63.389635838;29.087428014
+Nurmes;Laamilan uimaranta;63.567924019;29.097389485
+Suomussalmi;Kiannanniemen uimapaikka;65.156316610;29.110731249
+Nurmes;Porokylän uimaranta;63.551918719;29.122654905
+Liperi;Atsilammen uimaranta;62.580780409;29.122953911
+Nurmes;Kantakaupungin uimala;63.541467980;29.132619725
+Juuka;Ylemmäisen uimapaikka;63.282810641;29.144710343
+Nurmes;Tuomaankadun uimaranta;63.542711244;29.156309918
+Kuusamo;Helilammen uimapaikka i;65.990407192;29.158075955
+Nurmes;Itäkaupungin uimala;63.544927303;29.158147198
+Kuusamo;Helilammen uimapaikka ii;65.993192125;29.159743194
+Juuka;Polvelan uimapaikka;63.162020413;29.186126099
+Kuusamo;Kelanrannan rantauimala;65.967748947;29.190669809
+Juuka;Niemislammen rantauimala;63.237635938;29.198427223
+Nurmes;Hyvärilän uimaranta;63.529916337;29.201572829
+Suomussalmi;Jumaliskylän uimapaikka;64.707037885;29.211076503
+Liperi;Viinijärven uimaranta;62.652947983;29.221810070
+Kuusamo;Tolpanniemen uimapaikka;65.946721313;29.261038389
+Juuka;Kannaksen uimapaikka;63.287330201;29.286894702
+Punkaharju;Valtionhotellin saunaranta;61.802713759;29.302000357
+Punkaharju;Mustanniemen uimapaikka;61.775169801;29.334531048
+Polvijärvi;Uimapaikka/kk;62.849896804;29.374192519
+Punkaharju;Punkasalmen uimala;61.750515327;29.386847080
+Punkaharju;Putikon uimapaikka;61.711001189;29.391187094
+Nurmes;Kellarilammen uimapaikka;63.681815897;29.393324762
+Liperi;Kirkonkylän uimaranta;62.524318334;29.394224994
+Liperi;Kuoringan uimaranta;62.629910319;29.408429107
+Punkaharju;Kultakiven uimapaikka;61.686928251;29.426122631
+Nurmes;Kuohatin uimaranta;63.632245776;29.426407737
+Nurmes;Höljäkän uimaranta;63.454233314;29.447723868
+Parikkala;Haljakan uimaranta;61.599348143;29.449349143
+Nurmes;Mujejärven uimaranta;63.830211369;29.461445815
+Joensuu;Aavarannan uimapaikka;62.612411191;29.697143905
+Kuhmo;Kuumun uimapaikka;64.571954996;29.700515930
+Joensuu;Honkaniemen uimapaikka;62.606621733;29.715187917
+Saari;Tarnalan uimapaikka;61.717936470;29.724759229
+Joensuu;Linnunlahden uimapaikka;62.594796863;29.738727823
+Saari;Saaren kirkonkylän rantauimala;61.647791084;29.745521272
+Joensuu;Vehkalahden uimapaikka;62.580974648;29.763173659
+Joensuu;Ilosaaren uimapaikka;62.599091880;29.769572037
+Joensuu;Koivuniemen uimapaikka;62.573581196;29.780608339
+Joensuu;Karsikon uimapaikka;62.607011743;29.808269562
+Pyhäselkä;Reijolan uimapaikka;62.548218299;29.810640853
+Pyhäselkä;Niittylahden uimaranta;62.508543012;29.817293968
+Kuhmo;Lentiiran uimapaikka;64.386899604;29.828898246
+Lieksa;Merilänrannan uimaranta;63.141736944;29.830471575
+Lieksa;Mäkilehdon uimaranta;63.145017886;29.835217344
+Saari;Mikkolanniemen uimapaikka;61.693843931;29.843244087
+Uukuniemi;Tiitan uimaranta;61.778111761;29.863710180
+Pyhäselkä;Leirikeskuksen uimapaikka;62.421816005;29.900153940
+Uukuniemi;Tokkarin uimaranta;61.756154906;29.900982853
+Pyhäselkä;Nivan uimapaikka;62.421874325;29.902096273
+Uukuniemi;Kanavanlahden uimaranta;61.749305857;29.915264742
+Pyhäselkä;Ohvanan uimapaikka;62.390883334;29.945490628
+Kontiolahti;Aittolammen uimaranta;62.616294303;29.950629617
+Lieksa;Honkalahden uimaranta;63.328295121;29.959626661
+Uukuniemi;Papinniemen uimaranta;61.803810453;29.963167235
+Pyhäselkä;Saaarenkylän uimapaikka;62.461657017;29.988959712
+Pyhäselkä;Hammasj rven rantauimala;62.443137409;29.998350702
+Uukuniemi;Uitunlahden uimaranta;61.791150099;30.000720177
+Lieksa;Kaupunginniemen uimaranta;63.309134874;30.010637483
+Lieksa;Urheilupuiston uimala;63.323409639;30.033139976
+Lieksa;Lamminkylän uimaranta;63.282777424;30.041293206
+Eno;Ahvenisen uimapaikka;62.962276068;30.075174534
+Lieksa;Hämeenjärven uimaranta;63.481620220;30.076573936
+Tohmajärvi;Särkijärven uimaranta;62.351524996;30.087592975
+Eno;Louhiojan uimapaikka;62.801795489;30.117265144
+Eno;Tervaniemen uimapaikka;62.778555374;30.142703313
+Tohmajärvi;Onkamon koulun uimaranta;62.305692721;30.150727283
+Pyhäselkä;Rauanjärven uimapaikka;62.409087505;30.159195447
+Eno;Ukkolan uimapaikka;62.951369903;30.186741257
+Eno;Honkalahden uimapaikka;62.937469791;30.218755763
+Eno;Laiskan uimapaikka;62.908105213;30.223467303
+Tohmajärvi;Siikajärven uimaranta;62.193247344;30.243845975
+Tohmajärvi;Matolammen uimaranta;62.161795362;30.316273694
+Eno;Sarvingin uimapaikka;62.708164700;30.338913983
+Tohmajärvi;Nenosenlammen uimaranta;62.180210444;30.460728711
+Eno;Luhtapohjan uimapaikka;62.803771154;30.487404213
+Ilomantsi;Kivilahden uimaranta;62.973522577;30.509474294
+Värtsilä;Harkkolammen uimaranta;62.217228690;30.569300407
+Värtsilä;Niiralan uimaranta;62.179523895;30.587912296
+Tuupovaara;Kaation uimaranta;62.474252172;30.626724350
+Ilomantsi;Tyrjän uimaranta;62.869262989;30.634512530
+Värtsilä;Aittolammen uimaranta;62.270017563;30.736538449
+Ilomantsi;Huhuksen uimaranta;62.854637574;30.751000527
+Ilomantsi;Sonkajan uimaranta;62.709332594;30.751118508
+Ilomantsi;Maukkulan uimaranta;62.611264292;30.761439278
+Ilomantsi;Marjovaaran uimaranta/Korpilampi;62.611217438;30.761511342
+Tuupovaara;Hoilolan uimaranta;62.339517841;30.838225022
+Ilomantsi;Saharannan uimaranta;62.677103687;30.911342109
+Ilomantsi;Rehvanan uimaranta;62.570835394;30.999373165
+Ilomantsi;Haukivaaran uimaranta;62.549080736;31.003845277
+Ilomantsi;Naarvan uimaranta;63.068178889;31.021885013
+Ilomantsi;Ruhkarannan uimaranta;62.652882353;31.062786884
+Ilomantsi;Hattuvaaran uimaranta;62.949506035;31.211028905
+Ilomantsi;Möhkön uimaranta;62.641770255;31.282412243
+Ilomantsi;Ilajan uimaranta;62.833422127;31.357129765
+Siilinjärvi;Koivusaaren uimapaikka;63.055214675;27.513723563
+Siilinjärvi;Hökösen uimapaikka;63.147368185;27.548436275
+Savitaipale;Säänjärven uimapaikka;61.172267266;27.556398444
+Siilinjärvi;Pyylammen uimapaikka;63.091924915;27.619850277
+Siilinjärvi;Pöljän uimapaikka;63.124008586;27.623843618
+Siilinjärvi;Kalettoman uimapaikka;63.063506863;27.634989563
+Siilinjärvi;Saarijärven uimapaikka;63.177194136;27.639798661
+Siilinjärvi;Ahmonlammen uimapaikka;63.082574584;27.654186676
+Siilinjärvi;Sulkavan uimapaikka;63.086691838;27.673538539
+Siilinjärvi;Simpan uimapaikka;62.982958107;27.679138252
+Siilinjärvi;Pennasenlammen uimapaikka;63.084337272;27.683736520
+Siilinjärvi;Vanhan pappilan uimapaikka;63.062719283;27.684693223
+Kansanterveyslaitos, SYKE;Kiimajärven ranta;61.385709449;22.690629268
+Kansanterveyslaitos, SYKE;Kylpyläsaari;64.133356844;25.357160748
+Kansanterveyslaitos, SYKE;Kermanranta;62.437703350;28.639408456
+Kansanterveyslaitos, SYKE;Kylpylä;61.776188548;23.025452050
+Kansanterveyslaitos, SYKE;Tervanokka;60.463511960;25.080377071
+Kansanterveyslaitos, SYKE;Uimala, Jukajärvi;61.891165066;27.864622718
+Kansanterveyslaitos, SYKE;Jäälinranta;65.096558070;25.690444732
+Kansanterveyslaitos, SYKE;Lammaskallio;60.280892925;24.436649529
+Kansanterveyslaitos, SYKE;Storträsk;60.191243325;24.339875954
+Kansanterveyslaitos, SYKE;Tampaja, Haapajärvi;60.233347101;24.429351344
+Kansanterveyslaitos, SYKE;Aurajärven ranta;61.332049503;22.607011463
+Kansanterveyslaitos, SYKE;Mekkoranta;62.522444294;24.181043213
+Kansanterveyslaitos, SYKE;Kärringsundsbyn;60.237128301;19.539186464
+Kansanterveyslaitos, SYKE;Degersand;60.154399288;19.597428987
+Kansanterveyslaitos, SYKE;Bambölevik;60.239642729;19.855922437
+Kansanterveyslaitos, SYKE;Linikkala;60.825423210;23.635424465
+Kansanterveyslaitos, SYKE;Kihtersuo;61.020973587;24.488114780
+Kansanterveyslaitos, SYKE;Ahvenisto;60.992780564;24.418760343
+Kansanterveyslaitos, SYKE;Tervaniemi;60.967239970;24.381337442
+Kansanterveyslaitos, SYKE;Bovik;60.262399874;19.702188814
+Kansanterveyslaitos, SYKE;Silversand;59.851874342;22.996797863
+Kansanterveyslaitos, SYKE;Kultakoukku;61.319578038;22.156425436
+Kansanterveyslaitos, SYKE;Aurinkoranta;61.567893151;26.050202132
+Kansanterveyslaitos, SYKE;Pappilanaro;61.168408927;24.556974857
+Kansanterveyslaitos, SYKE;Munkkiniemi;60.200732238;24.856540730
+Kansanterveyslaitos, SYKE;Kangasjärvi, leir.;62.167963559;22.002567915
+Kansanterveyslaitos, SYKE;Lamminjärvi;62.486865556;22.759937944
+Kansanterveyslaitos, SYKE;Säläisjärvi;62.663669667;21.985360390
+Kansanterveyslaitos, SYKE;Leirintäalue;64.238534238;23.815257295
+Kansanterveyslaitos, SYKE;Pitkäjärvi;64.107296424;23.953454413
+Kansanterveyslaitos, SYKE;Pöyliönjärvi;66.714887540;27.424141322
+Kansanterveyslaitos, SYKE;Ruokkeen lomakylä;61.898250972;29.672918140
+Kansanterveyslaitos, SYKE;Kievarin ranta;61.891133745;29.788143590
+Kansanterveyslaitos, SYKE;Mäntyranta;61.941485284;29.754805341
+Kansanterveyslaitos, SYKE;Karjalan lomakeskus;62.019297491;29.679920121
+Kansanterveyslaitos, SYKE;Syväjärvi;60.100153305;24.423663327
+Kansanterveyslaitos, SYKE;Långvik;60.103596835;24.569548084
+Kansanterveyslaitos, SYKE;Postinranta;62.098759136;30.151878566
+Kansanterveyslaitos, SYKE;Valkealampi;62.702391807;29.868028719
+Kansanterveyslaitos, SYKE;Vierevänniemi;62.763106270;29.826734940
+Kansanterveyslaitos, SYKE;Onkilampi;62.639597794;29.821497252
+Kansanterveyslaitos, SYKE;Sompanen;60.956048234;26.624012984
+Kansanterveyslaitos, SYKE;Uimala;61.325748922;23.742375785
+Kansanterveyslaitos, SYKE;Timitranniemi;63.306627654;30.002231844
+Kansanterveyslaitos, SYKE;Kirkonkylä;61.359472037;24.663890033
+Kansanterveyslaitos, SYKE;Kolmikanta;62.741073406;28.919794720
+Kansanterveyslaitos, SYKE;Pakanranta;61.330400652;24.265655595
+Kansanterveyslaitos, SYKE;Rajamaan ranta;65.364390651;27.001661986
+Kansanterveyslaitos, SYKE;Punkaharjun lomakeskus;61.795122019;29.294851162
+Kansanterveyslaitos, SYKE;Heikinpohja;61.862931720;28.856756133
+Kansanterveyslaitos, SYKE;Karkulahti;61.842562548;28.954132988
+Kansanterveyslaitos, SYKE;Koulukatu;61.864406547;28.892120016
+Kansanterveyslaitos, SYKE;Vuohimäki;61.866339961;28.796103126
+Kansanterveyslaitos, SYKE;Laajalahti;63.799419573;23.009671256
+Kansanterveyslaitos, SYKE;Öja;63.829031971;22.919440787
+Kansanterveyslaitos, SYKE;Suntinsuun uimaranta;63.856422507;23.113429155
+Kansanterveyslaitos, SYKE;Molpe;62.866749055;21.249164147
+Kansanterveyslaitos, SYKE;-ijänniemi;60.495079148;26.988511190
+Kansanterveyslaitos, SYKE;Tampsan monttu;60.518494234;26.901128277
+Kansanterveyslaitos, SYKE;Santalahti;60.436133987;26.864259510
+Kansanterveyslaitos, SYKE;Likolampi;60.991799159;25.638097360
+Kansanterveyslaitos, SYKE;Juottimen ranta;61.081268858;25.133475697
+Kansanterveyslaitos, SYKE;Pappisten Isojärvi;60.797376421;22.857794319
+Kansanterveyslaitos, SYKE;Lilla Holmen;60.095932409;19.951662585
+Kansanterveyslaitos, SYKE;Gröna Udden;60.091913796;19.953679578
+Kansanterveyslaitos, SYKE;Nabben;60.114838687;19.957620912
+Kansanterveyslaitos, SYKE;Mariebad;60.108020425;19.945204410
+Kansanterveyslaitos, SYKE;Riviera;60.541465148;22.132953576
+Kansanterveyslaitos, SYKE;Mellilän järvi;60.756001485;22.893718651
+Kansanterveyslaitos, SYKE;Pankalampi;61.688868764;27.252052794
+Kansanterveyslaitos, SYKE;Iskmo Simstrand;63.193449761;21.549257334
+Kansanterveyslaitos, SYKE;Satama;63.300352028;22.370481402
+Kansanterveyslaitos, SYKE;Norrby;60.316806328;22.300452311
+Kansanterveyslaitos, SYKE;Naarjärven uimala;60.255775394;23.298601009
+Kansanterveyslaitos, SYKE;Lillsand;63.665163744;22.548274434
+Kansanterveyslaitos, SYKE;Kittholmen;63.687749789;22.689512068
+Kansanterveyslaitos, SYKE;Gumnäs;60.089424929;23.535010045
+Kansanterveyslaitos, SYKE;Olkijokisuu;64.736360572;24.568653377
+Kansanterveyslaitos, SYKE;Hietamaa;64.668576743;25.068932688
+Kansanterveyslaitos, SYKE;Västerviken;60.248339738;20.018900588
+Kansanterveyslaitos, SYKE;Sarapisto;60.251533628;22.744950185
+Kansanterveyslaitos, SYKE;Maansydänjärvi;63.721864986;24.778923833
+Kansanterveyslaitos, SYKE;Tauvo;64.806739443;24.546790299
+Kansanterveyslaitos, SYKE;Pyynikki;61.491360016;23.729943726
+Kansanterveyslaitos, SYKE;Satama;61.191812072;23.904170676
+Kansanterveyslaitos, SYKE;Lokkisaari;63.684264123;28.813703397
+Kansanterveyslaitos, SYKE;Kalettomanlahti;62.238808642;23.754055544
+Kansanterveyslaitos, SYKE;Hamari;64.074468421;24.582382051
+Kansanterveyslaitos, SYKE;Kuusela;61.609011867;23.611381070
+Kansanterveyslaitos, SYKE;Hautala;60.956121103;26.742612712
+Kansanterveyslaitos, SYKE;Särkät;60.927707563;26.747046657
+Kansanterveyslaitos, SYKE;Kuivajärvi;60.777582838;23.846895455
+Kansanterveyslaitos, SYKE;Störsvik;60.080089871;24.303329635
+Kansanterveyslaitos, SYKE;Kaatron uimala;62.627831197;27.108344351
+Kansanterveyslaitos, SYKE;Silokallion kurssikeskus;61.503020529;22.226282042
+Kansanterveyslaitos, SYKE;Hietasaari;62.470199878;25.305125874
+Kansanterveyslaitos, SYKE;Andrasjön;63.509190354;22.453200899
+Kansanterveyslaitos, SYKE;Storsanden;63.484377914;22.282218721
+Kansanterveyslaitos, SYKE;Sahanranta;64.552000895;26.846314338
+Kansanterveyslaitos, SYKE;Hakala;61.184905654;24.117615739
+Kansanterveyslaitos, SYKE;Taasjärvi;60.301884174;25.342920737
+Kansanterveyslaitos, SYKE;Hunttijärvi;60.741867765;25.434903630
+Kansanterveyslaitos, SYKE;Keravanjärvi;60.622329637;25.096520473
+Kansanterveyslaitos, SYKE;Sahajärvi;60.724717867;25.471805463
+Kansanterveyslaitos, SYKE;Sääksjärvi;60.598607249;25.379502592
+Kansanterveyslaitos, SYKE;Mansikkalahti;60.451037918;26.947810764
+Kansanterveyslaitos, SYKE;Hiekkahelmi;60.416423177;22.695219215
+Kansanterveyslaitos, SYKE;Harrström;62.731824122;21.176383239
+Kansanterveyslaitos, SYKE;Kaihu;61.673900832;27.279953568
+Kansanterveyslaitos, SYKE;Sankola;61.119417579;24.983938416
+Kansanterveyslaitos, SYKE;Hahmajärvi;60.907379723;25.454219819
+Kärsämäki;Venetpalon uimaranta;63.887611808;25.780689044
+www.liikuntapaikat.fi;Koitin uimaranta;61.518069855;26.203223529
+www.liikuntapaikat.fi;Lahenlammen uimaranta;64.292559927;24.423349592
+www.liikuntapaikat.fi;Valkamanranta;61.181004860;28.669991224
+www.liikuntapaikat.fi;Yölinnun uimaranta;61.552952667;26.158481844
+Artjärvi;Pyykkinekan uimaranta;60.739296495;26.093725732
+Kangasala;Mobilian uimaranta;61.441242478;24.131756389
+www.liikuntapaikat.fi;Golf-puiston uimaranta;61.571142571;26.031149068
+Hattula;Pappilanniemen uimaranta;61.065124148;24.402327707
+Sysmä;Askon uimaranta;61.498508100;25.684522050
+Mikkeli;Suojalammen uimaranta;61.706938794;27.293862833
+Pietarsaari;Uimapakka Kilisaari;63.668676677;22.770387356
+Hämeenkoski;Valkjärven uimaranta;61.025003798;25.164960605
+Maaninka;Tuovilanlahden uimaranta;63.229355407;27.115273921
+Maaninka;Leinolanlahden uimaranta;63.035917494;27.245137138
+Maaninka;Pulkonkosken uimaranta;63.123338691;27.184515600
+Lapinlahti;Peltoniemen Uimaranta;63.348425855;27.394970398
+Pori;Lukkarinsannan uimaranta;61.490849912;21.842778408
+Vehmaa;Rautilakeskus;60.622592553;21.684253202
+Maaninka;Sinikiven uimaranta;63.115310825;27.346790317
+Maaninka;Käärmelahden uimaranta;63.098122528;27.410226637
+Loimaa;Kalikan uimaranta;60.912433173;22.405673499
+Luoto;Vikarholmens simstrand;63.702566272;22.767489709
+Luoto;Köpmanholmen simstrand;63.806460038;22.672187194
+Kärsämäki;Raatin ranta;63.967985166;25.740278991
+www.liikuntapaikat.fi;Pikku-valk'järven rantauimala;61.726932805;22.042549120
+Lapinjärvi;Sjökullan uimaranta;60.623770350;26.158841478
+Maaninka;Kirkonkylän rantauimala;63.150376001;27.301663391
+www.liikuntapaikat.fi;Simstrand;60.021600575;20.379293703
+Mikkeli;Otavan uimaranta/avantouintipaikka;61.651118463;27.064639626
+www.liikuntapaikat.fi;Näkinkallion uimaranta;63.286360991;23.266055962
+Pori;Ruutujärven uimaranta;61.570848647;21.527625477
+Valkeakoski;Pappilanniemen uimapaikka;61.187359882;24.063848765
+Marttila;Palaisten uimaranta/avantouintipaikka;60.588632471;22.957294843
+Rautjärvi;Merosen uimaranta;61.442316955;29.377706444
+Lammi;Untulan rantauimala;61.094346368;24.994917270
+Kontiolahti;Hiekkaniemen uimapaikka;62.765506372;29.875708595
+www.liikuntapaikat.fi;Kasvikens badplats;60.370542492;19.942885534
+www.liikuntapaikat.fi;Riissalmen uimapaikka;60.571497845;26.514786338
+www.liikuntapaikat.fi;Kallungin uimaranta;66.656098770;28.999143290
+www.liikuntapaikat.fi;Solkein uimapaikka;61.245115465;27.842793861
+www.liikuntapaikat.fi;Antinniemi mm. uimaranta;60.593318672;26.565027114
+www.liikuntapaikat.fi;Särkjärven eteläinen uimaranta;60.497861277;26.373653232
+www.liikuntapaikat.fi;Småholmas badplats;60.108439428;19.894503148
+www.liikuntapaikat.fi;Nokan ranta;61.618674714;26.196622434
+Rautjärvi;Tulilammen uimaranta;61.296145630;29.086220417
+Jaala;Siikavan (Jouthiekan) uimapaikka;61.083872655;26.488296388
+www.liikuntapaikat.fi;Kolarin uimaranta;67.335439538;23.781365920
+Merimasku;Uimapaikka;60.473738312;21.901675080
+Jaala;Verlan (Koulunlahden)  uimapaikka;61.067955722;26.629372254
+Kärsämäki;Saviselän monttu;64.011713986;26.061562159
+www.liikuntapaikat.fi;Hernejärven uimaranta;63.540545206;27.516397420
+www.liikuntapaikat.fi;Kuivaketveleen uimapaikka;61.116522686;28.101013897
+www.liikuntapaikat.fi;Kiramon uimaranta;60.527230621;26.473944243
+www.liikuntapaikat.fi;Välimäen uimapaikka;60.666540175;22.797734998
+Veteli;Karjalankosken uimapaikka;63.464007581;23.775174585
+Kontiolahti;Rivieran uimapaikka;62.699250491;29.727043578
+Mikkeli;Tuukkalan uimaranta;61.660319516;27.264127068
+www.liikuntapaikat.fi;Huhmarkallion uimapaikka;61.143509716;28.078799847
+Jaala;Kimolan (Musta-Ruhmaan) uimapaikka;61.060419068;26.382366901
+www.liikuntapaikat.fi;Badplats;60.218125174;19.543474161
+Kirkkonummi;Svartvikin uimaranta;60.184741037;24.459262871
+Lapinlahti;Nerkoon hiekkaranta;63.410732465;27.323086760
+Mikkeli;Nieluslammen uimaranta;61.644465946;27.248371754
+Ii;Pankinnokan uimapaikka;65.567552324;25.173820581
+Pietarsaari;Uimapaikka Itälä;63.685438183;22.741284017
+Jaala;Huhdasjärven uimapaikka;61.164856268;26.579263261
+Vantaa;Päiväkummun / Nikinmäen uimaranta;60.322838377;25.087051935
+www.liikuntapaikat.fi;Vastilan uimapaikka;60.614434640;26.646405800
+Rovaniemi;Keinuvuopaja;66.485524188;25.774371816
+www.liikuntapaikat.fi;Rehulan uimapaikka;61.195075268;28.120230603
+Veteli;Polson uimapaikka;63.439401180;24.042391842
+Kuopio;Mustinlahden uimapaikka;62.698755683;28.279629459
+www.liikuntapaikat.fi;Marsund badstrand;60.215397700;19.696462008
+Hollola;Sairakkalan uimapaikka;61.008985044;25.319586706
+www.liikuntapaikat.fi;Luoman uimaranta;60.177336727;24.513427505
+Maaninka;Keskisaaren uimapaikka;63.168909050;27.266801871
+Pietarsaari;Uimaranta Fäboda;63.670430794;22.550320369
+Lapinjärvi;Särkjärven uimapaikka;60.517213013;26.373898373
+Kontiolahti;Latvajärven uimapaikka;62.801132958;29.910628992
+Mikkeli;Tuppuralan uimaranta;61.682438083;27.311612038
+www.liikuntapaikat.fi;Urheilukentän uimaranta;61.568033704;26.020556279
+Iitti;Kausala (iitti) uimapaikka;60.920230633;26.387092816
+Siilinjärvi;Kangaslammen uimapaikka;63.088519033;27.503383941
+Rautjärvi;Laikkolammen uimaranta;61.368117449;29.271466387
+www.liikuntapaikat.fi;Melalahden uimapaikka;62.917834875;28.149453195
+Kontiolahti;Salolahden uimapaikka;62.736634024;29.622423471
+Rovaniemi;Viirinkankaan uimaranta, Tammanlaakso;66.479578293;25.707582800
+www.liikuntapaikat.fi;Tjudö simstrand;60.326536376;19.948291041
+www.liikuntapaikat.fi;Kukuljärven uimapaikka;60.511957946;26.443719457
+Rautjärvi;Tiiliruukin uimaranta;61.444027992;29.352070846
+Tammela;Torajärven uimapaikka;60.920363066;23.881933739
+www.liikuntapaikat.fi;Särkjärven pohj.uimapaikka;60.519212365;26.383072836
+www.liikuntapaikat.fi;Valasjärven ranta;61.521576385;25.982894194
+www.liikuntapaikat.fi;Kaakamon uimapaikka;65.788691027;24.424564668
+Loimaa;Orisuon uimapaikka;61.003949941;23.112007514
+Jaala;Uimilan uimapaikka;61.161307459;26.311364492
+www.liikuntapaikat.fi;Bölsviks simplats;60.282225578;19.916127293
+www.liikuntapaikat.fi;Kirkonkylän uimapaikka;61.159194355;28.057619275
+www.liikuntapaikat.fi;Leväsen uimapaikka;61.210570305;27.954233449
+www.liikuntapaikat.fi;Konstun uimapaikka;61.133290770;28.073848259
+Vehmaa;Himoisten uimapaikka;60.677779852;21.578262741
+www.liikuntapaikat.fi;Vuorenkylän uimaranta;61.721888701;25.892393623
+Jaala;Paljakan uimapaikka;61.248384478;26.599083597
+www.liikuntapaikat.fi;Saimaanharjun uimapaikka;61.130280948;28.102160679
+Hollola;Korpikylän uimapaikka;60.959225832;25.410276227
+www.liikuntapaikat.fi;Kuoppalan uimapaikka;63.215036114;22.666696427
+www.liikuntapaikat.fi;Godby simstrand;60.241440371;20.001910037
+Kontiolahti;Kontiorannan varuskunnan uimaranta;62.731385941;29.811979053
+www.liikuntapaikat.fi;Ahvenkosken uimapaikka;60.498263469;26.446265188
+Vehmaa;Rautilan uimapaikka;60.617142965;21.695585106
+www.liikuntapaikat.fi;Sallatunturin uimaranta;66.765373379;28.762805909
+Kurikka;Pohjoiskylän uimaranta;62.601891089;22.135803523
+Heinola;Sonnasen uintipaikka;61.289981210;26.431446982
+www.liikuntapaikat.fi;Uimaranta;60.015097297;20.584095209
+Rautjärvi;Vekaruksen uimaranta;61.296497548;29.195402240
+Kontiolahti;Havukkalammen uimapaikka;62.628733656;30.158347053
+www.liikuntapaikat.fi;Ekolan uimapaikka;63.333346126;22.753516414
+Pietarsaari;Uimaranta Isohiekat;63.658565400;22.538954138
+Tyrnävä;Murron hiihtomaan uimapaikka;64.836969937;25.695490596
+Kuopio;Ritoniemen uimapaikka;62.798746214;27.910337916
+Pöytyä;Kakarlampi;60.736250138;22.918454431
+www.liikuntapaikat.fi;Leppäkosken ranta;61.646073142;25.874711552
+www.liikuntapaikat.fi;Sahan ranta;61.536425662;26.081094482
+www.liikuntapaikat.fi;Uimapaikka / niemelä;63.226514038;23.950191013
+Kontiolahti;Hirvirannan uimapaikka;62.713644716;29.792202298
+www.liikuntapaikat.fi;Koivuniemen uimapaikka;61.269038280;24.103205789
+Rautjärvi;Koantauksen uimaranta;61.474940567;29.257996526
+Kuopio;Puutosmäen uimapaikka;62.710663381;27.775483004
+Tammela;Oksjärven leirintäkeskus;60.802505642;23.942307734
+Tammela;Oksjärven kyläranta;60.793001376;23.939851802
+Tammela;Ruostejärven uimapaikka;60.715928102;23.791877460
+Tammela;Myllylahden uimapaikka;60.715638719;23.800431228
+Tammela;Letkun uimapaikka;60.697180925;23.755654147
+Tammela;Portaan jokiranta;60.755670013;23.918063901
+Tammela;Lamalan uimapaikka;60.805571688;23.795789596
+Tammela;Liesjärven ÝKopinlahti;60.672748255;23.853393854
+www.liikuntapaikat.fi;Merenlahden uimapaikka;61.098762274;28.025528494
+Tammela;Vekkilän uimapaikka;60.804113187;23.778765027
+Tammela;Kaukjärven uimapaikka;60.820533645;23.719485403
+Tammela;Manttaalin uimapaikka;60.805629574;23.769732651
+Loimaa;Kauhanojan uimapaikka;60.827181729;23.153463601
+Valkeala;Lautaron uimapaikka;60.901883689;26.769527332
+Yli-Kiiminki;Vepsänkylän uimapaikka;64.959580305;26.288333485
+Mikkeli;Laajalammen uimaranta/avantouintipaikka;61.667037122;27.270527623
+Kontiolahti;Nuottiniemen uimaranta;62.717329100;30.057436516
+Pyhtää;Purola;60.456463909;26.635751239
+Pyhtää;Koivuviikki;60.574176730;26.565539988
+www.liikuntapaikat.fi;Myllytyryn uimapaikka;60.423875553;22.893655054
+Mikkeli;Launialan uimaranta;61.690958985;27.321069017
+Pyhtää;Skitunäs;60.442120023;26.544818484
+Oulu;Saarelan uimaranta;64.996676638;25.569968558
+Kontiolahti;Kontiolahden sataman uimaranta;62.751777197;29.837791361
+Pyhtää;Flakanäs;60.404504803;26.569021380
+Kontiolahti;Varparannan uimaranta;62.850093823;29.787232791
+www.liikuntapaikat.fi;Liikuntapuiston uimapaikka;60.164154334;24.216012949
+Kontiolahti;Uimalammen uimaranta;62.649217372;29.687494265
+Vantaa;Matarinpuiston uimaranta;60.332720464;25.091254015
+Metsähallitus;Kuivajärvi laituri;63.506013310;25.055790009
+Metsähallitus;Raatejärvi laituri;63.504892672;25.023743854
+Metsähallitus;Saarijärvi uimalaituri;63.530255769;25.062664560
+Metsähallitus;Saarivesi laituri;63.718261928;24.679612260
+Metsähallitus;Pallasjärvi rantasauna uimalaituri;68.026510149;24.159882818
+Metsähallitus;Hannukuru uimalaituri;68.219375131;23.945812763
+Metsähallitus;Niemisjärvi invalaituri;61.215038265;25.014119877
+Metsähallitus;Hoikanlampi uimakoppi 1;64.200304754;27.726580551
+Metsähallitus;Hoikanlampi uimakoppi 2;64.200621266;27.724262705
+Metsähallitus;Hoikanlampi uimakoppi 3;64.196799342;27.726159443
+Metsähallitus;Laituri Pieni Palojärvi;63.103912748;25.390509576
+Metsähallitus;Vuotava uimakoppi;61.291797343;21.735076509
+Metsähallitus;Korkatti uimarannan pukeutumissuoja 2;64.192580444;25.534556925
+Metsähallitus;Luoston uimaranta;67.144807379;26.931491103
+Metsähallitus;Hohonjoki uimakoppi;62.239615749;26.262841728
+Metsähallitus;Hakunti uimakoppi;64.003472053;23.384787949
+Metsähallitus;Metsäpirtti laituri;63.020087292;29.916967717
+Metsähallitus;Hakolampi tulentekopaikan laituri;63.661077446;24.928623341
+Metsähallitus;Saaren kansanpuisto uimalaituri;60.776935802;23.850320359
+Metsähallitus;Aseman laituri;59.908689714;21.749403698
+Metsähallitus;Alamaja laituri;63.111287494;29.809070676
+Metsähallitus;Huhmarsaari laituri Kivijärvi;63.089641299;25.203573316
+Metsähallitus;OXKANGAR laituri;63.287302702;22.225155145
+Metsähallitus;Helvetinkolu;62.054485723;23.827866764
+Metsähallitus;Sysilampi laituri Salamajärvi;63.277524166;24.674809163
+Metsähallitus;Koirasalmi saunan laituri;63.235798609;24.822370481
+Metsähallitus;Lortikka uimalaituri;61.701418457;24.991947709
+Metsähallitus;Renusaari uimalaituri;61.720441363;24.969540410
+Metsähallitus;Särkijärvi uimalaituri;62.132546223;25.348569747
+Metsähallitus;Vuorilammi uimalaituri;62.085409464;25.257868687
+Metsähallitus;Iso Ruokejärvi;62.043533439;23.821797613
+Metsähallitus;Kurjenpesä laituri;60.740783015;22.411933036
+Metsähallitus;Hoikanlampi uimarannan laituri;64.200353285;27.725840759
+Metsähallitus;Hoikanlampi laituri 2;64.197095641;27.726105449
+Metsähallitus;Hoikanlampi laituri 1;64.199767230;27.724631519
+Metsähallitus;Hoikanlampi laituri 3;64.200611173;27.724488879
+Metsähallitus;Vähä-Valvatti laituri;63.387280100;24.671611221
+Metsähallitus;Valklampi laituri;60.311990070;24.465200286
+Metsähallitus;Valtionhotelli uimaranta laituri;61.799517143;29.304720198
+Metsähallitus;Piurukkajärvi laituri 2;64.357528134;24.901853262
+Metsähallitus;Piurukkajärvi laituri 1;64.355904528;24.905663237

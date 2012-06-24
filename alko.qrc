@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>myymos_default.txt</file>
+        <file>myymos_default_utf8.txt</file>
+        <file>myymos_default_ansi.txt</file>
+        <file alias="about.png">common/about.png</file>
+        <file alias="paperbg.png">common/paperbg.png</file>
+        <file alias="shake.png">common/shake.png</file>
+        <file alias="usericon.png">common/usericon.png</file>
+        <file alias="alkoon_logo.png">common/alkoon_logo.png</file>
+        <file alias="mapicon.png">common/mapicon3.png</file>
+        <file alias="pointer.png">common/pointer.png</file>
+        <file alias="corner.png">common/corner.png</file>
+        <file alias="shake_symbian.png">common/shake_symbian.png</file>
+        <file>uimapaikat.txt</file>
+        <file>uimapaikat_utf8.txt</file>
+    </qresource>
+</RCC>
