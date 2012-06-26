@@ -94,7 +94,8 @@ Page {
 
     Image {
         anchors.fill: parent
-        source: "qrc:/paperbg.png"
+        source: "qrc:/common/beach.jpg"
+        fillMode: Image.Stretch
     }
 
 
@@ -105,7 +106,8 @@ Page {
         anchors.horizontalCenter: parent.horizontalCenter
         width: 200
         height: 200
-        source: "qrc:/alkoon_logo.png"
+        source: "qrc:/common/buoy.png"
+        rotation: compassPointer.angle
 
         property int animationPace: 900
 
@@ -125,9 +127,10 @@ Page {
         color: alkoRed
         text: ""
         font.pixelSize: 20
-        anchors.bottom: logo.bottom
-        anchors.bottomMargin: 17
-        anchors.horizontalCenter: logo.horizontalCenter
+        anchors.centerIn: logo
+//        anchors.bottom: logo.bottom
+//        anchors.bottomMargin: 17
+//        anchors.horizontalCenter: logo.horizontalCenter
         font.family: "Nokia Pure Text"
         horizontalAlignment: Text.AlignHCenter
         opacity: 0.0
@@ -169,7 +172,7 @@ Page {
         font.family: "Nokia Pure Text"
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.top: logo.bottom
-        anchors.topMargin: 20
+        anchors.topMargin: 60
         //font.pointSize: 22
         font.pixelSize: 28
         opacity: 0.0

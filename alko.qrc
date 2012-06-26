@@ -14,5 +14,7 @@
         <file alias="shake_symbian.png">common/shake_symbian.png</file>
         <file>uimapaikat.txt</file>
         <file>uimapaikat_utf8.txt</file>
+        <file>common/beach.jpg</file>
+        <file>common/buoy.png</file>
     </qresource>
 </RCC>
