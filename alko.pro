@@ -6,13 +6,13 @@ DEPLOYMENTFOLDERS = folder_01
 # Additional import path used to resolve QML modules in Creator's code model
 QML_IMPORT_PATH =
 
-QT += core
+QT += core network
 
 # Dev UID
-# symbian:TARGET.UID3 = 0xE160B54A
+symbian:TARGET.UID3 = 0xE160B555
 
 #Store UID
-symbian:TARGET.UID3 = 0x2004b4c9
+#symbian:TARGET.UID3 = 0x2004b4c9
 
 # Smart Installer package's UID
 # This UID is from the protected range and therefore the package will
@@ -24,7 +24,7 @@ symbian:TARGET.UID3 = 0x2004b4c9
 # Allow network access on Symbian
 symbian:TARGET.CAPABILITY += NetworkServices Location
 
-symbian: DEPLOYMENT.display_name = Alkoon
+symbian: DEPLOYMENT.display_name = Uimaan
 
 symbian {
     VERSION = 1.0.0
@@ -52,7 +52,8 @@ CONFIG += qtquickcomponents
 SOURCES += main.cpp \
     alkofinder.cpp \
     alko.cpp \
-    alkomodel.cpp
+    alkomodel.cpp \
+    temperature.cpp
 
 # Please do not modify the following two lines. Required for deployment.
 include(qmlapplicationviewer/qmlapplicationviewer.pri)
@@ -70,7 +71,8 @@ OTHER_FILES += \
 HEADERS += \
     alkofinder.h \
     alko.h \
-    alkomodel.h
+    alkomodel.h \
+    temperature.h
 
 RESOURCES += \
     alko.qrc

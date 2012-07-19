@@ -83,8 +83,6 @@ Page {
                 }
             }
 
-            timeText.text = alko.openStatus
-
         }
     }
 
@@ -163,6 +161,26 @@ Page {
             PauseAnimation { duration: 3000 }
             NumberAnimation { target: compassPointer; property: "scale"; from: 1.0; to: 1.1; duration: 300 }
             NumberAnimation { target: compassPointer; property: "scale"; from: 1.1; to: 1.0; duration: 300 }
+        }
+    }
+
+    Text {
+        id: waterTemperatureText
+        text: alko.waterTemperature
+        font.family: "Nokia Pure Text"
+        anchors { top: parent.top; left: parent.left }
+        font.pixelSize: 18
+
+        onTextChanged: waterTemperatureTextAnimation.restart()
+
+        SequentialAnimation {
+            id: waterTemperatureTextAnimation
+            alwaysRunToEnd: true
+            running: false
+            loops: 1
+
+            NumberAnimation { target: waterTemperatureText; property: "scale"; from: 1.0; to: 1.1; duration: 300 }
+            NumberAnimation { target: waterTemperatureText; property: "scale"; from: 1.1; to: 1.0; duration: 300 }
         }
     }
 

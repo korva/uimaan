@@ -28,6 +28,9 @@ AlkoFinder::AlkoFinder(QObject *parent) :
 
     //m_model = new AlkoModel();
 
+    m_temperature = new Temperature();
+    connect(m_temperature, SIGNAL(ready()), this, SIGNAL(waterTemperatureChanged()));
+
     emit initializationComplete();
 
 }
@@ -99,6 +102,7 @@ void AlkoFinder::selectAlko(int index)
     if (m_targetCoordinate) delete m_targetCoordinate;
 
     m_targetCoordinate = new QGeoCoordinate(m_selectedAlko->latitude(), m_selectedAlko->longitude());
+    m_temperature->setCoordinate(m_selectedAlko->latitude(), m_selectedAlko->longitude());
 
     m_alkoFound = true;
 
@@ -109,11 +113,16 @@ void AlkoFinder::selectAlko(int index)
     emit phoneChanged();
     emit emailChanged();
     emit additionalInfoChanged();
-    emit openStatusChanged();
     emit alkoFoundChanged();
     emit targetChanged();
     emit latitudeChanged();
     emit longitudeChanged();
+
+    if (m_temperature)
+    {
+        emit waterTemperatureChanged();
+        emit airTemperatureChanged();
+    }
 
     return;
 }
@@ -220,83 +229,6 @@ QString AlkoFinder::additionalInfo() const
     return m_selectedAlko->additionalInfo();
 }
 
-QString AlkoFinder::openStatus()
-{
-    //qDebug() << "opesstatus";
-    if (!m_selectedAlko) return "";
-
-    QTime now = QTime::currentTime();
-    QDate date = QDate::currentDate();
-    int day = date.dayOfWeek();
-    QTime open = m_selectedAlko->opens(day);
-    QTime close = m_selectedAlko->closes(day);
-    QTime result = QTime(0, 0, 0, 0);
-
-    if (day == 7) // Sunday
-    {
-        //qDebug() << "AlkoFinder::openStatus sunday";
-        open = m_selectedAlko->opens(1);
-        m_isOpen = false; emit isOpenChanged();
-        return "Aukeaa maanantaina klo " + open.toString("H:mm");
-    }
-    else if(now > close) // past closing time
-    {
-        m_isOpen = false; emit isOpenChanged();
-        // opens next monday (it's saturday night, baby!)
-        if (day == 6)
-        {
-            //qDebug() << "AlkoFinder::openStatus closed sat";
-            open = m_selectedAlko->opens(1);
-            return "Aukeaa maanantaina klo " + open.toString("H:mm");
-        }
-        else
-        {
-            //qDebug() << "AlkoFinder::openStatus closed other";
-            open = m_selectedAlko->opens(day+1);
-            //qDebug() << "AlkoFinder::openStatus closed other: " << open.toString("H:mm");
-            return "Aukeaa huomenna klo " + open.toString("H:mm");
-        }
-
-    }
-    else if(now < open) // before opening time
-    {
-        m_isOpen = false; emit isOpenChanged();
-        //qDebug() << "AlkoFinder::openStatus early";
-        return "Aukeaa klo " + open.toString("H:mm");
-
-    }
-    else // we're open!
-    {
-        m_isOpen = true; emit isOpenChanged();
-        //qDebug() << "AlkoFinder::openStatus open!";
-        int remains = now.msecsTo(close);
-        //qDebug() << "AlkoFinder::openStatus open remains " << remains;
-        result = result.addMSecs(remains);
-        return "Avoinna vielä " + QString::number(result.hour()) + " h " + QString::number(result.minute()+1) + " min";
-    }
-
-}
-
-QString AlkoFinder::openStatusSimple(int day) const
-{
-    if (day >= 7) return "";
-    if (!m_selectedAlko) return "";
-
-    QTime open = m_selectedAlko->opens(day);
-    QTime close = m_selectedAlko->closes(day);
-    QString result = "";
-
-    if (open.hour() == 0) return "suljettu";
-
-    result += QString::number(open.hour());
-    if (open.minute() != 0) result += ":" + QString::number(open.minute());
-    result += "-";
-    result += QString::number(close.hour());
-    if (close.minute() != 0) result +=  ":" + QString::number(close.minute());
-
-    return result;
-}
-
 bool AlkoFinder::positionFound() const
 {
     //qDebug() << "posfound";
@@ -309,11 +241,6 @@ bool AlkoFinder::alkoFound() const
     return m_alkoFound;
 }
 
-bool AlkoFinder::isOpen() const
-{
-    //qDebug() << "isopen";
-    return m_isOpen;
-}
 
 AlkoModel* AlkoFinder::model()
 {
@@ -339,4 +266,15 @@ void AlkoFinder::launchMaps() const
 
 }
 
+QString AlkoFinder::waterTemperature() const
+{
+    if(m_temperature) return m_temperature->waterTemperature();
+    else return "N/A";
+}
+
+QString AlkoFinder::airTemperature() const
+{
+    if(m_temperature) return QString::number(m_temperature->airTemperature());
+    else return 0;
+}
 

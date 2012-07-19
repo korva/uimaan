@@ -9,6 +9,7 @@
 #include <QDesktopServices>
 #include "alko.h"
 #include "alkomodel.h"
+#include "temperature.h"
 
 QTM_USE_NAMESPACE
 
@@ -23,7 +24,6 @@ class AlkoFinder : public QObject
     Q_PROPERTY(QString phone READ phone NOTIFY phoneChanged)
     Q_PROPERTY(QString email READ email NOTIFY emailChanged)
     Q_PROPERTY(QString additionalInfo READ additionalInfo NOTIFY additionalInfoChanged)
-    Q_PROPERTY(QString openStatus READ openStatus NOTIFY openStatusChanged)
     Q_PROPERTY(qreal distance READ distance NOTIFY distanceChanged)
     Q_PROPERTY(qreal azimuth READ azimuth NOTIFY azimuthChanged)
     Q_PROPERTY(qreal latitude READ latitude NOTIFY latitudeChanged)
@@ -32,9 +32,11 @@ class AlkoFinder : public QObject
     Q_PROPERTY(qreal currentLongitude READ currentLongitude NOTIFY currentLongitudeChanged)
     Q_PROPERTY(bool positionFound READ positionFound NOTIFY positionFoundChanged)
     Q_PROPERTY(bool alkoFound READ alkoFound NOTIFY alkoFoundChanged)
-    Q_PROPERTY(bool isOpen READ isOpen NOTIFY isOpenChanged)
     Q_PROPERTY(AlkoModel* model READ model WRITE setModel NOTIFY modelChanged)
     //Q_PROPERTY(QString selectedAlko READ selectedAlko WRITE setSelectedAlko)
+
+    Q_PROPERTY(QString waterTemperature READ waterTemperature NOTIFY waterTemperatureChanged)
+    Q_PROPERTY(QString airTemperature READ airTemperature NOTIFY airTemperatureChanged)
 
 public:
     explicit AlkoFinder(QObject *parent = 0);
@@ -51,8 +53,6 @@ public:
     QString phone() const;
     QString email() const;
     QString additionalInfo() const;
-    QString openStatus();
-    Q_INVOKABLE QString openStatusSimple(int day) const;
 
     qreal distance() const;
     qreal azimuth() const;
@@ -63,7 +63,9 @@ public:
     qreal currentLongitude() const;
     bool positionFound() const;
     bool alkoFound() const;
-    bool isOpen() const;
+
+    QString waterTemperature() const;
+    QString airTemperature() const;
 
     AlkoModel* model();
     void setModel(QObject* model);
@@ -80,12 +82,10 @@ signals:
     void phoneChanged();
     void emailChanged();
     void additionalInfoChanged();
-    void openStatusChanged();
     void distanceChanged();
     void azimuthChanged();
     void positionFoundChanged();
     void alkoFoundChanged();
-    void isOpenChanged();
     void initializationComplete();
     void modelChanged();
     void targetChanged();
@@ -93,6 +93,8 @@ signals:
     void longitudeChanged();
     void currentLatitudeChanged();
     void currentLongitudeChanged();
+    void waterTemperatureChanged();
+    void airTemperatureChanged();
 
 public slots:
     void positionUpdated(const QGeoPositionInfo &info);
@@ -110,6 +112,8 @@ private:
 
     AlkoModel* m_model;
     Alko* m_selectedAlko;
+
+    Temperature* m_temperature;
 
     //void setAlko();
 

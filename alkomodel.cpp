@@ -44,7 +44,7 @@ bool AlkoModel::initialize(QString filename)
         QString line = in.readLine().toLatin1();
         //QString line = in.readLine().toUtf8();
 
-        qDebug() << "AlkoModel::initialize line: " << line;
+        //qDebug() << "AlkoModel::initialize line: " << line;
 
         //detect title lines, only accept valid for initializing
         if (line == "")  continue;
@@ -57,7 +57,7 @@ bool AlkoModel::initialize(QString filename)
         {
             alko->initialize(line);
             m_alkos.append(alko);
-            qDebug() << "AlkoModel::initialize appended " + m_alkos[m_alkos.length() - 1]->name();
+            //qDebug() << "AlkoModel::initialize appended " + m_alkos[m_alkos.length() - 1]->name();
         }
         else qDebug() << "Error creating Alko-object";
 
