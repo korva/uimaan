@@ -11,5 +11,9 @@
         <file>uimapaikat.txt</file>
         <file>common/beach.jpg</file>
         <file>common/buoy.png</file>
+        <file>common/drop.png</file>
+        <file>common/woodenwall.jpg</file>
+        <file>common/buoy2.png</file>
+        <file>common/sign.png</file>
     </qresource>
 </RCC>

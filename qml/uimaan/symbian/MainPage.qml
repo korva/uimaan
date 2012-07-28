@@ -21,7 +21,6 @@ Page {
             name: "noPosition"
             when: !spot.positionFound && !spotSelectedWithoutLocation
             PropertyChanges { target: titleText; opacity: 0.0}
-            PropertyChanges { target: timeText; opacity: 0.0}
             PropertyChanges { target: mapButton; opacity: 0.0}
             PropertyChanges { target: infoButton; opacity: 0.0}
             PropertyChanges { target: distanceText; opacity: 0.0}
@@ -34,7 +33,6 @@ Page {
             when: !spot.positionFound && spotSelectedWithoutLocation
             PropertyChanges { target: titleText; opacity: 1.0}
             PropertyChanges { target: addressText; opacity: 1.0}
-            PropertyChanges { target: timeText; opacity: 0.0}
             PropertyChanges { target: mapButton; opacity: 1.0}
             PropertyChanges { target: infoButton; opacity: 1.0}
             PropertyChanges { target: distanceText; opacity: 0.0}
@@ -47,7 +45,6 @@ Page {
             when: spot.positionFound
             PropertyChanges { target: titleText; opacity: 1.0}
             PropertyChanges { target: addressText; opacity: 1.0}
-            PropertyChanges { target: timeText; opacity: 0.0}
             PropertyChanges { target: mapButton; opacity: 1.0}
             PropertyChanges { target: infoButton; opacity: 1.0}
             PropertyChanges { target: distanceText; opacity: 1.0}
@@ -92,7 +89,7 @@ Page {
 
     Image {
         anchors.fill: parent
-        source: "qrc:/common/beach.jpg"
+        source: "qrc:/common/woodenwall.jpg"
         fillMode: Image.Stretch
     }
 
@@ -102,9 +99,9 @@ Page {
         anchors.top: parent.top
         anchors.topMargin: 40
         anchors.horizontalCenter: parent.horizontalCenter
-        width: 200
-        height: 200
-        source: "qrc:/common/buoy.png"
+        width: 260
+        height: 260
+        source: "qrc:/common/buoy2.png"
         rotation: compassPointer.angle
 
         property int animationPace: 900
@@ -120,29 +117,56 @@ Page {
         }
     }
 
-    Text {
-        id: distanceText
-        color: spotRed
-        text: ""
-        font.pixelSize: 20
+    Column {
         anchors.centerIn: logo
-//        anchors.bottom: logo.bottom
-//        anchors.bottomMargin: 17
-//        anchors.horizontalCenter: logo.horizontalCenter
-        font.family: "Nokia Pure Text"
-        horizontalAlignment: Text.AlignHCenter
-        opacity: 0.0
+        spacing: 10
 
-        SequentialAnimation {
-            id: distanceTextAnimation
-            alwaysRunToEnd: true
-            running: false
-            loops: 1
+        Text {
+            id: distanceText
+            color: spotRed
+            text: ""
+            font.pixelSize: 20
+            anchors.horizontalCenter: parent.horizontalCenter
 
-            NumberAnimation { target: titleText; property: "scale"; from: 1.0; to: 1.1; duration: 300 }
-            NumberAnimation { target: titleText; property: "scale"; from: 1.1; to: 1.0; duration: 300 }
+
+            font.family: "Nokia Pure Text"
+            horizontalAlignment: Text.AlignHCenter
+            opacity: 0.0
+
+            SequentialAnimation {
+                id: distanceTextAnimation
+                alwaysRunToEnd: true
+                running: false
+                loops: 1
+
+                NumberAnimation { target: titleText; property: "scale"; from: 1.0; to: 1.1; duration: 300 }
+                NumberAnimation { target: titleText; property: "scale"; from: 1.1; to: 1.0; duration: 300 }
+            }
+        }
+
+        Text {
+            id: waterTemperatureText
+            anchors.horizontalCenter: parent.horizontalCenter
+            text: "Vesi: " + spot.waterTemperature + " °C"
+            font.family: "Nokia Pure Text"
+            color: spotRed
+            font.pixelSize: 20
+
+            onTextChanged: waterTemperatureTextAnimation.restart()
+
+            SequentialAnimation {
+                id: waterTemperatureTextAnimation
+                alwaysRunToEnd: true
+                running: false
+                loops: 1
+
+                NumberAnimation { target: waterTemperatureText; property: "scale"; from: 1.0; to: 1.1; duration: 300 }
+                NumberAnimation { target: waterTemperatureText; property: "scale"; from: 1.1; to: 1.0; duration: 300 }
+            }
         }
     }
+
+
 
     CompassPointer {
         id: compassPointer
@@ -164,25 +188,24 @@ Page {
         }
     }
 
-    Text {
-        id: waterTemperatureText
-        text: spot.waterTemperature
-        font.family: "Nokia Pure Text"
-        anchors { top: parent.top; left: parent.left }
-        font.pixelSize: 18
 
-        onTextChanged: waterTemperatureTextAnimation.restart()
 
-        SequentialAnimation {
-            id: waterTemperatureTextAnimation
-            alwaysRunToEnd: true
-            running: false
-            loops: 1
+    Rectangle {
+        id: sign
 
-            NumberAnimation { target: waterTemperatureText; property: "scale"; from: 1.0; to: 1.1; duration: 300 }
-            NumberAnimation { target: waterTemperatureText; property: "scale"; from: 1.1; to: 1.0; duration: 300 }
-        }
+        anchors.left: parent.left
+        anchors.top: titleText.top
+        anchors.topMargin: -10
+        anchors.bottom: addressText.bottom
+        anchors.bottomMargin: -10
+        width: parent.width
+        color: "white"
+        opacity: 0.5
+
     }
+
+
+
 
     Text {
         id: titleText
@@ -190,7 +213,7 @@ Page {
         font.family: "Nokia Pure Text"
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.top: logo.bottom
-        anchors.topMargin: 60
+        anchors.topMargin: 20
         //font.pointSize: 22
         font.pixelSize: 28
         opacity: 0.0
@@ -225,7 +248,6 @@ Page {
         onTextChanged: {
             nameTextAnimation.restart()
             addressTextAnimation.restart()
-            timeTextAnimation.restart()
             compassPointerAnimation.restart()
         }
 
@@ -268,33 +290,10 @@ Page {
         }
     }
 
-    Text {
-        id: timeText
-        text: ""
-        color: spot.isOpen ? spotGreen : spotRed
-        anchors.horizontalCenter: parent.horizontalCenter
-        //font.pointSize: 26
-        font.pixelSize: 28
-        anchors.top: addressText.bottom
-        anchors.topMargin: 2
-        font.family: "Nokia Pure Text"
-        opacity: 0.0
 
-        SequentialAnimation {
-            id: timeTextAnimation
-            alwaysRunToEnd: true
-            running: false
-            loops: 1
-
-            PauseAnimation { duration: 200 }
-            NumberAnimation { target: timeText; property: "scale"; from: 1.0; to: 1.1; duration: 300 }
-            NumberAnimation { target: timeText; property: "scale"; from: 1.1; to: 1.0; duration: 300 }
-        }
-
-    }
 
     Row {
-        anchors {top: timeText.bottom; topMargin: 26; horizontalCenter: parent.horizontalCenter}
+        anchors {top: addressText.bottom; topMargin: 36; horizontalCenter: parent.horizontalCenter}
         spacing: 20
 
         Button {

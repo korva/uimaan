@@ -197,7 +197,13 @@ QString SpotFinder::address() const
 {
     //qDebug() << "address";
     if (!m_selectedSpot) return "";
-    return m_selectedSpot->address();
+
+    if(m_selectedSpot->address() == "www.liikuntapaikat.fi"
+            || m_selectedSpot->address() == "Kansanterveyslaitos, SYKE")
+    {
+        return "";
+    }
+    else return m_selectedSpot->address();
 }
 
 QString SpotFinder::postcode() const
