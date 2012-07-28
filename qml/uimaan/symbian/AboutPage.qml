@@ -19,8 +19,8 @@ Page {
         font.pixelSize: 28
         font.family: "Nokia Pure Text"
         horizontalAlignment: Text.AlignHCenter
-        text: "Alkoon v1.0"
-        color: alkoRed
+        text: "Uimaan v1.0"
+        color: spotRed
         platformInverted: true
     }
 
@@ -57,7 +57,7 @@ Page {
         font.pixelSize: 20
         font.family: "Nokia Pure Text"
         horizontalAlignment: Text.AlignHCenter
-        text: "Löydä lähin Alkon myymälä. Helposti!"
+        text: "Löydä lähin uimapaikka. Helposti!"
         wrapMode: Text.WordWrap
         platformInverted: true
     }
@@ -70,7 +70,7 @@ Page {
         horizontalAlignment: Text.AlignHCenter
         platformInverted: true
         wrapMode: Text.WordWrap
-        text: "Kaikki sovelluksen data on peräisin Alko Oy:n verkkopalvelusta. Tässä sovelluksen versiossa ei vielä tunnisteta erikoispäivien aukioloaikoja, ne ovat saatavilla verkkopalvelusta. "
+        text: "Kaikki sovelluksen data on peräisin OIVA - Ympäristö- ja paikkatietopalvelusta."
 
 
     }
@@ -78,36 +78,16 @@ Page {
     Button {
         id: button4
         anchors { top: label4.bottom; topMargin: 6; horizontalCenter: parent.horizontalCenter }
-        text: "Avaa www.alko.fi"
-        onClicked: Qt.openUrlExternally("http://www.alko.fi")
+        text: "Avaa Oiva -sivusto"
+        onClicked: Qt.openUrlExternally("http://wwwp2.ymparisto.fi/scripts/oiva.asp")
         platformInverted: true
     }
 
-    Label {
-        id: label5
-        anchors {top: button4.bottom; topMargin: 10; left: parent.left; leftMargin: 10; right: parent.right; rightMargin: 10 }
-        font.pixelSize: 14
-        font.family: "Nokia Pure Text"
-        horizontalAlignment: Text.AlignHCenter
-        textFormat: Text.RichText
-        text: "Alkoon on saatavilla myös iPhonelle App Storesta!\nVinkkaa kaverillesi."
-        platformInverted: true
-        wrapMode: Text.WordWrap
 
-
-    }
-
-    Button {
-        id: button5
-        anchors { top: label5.bottom; topMargin: 6; horizontalCenter: parent.horizontalCenter }
-        text: "Kirjoita viesti"
-        platformInverted: true
-        onClicked: Qt.openUrlExternally("mailto:?subject=Alkoon&body=Kokeilehan Alkoon -applikaatiota iPhonelle, suosittelen lämpimästi!\nLinkki App Storeen:\nhttp://itunes.apple.com/us/app/alkoon/id512594834?ls=1&mt=8")
-    }
 
     Label {
         id: label6
-        anchors {top: button5.bottom; topMargin: 10; left: parent.left; leftMargin: 10; right: parent.right; rightMargin: 10 }
+        anchors {top: button4.bottom; topMargin: 10; left: parent.left; leftMargin: 10; right: parent.right; rightMargin: 10 }
         font.pixelSize: 14
         font.family: "Nokia Pure Text"
         horizontalAlignment: Text.AlignHCenter
@@ -145,7 +125,7 @@ Page {
         anchors { top: label7.bottom; topMargin: 6; horizontalCenter: parent.horizontalCenter }
         text: "Kirjoita palaute"
         platformInverted: true
-        onClicked: Qt.openUrlExternally("mailto:korva@ovi.com?subject=Alkoon/Palaute&body=Palautetta versiosta 1.0:")
+        onClicked: Qt.openUrlExternally("mailto:korva@ovi.com?subject=Uimaan/Palaute&body=Palautetta Symbian versiosta 1.0:")
     }
 
 

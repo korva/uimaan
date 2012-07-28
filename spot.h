@@ -1,5 +1,5 @@
-#ifndef ALKO_H
-#define ALKO_H
+#ifndef SPOT_H
+#define SPOT_H
 
 #include <QObject>
 #include <QTime>
@@ -7,18 +7,18 @@
 
 QTM_USE_NAMESPACE
 
-class Alko : public QObject
+class Spot : public QObject
 {
     Q_OBJECT
 
     //Q_PROPERTY(QString name READ name NOTIFY nameChanged)
 
 public:
-    Alko(QObject *parent = 0);
+    Spot(QObject *parent = 0);
 
-    bool operator<(const Alko *other ) const;
+    bool operator<(const Spot *other ) const;
 
-    enum alkoSortMode {SortByName, SortByLocation};
+    enum spotSortMode {SortByName, SortByLocation};
 
     bool initialize(QString data);
 
@@ -39,7 +39,7 @@ public:
     QTime opens(int day) const;
     QTime closes(int day) const;
 
-    alkoSortMode sortMode;
+    spotSortMode sortMode;
 
 signals:
     void nameChanged();
@@ -69,4 +69,4 @@ private:
 
 };
 
-#endif // ALKO_H
+#endif // SPOT_H

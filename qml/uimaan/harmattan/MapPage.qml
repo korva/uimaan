@@ -1,5 +1,5 @@
 import QtQuick 1.1
-import com.nokia.symbian 1.1
+import com.nokia.meego 1.0
 import QtMobility.location 1.2
 
 Page {
@@ -23,19 +23,19 @@ Page {
         // hack to enable map update... :(
         map.center = userCoordinate
         map.zoomLevel = 15
-        map.center = alkoCoordinate
+        map.center = spotCoordinate
     }
 
     Coordinate {
-        id: alkoCoordinate
-        latitude: alko.latitude
-        longitude: alko.longitude
+        id: spotCoordinate
+        latitude: spot.latitude
+        longitude: spot.longitude
     }
 
     Coordinate {
         id: userCoordinate
-        latitude: alko.currentLatitude
-        longitude: alko.currentLongitude
+        latitude: spot.currentLatitude
+        longitude: spot.currentLongitude
     }
 
     Map {
@@ -47,11 +47,11 @@ Page {
         size.width: parent.width
         size.height: parent.height
         zoomLevel: 15
-        center: alkoCoordinate
+        center: spotCoordinate
 
         MapImage {
             source: "qrc:/mapicon.png"
-            coordinate: alkoCoordinate
+            coordinate: spotCoordinate
             offset.x: -width/2
             offset.y: -height/2
         }
@@ -156,24 +156,24 @@ Page {
     ToolBarLayout {
         id: mapTools
         visible: true
-        ToolButton {
-            iconSource: "toolbar-back"
+        ToolIcon {
+            platformIconId: "toolbar-back"
             anchors.left: (parent === undefined) ? undefined : parent.left
             onClicked: {
                 pageStack.pop()
             }
         }
 
-        ToolButton {
-            iconSource: "location_mark.svg"
+        ToolIcon {
+            iconSource: "image://theme/icon-s-location-picker"
             onClicked: {
                 centerMap()
             }
         }
 
 
-        ToolButton {
-            iconSource: "drive.svg"
+        ToolIcon {
+            iconSource: "image://theme/icon-s-common-drive"
             onClicked: mapsDialog.open()
         }
 
@@ -186,30 +186,15 @@ Page {
     QueryDialog {
         id: mapsDialog
         titleText: "Avaa Kartat?"
-        message: "Avataanko Nokia Kartat navigointia varten?\n\nAlkoon jää taustalle auki."
+        message: "Avataanko Nokia Kartat navigointia varten?\n\nVoit palata tänne avoimien sovellusten listasta."
         rejectButtonText: "Ei"
         acceptButtonText: "Kyllä"
 
         onAccepted: {
-            alko.launchMaps()
+            spot.launchMaps()
         }
 
     }
-
-    Image {
-        id: topLeftCorner
-        anchors { top: parent.top; left: parent.left }
-        source: "qrc:/corner.png"
-    }
-
-    Image {
-        id: topRightCorner
-        anchors { top: parent.top; right: parent.right }
-        source: "qrc:/corner.png"
-        rotation: 90
-    }
-
-
 
 
 }

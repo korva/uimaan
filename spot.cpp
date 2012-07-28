@@ -1,9 +1,9 @@
-#include "alko.h"
+#include "spot.h"
 #include <QDebug>
 
 const char SEPARATOR = ';';
 
-Alko::Alko(QObject *parent):
+Spot::Spot(QObject *parent):
     QObject(parent)
 {
     m_name = "";
@@ -17,19 +17,19 @@ Alko::Alko(QObject *parent):
     m_longitude = 0;
     m_distance = 0;
 
-    sortMode = Alko::SortByName;
+    sortMode = Spot::SortByName;
 
 
 }
 
-bool Alko::operator< (const Alko *other) const
+bool Spot::operator< (const Spot *other) const
 {
-    if (sortMode == Alko::SortByName)
+    if (sortMode == Spot::SortByName)
     {
         //qDebug() << "operator< name";
         return m_name < other->name();
     }
-    else if (sortMode == Alko::SortByLocation)
+    else if (sortMode == Spot::SortByLocation)
     {
         //qDebug() << "operator< location";
         return m_distance < other->distance();
@@ -38,7 +38,7 @@ bool Alko::operator< (const Alko *other) const
     return false;
 }
 
-bool Alko::initialize(QString data)
+bool Spot::initialize(QString data)
 {
     // format is Imatra;Ukonlinnan rantauimala;61.206688969;28.722762284
     m_name = data.section(SEPARATOR, 1, 1);
@@ -52,7 +52,7 @@ bool Alko::initialize(QString data)
     return true;
 }
 
-void Alko::parseTime(QString time)
+void Spot::parseTime(QString time)
 {
     //qDebug() << "parseTime: " << time;
 
@@ -121,74 +121,74 @@ void Alko::parseTime(QString time)
     return;
 }
 
-QString Alko::name() const
+QString Spot::name() const
 {
-    //qDebug() << "AlkoName";
+    //qDebug() << "SpotName";
     return m_name;
 }
 
-QString Alko::address() const
+QString Spot::address() const
 {
     return m_address;
 }
 
-QString Alko::postcode() const
+QString Spot::postcode() const
 {
     return m_postcode;
 }
 
-QString Alko::city() const
+QString Spot::city() const
 {
     return m_city;
 }
 
-QString Alko::phone() const
+QString Spot::phone() const
 {
     return m_phone;
 }
 
-QString Alko::email() const
+QString Spot::email() const
 {
     return m_email;
 }
 
-QString Alko::additionalInfo() const
+QString Spot::additionalInfo() const
 {
     return m_additionalInfo;
 }
 
-qreal Alko::latitude() const
+qreal Spot::latitude() const
 {
     return m_latitude;
 }
 
-qreal Alko::longitude() const
+qreal Spot::longitude() const
 {
     return m_longitude;
 }
-qreal Alko::distance() const
+qreal Spot::distance() const
 {
     return m_distance;
 }
 
-QString Alko::storeId() const
+QString Spot::storeId() const
 {
     return m_storeId;
 }
 
-void Alko::setDistance(qreal amount)
+void Spot::setDistance(qreal amount)
 {
     m_distance = amount;
 }
 
-QTime Alko::opens(int day) const
+QTime Spot::opens(int day) const
 {
     if(day < 1 || day > m_openingHours.size()) return QTime(0,0,0,0);
 
     return m_openingHours[day-1];
 }
 
-QTime Alko::closes(int day) const
+QTime Spot::closes(int day) const
 {
     if(day < 1 || day > m_closingHours.size()) return QTime(0,0,0,0);
 

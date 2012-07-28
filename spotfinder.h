@@ -1,5 +1,5 @@
-#ifndef ALKOFINDER_H
-#define ALKOFINDER_H
+#ifndef SPOTFINDER_H
+#define SPOTFINDER_H
 
 #include <QObject>
 #include <qgeocoordinate.h>
@@ -7,13 +7,13 @@
 #include <qgeopositioninfosource.h>
 #include <QUrl>
 #include <QDesktopServices>
-#include "alko.h"
-#include "alkomodel.h"
+#include "spot.h"
+#include "spotmodel.h"
 #include "temperature.h"
 
 QTM_USE_NAMESPACE
 
-class AlkoFinder : public QObject
+class SpotFinder : public QObject
 {
     Q_OBJECT
 
@@ -31,18 +31,18 @@ class AlkoFinder : public QObject
     Q_PROPERTY(qreal currentLatitude READ currentLatitude NOTIFY currentLatitudeChanged)
     Q_PROPERTY(qreal currentLongitude READ currentLongitude NOTIFY currentLongitudeChanged)
     Q_PROPERTY(bool positionFound READ positionFound NOTIFY positionFoundChanged)
-    Q_PROPERTY(bool alkoFound READ alkoFound NOTIFY alkoFoundChanged)
-    Q_PROPERTY(AlkoModel* model READ model WRITE setModel NOTIFY modelChanged)
-    //Q_PROPERTY(QString selectedAlko READ selectedAlko WRITE setSelectedAlko)
+    Q_PROPERTY(bool spotFound READ spotFound NOTIFY spotFoundChanged)
+    Q_PROPERTY(SpotModel* model READ model WRITE setModel NOTIFY modelChanged)
+    //Q_PROPERTY(QString selectedSpot READ selectedSpot WRITE setSelectedSpot)
 
     Q_PROPERTY(QString waterTemperature READ waterTemperature NOTIFY waterTemperatureChanged)
     Q_PROPERTY(QString airTemperature READ airTemperature NOTIFY airTemperatureChanged)
 
 public:
-    explicit AlkoFinder(QObject *parent = 0);
-    ~AlkoFinder();
+    explicit SpotFinder(QObject *parent = 0);
+    ~SpotFinder();
 
-    Q_INVOKABLE void selectAlko(int index);
+    Q_INVOKABLE void selectSpot(int index);
     Q_INVOKABLE void sortByLocation();
     Q_INVOKABLE void sortByName();
 
@@ -62,12 +62,12 @@ public:
     qreal currentLatitude() const;
     qreal currentLongitude() const;
     bool positionFound() const;
-    bool alkoFound() const;
+    bool spotFound() const;
 
     QString waterTemperature() const;
     QString airTemperature() const;
 
-    AlkoModel* model();
+    SpotModel* model();
     void setModel(QObject* model);
 
     Q_INVOKABLE void launchMaps() const;
@@ -85,7 +85,7 @@ signals:
     void distanceChanged();
     void azimuthChanged();
     void positionFoundChanged();
-    void alkoFoundChanged();
+    void spotFoundChanged();
     void initializationComplete();
     void modelChanged();
     void targetChanged();
@@ -106,19 +106,19 @@ private:
     qreal m_azimuth;
     qreal m_distance;
     bool m_positionFound;
-    bool m_alkoFound;
+    bool m_spotFound;
     bool m_isOpen;
 
 
-    AlkoModel* m_model;
-    Alko* m_selectedAlko;
+    SpotModel* m_model;
+    Spot* m_selectedSpot;
 
     Temperature* m_temperature;
 
-    //void setAlko();
+    //void setSpot();
 
 
 
 };
 
-#endif // ALKOFINDER_H
+#endif // SPOTFINDER_H

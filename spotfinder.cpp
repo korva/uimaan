@@ -1,19 +1,19 @@
-#include "alkofinder.h"
+#include "spotfinder.h"
 #include <qplatformdefs.h> // MEEGO_EDITION_HARMATTAN
 #include <QDebug>
 
-AlkoFinder::AlkoFinder(QObject *parent) :
+SpotFinder::SpotFinder(QObject *parent) :
     QObject(parent)
 {
     m_source = NULL;
     m_azimuth = 0;
     m_distance = 0;
     m_positionFound = false;
-    m_alkoFound = false;
+    m_spotFound = false;
     m_isOpen = false;
     m_targetCoordinate = NULL;
     m_currentCoordinate = NULL;
-    m_selectedAlko = NULL;
+    m_selectedSpot = NULL;
     m_model = NULL;
 
     m_source = QGeoPositionInfoSource::createDefaultSource(0);
@@ -26,7 +26,7 @@ AlkoFinder::AlkoFinder(QObject *parent) :
         //qDebug() << "position source created";
     }
 
-    //m_model = new AlkoModel();
+    //m_model = new SpotModel();
 
     m_temperature = new Temperature();
     connect(m_temperature, SIGNAL(ready()), this, SIGNAL(waterTemperatureChanged()));
@@ -35,12 +35,12 @@ AlkoFinder::AlkoFinder(QObject *parent) :
 
 }
 
-AlkoFinder::~AlkoFinder()
+SpotFinder::~SpotFinder()
 {
     if (m_source) delete m_source;
 }
 
-void AlkoFinder::positionUpdated(const QGeoPositionInfo &info)
+void SpotFinder::positionUpdated(const QGeoPositionInfo &info)
 {
     //qDebug() << "position update";
 
@@ -50,17 +50,17 @@ void AlkoFinder::positionUpdated(const QGeoPositionInfo &info)
     emit currentLatitudeChanged();
     emit currentLongitudeChanged();
 
-    // by default, select nearest Alko if none is selected (at startup)
-    if (!m_alkoFound && m_model)
+    // by default, select nearest Spot if none is selected (at startup)
+    if (!m_spotFound && m_model)
     {
         m_model->sortByLocation(m_currentCoordinate);
-        selectAlko(0);
-        m_alkoFound = true;
-        emit alkoFoundChanged();
+        selectSpot(0);
+        m_spotFound = true;
+        emit spotFoundChanged();
 
     }
 
-    // calculate azimuth and distance to the selected Alko
+    // calculate azimuth and distance to the selected Spot
     if (m_targetCoordinate)
     {
         //m_azimuth = m_targetCoordinate->azimuthTo(info.coordinate());
@@ -79,32 +79,32 @@ void AlkoFinder::positionUpdated(const QGeoPositionInfo &info)
     }
 }
 
-void AlkoFinder::selectAlko(int index)
+void SpotFinder::selectSpot(int index)
 {
-    //qDebug() << "AlkoFinder::selectAlko";
+    //qDebug() << "SpotFinder::selectSpot";
 
     if (m_model == NULL)
     {
-        qDebug() << "AlkoFinder::selectAlko no model!";
-        m_alkoFound = false;
+        qDebug() << "SpotFinder::selectSpot no model!";
+        m_spotFound = false;
         return;
     }
 
-    m_selectedAlko = m_model->alkoAt(index);
+    m_selectedSpot = m_model->spotAt(index);
 
-    if (m_selectedAlko == NULL)
+    if (m_selectedSpot == NULL)
     {
-        qDebug() << "AlkoFinder::selectAlko NULL";
-        m_alkoFound = false;
+        qDebug() << "SpotFinder::selectSpot NULL";
+        m_spotFound = false;
         return;
     }
 
     if (m_targetCoordinate) delete m_targetCoordinate;
 
-    m_targetCoordinate = new QGeoCoordinate(m_selectedAlko->latitude(), m_selectedAlko->longitude());
-    m_temperature->setCoordinate(m_selectedAlko->latitude(), m_selectedAlko->longitude());
+    m_targetCoordinate = new QGeoCoordinate(m_selectedSpot->latitude(), m_selectedSpot->longitude());
+    m_temperature->setCoordinate(m_selectedSpot->latitude(), m_selectedSpot->longitude());
 
-    m_alkoFound = true;
+    m_spotFound = true;
 
     emit nameChanged();
     emit addressChanged();
@@ -113,7 +113,7 @@ void AlkoFinder::selectAlko(int index)
     emit phoneChanged();
     emit emailChanged();
     emit additionalInfoChanged();
-    emit alkoFoundChanged();
+    emit spotFoundChanged();
     emit targetChanged();
     emit latitudeChanged();
     emit longitudeChanged();
@@ -127,7 +127,7 @@ void AlkoFinder::selectAlko(int index)
     return;
 }
 
-void AlkoFinder::sortByLocation()
+void SpotFinder::sortByLocation()
 {
     if(!m_model || !m_currentCoordinate) return;
 
@@ -137,142 +137,142 @@ void AlkoFinder::sortByLocation()
     return;
 }
 
-void AlkoFinder::sortByName()
+void SpotFinder::sortByName()
 {
     if(!m_model) return;
     m_model->sortByName();
     emit modelChanged();
 }
 
-qreal AlkoFinder::azimuth() const
+qreal SpotFinder::azimuth() const
 {
     return m_azimuth;
 }
 
-qreal AlkoFinder::distance() const
+qreal SpotFinder::distance() const
 {
-    if (!m_selectedAlko) return 0;
+    if (!m_selectedSpot) return 0;
     //int for easier UI creation...
-    int dist = m_selectedAlko->distance();
+    int dist = m_selectedSpot->distance();
     return dist;
 }
 
-QGeoCoordinate* AlkoFinder::target() const
+QGeoCoordinate* SpotFinder::target() const
 {
     if (!m_targetCoordinate) return new QGeoCoordinate();
     else return m_targetCoordinate;
 }
 
-qreal AlkoFinder::latitude() const
+qreal SpotFinder::latitude() const
 {
     if (!m_targetCoordinate) return 0;
     else return m_targetCoordinate->latitude();
 }
 
-qreal AlkoFinder::longitude() const
+qreal SpotFinder::longitude() const
 {
     if (!m_targetCoordinate) return 0;
     else return m_targetCoordinate->longitude();
 }
 
-qreal AlkoFinder::currentLatitude() const
+qreal SpotFinder::currentLatitude() const
 {
     if (!m_currentCoordinate) return 0;
     else return m_currentCoordinate->latitude();
 }
 
-qreal AlkoFinder::currentLongitude() const
+qreal SpotFinder::currentLongitude() const
 {
     if (!m_currentCoordinate) return 0;
     else return m_currentCoordinate->longitude();
 }
 
-QString AlkoFinder::name() const
+QString SpotFinder::name() const
 {
-    if (!m_selectedAlko) return "";
-    return m_selectedAlko->name();
+    if (!m_selectedSpot) return "";
+    return m_selectedSpot->name();
 }
 
-QString AlkoFinder::address() const
+QString SpotFinder::address() const
 {
     //qDebug() << "address";
-    if (!m_selectedAlko) return "";
-    return m_selectedAlko->address();
+    if (!m_selectedSpot) return "";
+    return m_selectedSpot->address();
 }
 
-QString AlkoFinder::postcode() const
+QString SpotFinder::postcode() const
 {
-    if (!m_selectedAlko) return "";
-    return m_selectedAlko->postcode();
+    if (!m_selectedSpot) return "";
+    return m_selectedSpot->postcode();
 }
 
-QString AlkoFinder::city() const
+QString SpotFinder::city() const
 {
-    if (!m_selectedAlko) return "";
-    return m_selectedAlko->city();
+    if (!m_selectedSpot) return "";
+    return m_selectedSpot->city();
 }
 
-QString AlkoFinder::phone() const
+QString SpotFinder::phone() const
 {
-    if (!m_selectedAlko) return "";
-    return m_selectedAlko->phone();
+    if (!m_selectedSpot) return "";
+    return m_selectedSpot->phone();
 }
-QString AlkoFinder::email() const
+QString SpotFinder::email() const
 {
-    if (!m_selectedAlko) return "";
-    return m_selectedAlko->email();
-}
-
-QString AlkoFinder::additionalInfo() const
-{
-    if (!m_selectedAlko) return "";
-    return m_selectedAlko->additionalInfo();
+    if (!m_selectedSpot) return "";
+    return m_selectedSpot->email();
 }
 
-bool AlkoFinder::positionFound() const
+QString SpotFinder::additionalInfo() const
+{
+    if (!m_selectedSpot) return "";
+    return m_selectedSpot->additionalInfo();
+}
+
+bool SpotFinder::positionFound() const
 {
     //qDebug() << "posfound";
     return m_positionFound;
 }
 
-bool AlkoFinder::alkoFound() const
+bool SpotFinder::spotFound() const
 {
-    //qDebug() << "alkofound";
-    return m_alkoFound;
+    //qDebug() << "spotfound";
+    return m_spotFound;
 }
 
 
-AlkoModel* AlkoFinder::model()
+SpotModel* SpotFinder::model()
 {
     //qDebug() << "model";
     return m_model;
 }
 
-void AlkoFinder::setModel(QObject *model)
+void SpotFinder::setModel(QObject *model)
 {
-    m_model = qobject_cast<AlkoModel *>(model);
+    m_model = qobject_cast<SpotModel *>(model);
     emit modelChanged();
     return;
 }
 
-void AlkoFinder::launchMaps() const
+void SpotFinder::launchMaps() const
 {
-    if (!m_selectedAlko) return;
+    if (!m_selectedSpot) return;
 #if defined(MEEGO_EDITION_HARMATTAN)
-    QDesktopServices::openUrl(QUrl("geo:" + QString::number(m_selectedAlko->latitude()) + "," + QString::number(m_selectedAlko->longitude()) + "?action=showOnMap&zoomLevel=13"));
+    QDesktopServices::openUrl(QUrl("geo:" + QString::number(m_selectedSpot->latitude()) + "," + QString::number(m_selectedSpot->longitude()) + "?action=showOnMap&zoomLevel=13"));
 #else
-    QDesktopServices::openUrl(QUrl("http://m.ovi.me/?c=" + QString::number(m_selectedAlko->latitude()) + "," + QString::number(m_selectedAlko->longitude())));
+    QDesktopServices::openUrl(QUrl("http://m.ovi.me/?c=" + QString::number(m_selectedSpot->latitude()) + "," + QString::number(m_selectedSpot->longitude())));
 #endif
 
 }
 
-QString AlkoFinder::waterTemperature() const
+QString SpotFinder::waterTemperature() const
 {
     if(m_temperature) return m_temperature->waterTemperature();
     else return "N/A";
 }
 
-QString AlkoFinder::airTemperature() const
+QString SpotFinder::airTemperature() const
 {
     if(m_temperature) return QString::number(m_temperature->airTemperature());
     else return 0;

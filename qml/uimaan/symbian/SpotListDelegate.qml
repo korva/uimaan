@@ -1,7 +1,7 @@
 import QtQuick 1.1
 
 Item {
-    height: nameText.height + addressText.height + 12
+    height: nameText.height + addressText.height + 6
     width: parent.width
     Rectangle {
         anchors.fill: parent
@@ -16,7 +16,7 @@ Item {
         text: name
         font.family: "Nokia Pure Text"
         //font.pointSize: 22
-        font.pixelSize: 30
+        font.pixelSize: 24
         color: "black"
         elide: Text.ElideRight
     }
@@ -27,7 +27,7 @@ Item {
         text: address
         font.family: "Nokia Pure Text"
         //font.pointSize: 18
-        font.pixelSize: 22
+        font.pixelSize: 16
         color: "grey"
         elide: Text.ElideRight
     }
@@ -38,8 +38,8 @@ Item {
 
         onClicked: {
             nearest = false;
-            alko.selectAlko(index)
-            if(!alko.positionFound) alkoSelectedWithoutLocation = true
+            spot.selectSpot(index)
+            if(!spot.positionFound) spotSelectedWithoutLocation = true
             pageStack.pop()
         }
     }

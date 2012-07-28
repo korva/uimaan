@@ -1,38 +1,38 @@
-#ifndef ALKOMODEL_H
-#define ALKOMODEL_H
+#ifndef SPOTMODEL_H
+#define SPOTMODEL_H
 
 #include <QAbstractListModel>
-#include "alko.h"
+#include "spot.h"
 #include <qgeocoordinate.h>
 #include <QFile>
 #include <QTextStream>
 
 QTM_USE_NAMESPACE
 
-class AlkoModel : public QAbstractListModel
+class SpotModel : public QAbstractListModel
 {
     Q_OBJECT
 
     public:
 
-    enum AlkoRoles {
+    enum SpotRoles {
         NameRole = Qt::UserRole + 1,
         AddressRole
     };
 
-    AlkoModel();
+    SpotModel();
 
     bool initialize(QString filename);
 
     void sortByLocation(QGeoCoordinate *location);
     void sortByName();
 
-    // return Alko pointer at index
-    Alko* alkoAt(int index);
+    // return Spot pointer at index
+    Spot* spotAt(int index);
 
-    // updates info if an Alko with same ID is found
+    // updates info if an Spot with same ID is found
     // updated fields: times, additional info
-    void updateInfo(Alko *newInfo);
+    void updateInfo(Spot *newInfo);
 
     // From QAbstractListModel
     int rowCount(const QModelIndex &parent) const;
@@ -41,8 +41,8 @@ class AlkoModel : public QAbstractListModel
 
 
     private:
-    QList<Alko*> m_alkos;
+    QList<Spot*> m_spots;
 
 };
 
-#endif // ALKOMODEL_H
+#endif // SPOTMODEL_H

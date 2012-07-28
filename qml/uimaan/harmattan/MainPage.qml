@@ -19,7 +19,7 @@ Page {
     states: [
         State {
             name: "noPosition"
-            when: !alko.positionFound && !alkoSelectedWithoutLocation
+            when: !spot.positionFound && !spotSelectedWithoutLocation
             PropertyChanges { target: titleText; opacity: 0.0}
             PropertyChanges { target: timeText; opacity: 0.0}
             PropertyChanges { target: mapButton; opacity: 0.0}
@@ -30,29 +30,29 @@ Page {
             PropertyChanges { target: timer; running: false}
         },
         State {
-            name: "noPositionAlkoSelected"
-            when: !alko.positionFound && alkoSelectedWithoutLocation
+            name: "noPositionSpotSelected"
+            when: !spot.positionFound && spotSelectedWithoutLocation
             PropertyChanges { target: titleText; opacity: 1.0}
             PropertyChanges { target: addressText; opacity: 1.0}
             PropertyChanges { target: timeText; opacity: 1.0}
             PropertyChanges { target: mapButton; opacity: 1.0}
             PropertyChanges { target: infoButton; opacity: 1.0}
             PropertyChanges { target: distanceText; opacity: 0.0}
-            PropertyChanges { target: nameText; text: alko.name}
-            PropertyChanges { target: addressText; text: alko.address}
+            PropertyChanges { target: nameText; text: spot.name}
+            PropertyChanges { target: addressText; text: spot.address}
             PropertyChanges { target: timer; running: true}
         },
         State {
             name: "Position"
-            when: alko.positionFound
+            when: spot.positionFound
             PropertyChanges { target: titleText; opacity: 1.0}
             PropertyChanges { target: addressText; opacity: 1.0}
             PropertyChanges { target: timeText; opacity: 1.0}
             PropertyChanges { target: mapButton; opacity: 1.0}
             PropertyChanges { target: infoButton; opacity: 1.0}
             PropertyChanges { target: distanceText; opacity: 1.0}
-            PropertyChanges { target: nameText; text: alko.name}
-            PropertyChanges { target: addressText; text: alko.address}
+            PropertyChanges { target: nameText; text: spot.name}
+            PropertyChanges { target: addressText; text: spot.address}
             PropertyChanges { target: timer; running: true}
         }
 
@@ -66,24 +66,24 @@ Page {
 
         onTriggered: {
 
-            if (alko.positionFound) {
+            if (spot.positionFound) {
                 // update compass pointer
                 if (compassEnabled) {
-                    compassPointer.angle = -compassAzimuth + alko.azimuth + 270
+                    compassPointer.angle = -compassAzimuth + spot.azimuth + 270
                 }
 
-                if (alko.distance >= 1000)
+                if (spot.distance >= 1000)
                 {
-                    distanceText.text = Math.round(alko.distance/1000) + " km"
+                    distanceText.text = Math.round(spot.distance/1000) + " km"
                     logoAnimation.running = false
                 }
                 else
                 {
-                    distanceText.text = Math.round(alko.distance) + " m"
+                    distanceText.text = Math.round(spot.distance) + " m"
                 }
             }
 
-            timeText.text = alko.openStatus
+            timeText.text = spot.openStatus
 
         }
     }
@@ -105,7 +105,7 @@ Page {
         anchors.horizontalCenter: parent.horizontalCenter
         width: 300
         height: 300
-        source: "qrc:/alkoon_logo.png"
+        source: "qrc:/common/buoy.png"
 
         property int animationPace: 900
 
@@ -122,7 +122,7 @@ Page {
 
     Text {
         id: distanceText
-        color: alkoRed
+        color: spotRed
         text: ""
         //font.pixelSize: 28
         font.pixelSize: 30
@@ -150,7 +150,7 @@ Page {
         y: logo.y + logo.height/2
         radius: logo.width / 2 + 15
         running: true
-        opacity: compassEnabled && alko.positionFound
+        opacity: compassEnabled && spot.positionFound
 
         SequentialAnimation {
             id: compassPointerAnimation
@@ -188,7 +188,7 @@ Page {
 
     Text {
         id: titleText
-        text: nearest ? qsTr("nearest_alko") : qsTr("chosen_alko")
+        text: nearest ? qsTr("nearest_spot") : qsTr("chosen_spot")
         font.family: "Nokia Pure Text"
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.top: logo.bottom
@@ -245,7 +245,7 @@ Page {
     Text {
         id: addressText
 
-        text: "" //alko.address
+        text: "" //spot.address
         //font.pointSize: 16
         font.pixelSize: 24
         anchors.top: nameText.bottom
@@ -271,7 +271,7 @@ Page {
     Text {
         id: timeText
         text: ""
-        color: alko.isOpen ? alkoGreen : alkoRed
+        color: spot.isOpen ? spotGreen : spotRed
         anchors.horizontalCenter: parent.horizontalCenter
         //font.pointSize: 26
         font.pixelSize: 34
@@ -317,7 +317,7 @@ Page {
         Button {
             id: infoButton
             anchors.horizontalCenter: parent.horizontalCenter
-            text: qsTr("alko_info")
+            text: qsTr("spot_info")
             iconSource: "image://theme/icon-s-description"
             opacity: 0.0
             width: mapButton.width
@@ -355,7 +355,7 @@ Page {
     //    Text {
     //        id: statusText
     //        color: "#E63D2C"
-    //        text: alko.positionFound
+    //        text: spot.positionFound
     //        font.pixelSize: 18
     //        anchors.top: distanceDebugText.bottom
     //        anchors.topMargin: 3
@@ -383,22 +383,22 @@ Page {
 
             TabButton {
                 id: nearestButton
-                text: qsTr("nearest_alko_button")
-                enabled: alko.positionFound
+                text: qsTr("nearest_spot_button")
+                enabled: spot.positionFound
 
                 onClicked: {
-                    alko.sortByLocation()
-                    alko.selectAlko(0)
+                    spot.sortByLocation()
+                    spot.selectSpot(0)
                     nearest = true;
                 }
             }
 
             TabButton {
                 id: selectButton
-                text: qsTr("select_alko_button")
+                text: qsTr("select_spot_button")
 
                 onClicked: {
-                    alko.sortByLocation()
+                    spot.sortByLocation()
                     pageStack.push(Qt.resolvedUrl("SelectPage.qml"))
                 }
             }

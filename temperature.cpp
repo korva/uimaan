@@ -157,10 +157,10 @@ bool Temperature::parseHTML()
         temp = "";
 
         // get digits before decimal point
-        for(int i=0; i<3; i++)
+        for(int j=0; j<3; j++)
         {
-            if(m_reply.at(pos+i) == '.') break;
-            temp += m_reply.at(pos+i);
+            if(m_reply.at(pos+j) == '.') break;
+            temp += m_reply.at(pos+j);
 
         }
 
@@ -168,9 +168,6 @@ bool Temperature::parseHTML()
 
         qDebug() << "Temp for " << m_measurements[i].name << " is " << m_measurements[i].measurement;
     }
-
-
-
 
     return true;
 }

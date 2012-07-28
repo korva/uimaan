@@ -1,5 +1,5 @@
 import QtQuick 1.1
-import com.nokia.meego 1.0
+import com.nokia.symbian 1.1
 
 Page {
     id: selectPage
@@ -22,47 +22,62 @@ Page {
         anchors { top: titleBar.bottom; left: parent.left ; right: parent.right }
         height: 50
 
-        style: TabButtonStyle { }
-        TabButton {
+        Button {
             id: nearestButton
-            height: 50
             text: "Lähimmät"
-            enabled: alko.positionFound
+            enabled: spot.positionFound
+//            platformInverted: true
 
-            onClicked: alko.sortByLocation()
+            onClicked: spot.sortByLocation()
         }
-        TabButton {
+        Button {
             id: alphabeticallyButton
-            height: 50
             text: "Aakkosittain"
+//            platformInverted: true
 
-            onClicked: alko.sortByName()
+            onClicked: spot.sortByName()
         }
     }
 
     ListView {
-        id: alkoListView
+        id: spotListView
         anchors { top: tabs.bottom; left: parent.left ; right: parent.right ; bottom: parent.bottom }
-        spacing: 4
+        spacing: 0
         clip: true
-        model: alkoModel
-        delegate: AlkoListDelegate { }
+        model: spotModel
+        delegate: SpotListDelegate { }
     }
 
     ScrollDecorator {
         id: decorator
-        flickableItem: alkoListView
+        flickableItem: spotListView
     }
 
     ToolBarLayout {
         id: selectTools
         visible: true
-        ToolIcon {
-            platformIconId: "toolbar-back"
+        ToolButton {
+            iconSource: "toolbar-back"
             anchors.left: (parent === undefined) ? undefined : parent.left
             onClicked: pageStack.pop()
         }
     }
+
+    Image {
+        id: topLeftCorner
+        anchors { top: parent.top; left: parent.left }
+        source: "qrc:/corner.png"
+    }
+
+    Image {
+        id: topRightCorner
+        anchors { top: parent.top; right: parent.right }
+        source: "qrc:/corner.png"
+        rotation: 90
+    }
+
+
+
 
 
 }

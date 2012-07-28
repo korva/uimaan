@@ -13,10 +13,6 @@ Page {
         source: "qrc:/paperbg.png"
     }
 
-//    Titlebar {
-//        id: titleBar
-//        text: "Alkoon!"
-//    }
 
     Image {
         id: logo
@@ -25,12 +21,12 @@ Page {
         anchors.horizontalCenter: parent.horizontalCenter
         width: 300
         height: 300
-        source: "qrc:/alkoon_logo.png"
+        source: "qrc:/common/buoy.png"
         //opacity: compassCalibrationLevel
 
         Text {
             id: progressText
-            color: alkoRed
+            color: spotRed
             text: calibrationLevelInt + " %"
             font.pixelSize: 30
             anchors.bottom: logo.bottom

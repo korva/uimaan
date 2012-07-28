@@ -1,5 +1,5 @@
 # Add more folders to ship with the application, here
-folder_01.source = qml/alko
+folder_01.source = qml/uimaan
 folder_01.target = qml
 DEPLOYMENTFOLDERS = folder_01
 
@@ -50,10 +50,10 @@ CONFIG += qtquickcomponents
 
 # The .cpp file which was generated for your project. Feel free to hack it.
 SOURCES += main.cpp \
-    alkofinder.cpp \
-    alko.cpp \
-    alkomodel.cpp \
-    temperature.cpp
+    temperature.cpp \
+    spot.cpp \
+    spotmodel.cpp \
+    spotfinder.cpp
 
 # Please do not modify the following two lines. Required for deployment.
 include(qmlapplicationviewer/qmlapplicationviewer.pri)
@@ -69,13 +69,13 @@ OTHER_FILES += \
     qtc_packaging/debian_harmattan/changelog
 
 HEADERS += \
-    alkofinder.h \
-    alko.h \
-    alkomodel.h \
-    temperature.h
+    temperature.h \
+    spot.h \
+    spotmodel.h \
+    spotfinder.h
 
 RESOURCES += \
-    alko.qrc
+    uimaan.qrc
 
 
 

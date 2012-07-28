@@ -1,13 +1,13 @@
 import QtQuick 1.1
 import com.nokia.meego 1.0
-import AlkoFinder 1.0
-import AlkoModel 1.0
+import SpotFinder 1.0
+import SpotModel 1.0
 import QtMobility.sensors 1.1
 
 PageStackWindow {
     id: appWindow
 
-    // true id nearest Alko is selected; false if user selects Alko
+    // true id nearest spot is selected; false if user selects spot
     property bool nearest: true
 
     // true if compass is calibrated
@@ -17,11 +17,11 @@ PageStackWindow {
     property real compassCalibrationLevel: 0.0
     property real compassCalibrationTreshold: 1.0
 
-    // true when Alko selected from list but no location available
-    property bool alkoSelectedWithoutLocation: false
+    // true when spot selected from list but no location available
+    property bool spotSelectedWithoutLocation: false
 
-    property string alkoGreen: "#49b534"
-    property string alkoRed: "#E63D2C"
+    property string spotGreen: "#49b534"
+    property string spotRed: "#E63D2C"
 
     //initialPage: splashPage
 
@@ -37,10 +37,10 @@ PageStackWindow {
             compassCalibrationLevel = reading.calibrationLevel
             //console.log("calib: " + reading.calibrationLevel)
 
-            //compassPointer.angle = -reading.azimuth + alko.azimuth + 270
+            //compassPointer.angle = -reading.azimuth + spot.azimuth + 270
 
 //            headingText.text = reading.azimuth + " (" + reading.calibrationLevel + ")"
-//            distanceDebugText.text = alko.distance + "m (" + alko.azimuth + ")"
+//            distanceDebugText.text = spot.distance + "m (" + spot.azimuth + ")"
 
         }
     }
@@ -50,13 +50,13 @@ PageStackWindow {
     }
 
 
-    AlkoModel {
-        id: alkoModel
+    SpotModel {
+        id: spotModel
     }
 
-    AlkoFinder {
-        id: alko
-        model: alkoModel
+    SpotFinder {
+        id: spot
+        model: spotModel
 
         Component.onCompleted: {
             console.log("init complete")

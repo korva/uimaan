@@ -31,12 +31,12 @@ Page {
 
             InfoLine {
                 title: "Liikkeen nimi:"
-                body: alko.name
+                body: spot.name
             }
 
             InfoLine {
                 title: "Osoite:"
-                body: alko.address
+                body: spot.address
 
                 Button {
                     anchors { right: parent.right; rightMargin: 10; verticalCenter: parent.verticalCenter; verticalCenterOffset: 7 }
@@ -50,43 +50,43 @@ Page {
 
             InfoLine {
                 title: "Postinumero ja -paikka:"
-                body: alko.postcode + " " + alko.city
+                body: spot.postcode + " " + spot.city
             }
 
 
             InfoTimeLine {
                 day: "Maanantai"
-                time: alko.openStatusSimple(1);
+                time: spot.openStatusSimple(1);
             }
 
             InfoTimeLine {
                 day: "Tiistai"
-                time: alko.openStatusSimple(2);
+                time: spot.openStatusSimple(2);
             }
 
             InfoTimeLine {
                 day: "Keskiviikko"
-                time: alko.openStatusSimple(3);
+                time: spot.openStatusSimple(3);
             }
 
             InfoTimeLine {
                 day: "Torstai"
-                time: alko.openStatusSimple(4);
+                time: spot.openStatusSimple(4);
             }
 
             InfoTimeLine {
                 day: "Perjantai"
-                time: alko.openStatusSimple(5);
+                time: spot.openStatusSimple(5);
             }
 
             InfoTimeLine {
                 day: "Lauantai"
-                time: alko.openStatusSimple(6);
+                time: spot.openStatusSimple(6);
             }
 
             InfoLine {
                 title: "Puhelinnumero:"
-                body: alko.phone
+                body: spot.phone
 
                 Button {
                     anchors { right: parent.right; rightMargin: 10; verticalCenter: parent.verticalCenter; verticalCenterOffset: 7 }
@@ -94,27 +94,27 @@ Page {
                     iconSource: "image://theme/icon-s-call"
 
                     // trim whitespaces from phone number
-                    onClicked: Qt.openUrlExternally("tel:" + alko.phone.replace(/\s/g, ""))
+                    onClicked: Qt.openUrlExternally("tel:" + spot.phone.replace(/\s/g, ""))
                 }
             }
 
             InfoLine {
                 title: "Sähköposti:"
-                body: alko.email
+                body: spot.email
 
                 Button {
                     anchors { right: parent.right; rightMargin: 10; verticalCenter: parent.verticalCenter; verticalCenterOffset: 7 }
                     width: 100
                     iconSource: "image://theme/icon-s-email"
 
-                    onClicked: Qt.openUrlExternally("mailto:" + alko.email)
+                    onClicked: Qt.openUrlExternally("mailto:" + spot.email)
                 }
             }
 
             InfoLine {
                 title: "Muuta tietoa:"
-                body: alko.additionalInfo
-                opacity: alko.additionalInfo ? 1.0 : 0.0
+                body: spot.additionalInfo
+                opacity: spot.additionalInfo ? 1.0 : 0.0
             }
 
 

@@ -19,7 +19,7 @@ Page {
     states: [
         State {
             name: "noPosition"
-            when: !alko.positionFound && !alkoSelectedWithoutLocation
+            when: !spot.positionFound && !spotSelectedWithoutLocation
             PropertyChanges { target: titleText; opacity: 0.0}
             PropertyChanges { target: timeText; opacity: 0.0}
             PropertyChanges { target: mapButton; opacity: 0.0}
@@ -30,29 +30,29 @@ Page {
             PropertyChanges { target: timer; running: false}
         },
         State {
-            name: "noPositionAlkoSelected"
-            when: !alko.positionFound && alkoSelectedWithoutLocation
+            name: "noPositionSpotSelected"
+            when: !spot.positionFound && spotSelectedWithoutLocation
             PropertyChanges { target: titleText; opacity: 1.0}
             PropertyChanges { target: addressText; opacity: 1.0}
             PropertyChanges { target: timeText; opacity: 0.0}
             PropertyChanges { target: mapButton; opacity: 1.0}
             PropertyChanges { target: infoButton; opacity: 1.0}
             PropertyChanges { target: distanceText; opacity: 0.0}
-            PropertyChanges { target: nameText; text: alko.name}
-            PropertyChanges { target: addressText; text: alko.address}
+            PropertyChanges { target: nameText; text: spot.name}
+            PropertyChanges { target: addressText; text: spot.address}
             PropertyChanges { target: timer; running: true}
         },
         State {
             name: "Position"
-            when: alko.positionFound
+            when: spot.positionFound
             PropertyChanges { target: titleText; opacity: 1.0}
             PropertyChanges { target: addressText; opacity: 1.0}
             PropertyChanges { target: timeText; opacity: 0.0}
             PropertyChanges { target: mapButton; opacity: 1.0}
             PropertyChanges { target: infoButton; opacity: 1.0}
             PropertyChanges { target: distanceText; opacity: 1.0}
-            PropertyChanges { target: nameText; text: alko.name}
-            PropertyChanges { target: addressText; text: alko.address}
+            PropertyChanges { target: nameText; text: spot.name}
+            PropertyChanges { target: addressText; text: spot.address}
             PropertyChanges { target: timer; running: true}
         }
 
@@ -66,20 +66,20 @@ Page {
 
         onTriggered: {
 
-            if (alko.positionFound) {
+            if (spot.positionFound) {
                 // update compass pointer
                 if (compassEnabled) {
-                    compassPointer.angle = -compassAzimuth + alko.azimuth + 270
+                    compassPointer.angle = -compassAzimuth + spot.azimuth + 270
                 }
 
-                if (alko.distance >= 1000)
+                if (spot.distance >= 1000)
                 {
-                    distanceText.text = Math.round(alko.distance/1000) + " km"
+                    distanceText.text = Math.round(spot.distance/1000) + " km"
                     logoAnimation.running = false
                 }
                 else
                 {
-                    distanceText.text = Math.round(alko.distance) + " m"
+                    distanceText.text = Math.round(spot.distance) + " m"
                 }
             }
 
@@ -122,7 +122,7 @@ Page {
 
     Text {
         id: distanceText
-        color: alkoRed
+        color: spotRed
         text: ""
         font.pixelSize: 20
         anchors.centerIn: logo
@@ -150,7 +150,7 @@ Page {
         y: logo.y + logo.height/2
         radius: logo.width / 2 + 15
         running: true
-        opacity: compassEnabled && alko.positionFound
+        opacity: compassEnabled && spot.positionFound
 
         SequentialAnimation {
             id: compassPointerAnimation
@@ -166,7 +166,7 @@ Page {
 
     Text {
         id: waterTemperatureText
-        text: alko.waterTemperature
+        text: spot.waterTemperature
         font.family: "Nokia Pure Text"
         anchors { top: parent.top; left: parent.left }
         font.pixelSize: 18
@@ -245,7 +245,7 @@ Page {
     Text {
         id: addressText
 
-        text: "" //alko.address
+        text: "" //spot.address
         //font.pointSize: 16
         font.pixelSize: 18
         anchors.top: nameText.bottom
@@ -271,7 +271,7 @@ Page {
     Text {
         id: timeText
         text: ""
-        color: alko.isOpen ? alkoGreen : alkoRed
+        color: spot.isOpen ? spotGreen : spotRed
         anchors.horizontalCenter: parent.horizontalCenter
         //font.pointSize: 26
         font.pixelSize: 28
@@ -351,11 +351,11 @@ Page {
             id: nearestButton
             text: nearest ? "Päivitä" : "Etsi lähin"
             iconSource: "toolbar-refresh"
-            enabled: alko.positionFound && mapButton.enabled
+            enabled: spot.positionFound && mapButton.enabled
 
             onClicked: {
-                alko.sortByLocation()
-                alko.selectAlko(0)
+                spot.sortByLocation()
+                spot.selectSpot(0)
                 nearest = true;
             }
         }
@@ -390,7 +390,7 @@ Page {
                 text: "Valitse toinen uimapaikka"
                 enabled: mapButton.enabled
                 onClicked: {
-                    alko.sortByLocation()
+                    spot.sortByLocation()
                     pageStack.push(Qt.resolvedUrl("SelectPage.qml"))
                 }
             }
