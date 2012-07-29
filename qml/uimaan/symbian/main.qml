@@ -21,7 +21,7 @@ PageStackWindow {
     property bool spotSelectedWithoutLocation: false
 
     property string spotGreen: "#49b534"
-    property string spotRed: "#E63D2C"
+    property string spotRed: "#E52C00"
 
     //initialPage: splashPage
 

@@ -8,7 +8,7 @@ Page {
 
     Image {
         anchors.fill: parent
-        source: "qrc:/paperbg.png"
+        source: "qrc:/common/woodenwall_light.jpg"
 
 
     }

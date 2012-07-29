@@ -45,11 +45,6 @@ PageStackWindow {
         }
     }
 
-    SplashPage {
-        id: splashPage
-    }
-
-
     SpotModel {
         id: spotModel
     }

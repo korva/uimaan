@@ -21,12 +21,11 @@ Page {
             name: "noPosition"
             when: !spot.positionFound && !spotSelectedWithoutLocation
             PropertyChanges { target: titleText; opacity: 0.0}
-            PropertyChanges { target: timeText; opacity: 0.0}
             PropertyChanges { target: mapButton; opacity: 0.0}
             PropertyChanges { target: infoButton; opacity: 0.0}
             PropertyChanges { target: distanceText; opacity: 0.0}
-            PropertyChanges { target: nameText; text: qsTr("waiting_location")}
-            PropertyChanges { target: addressText; text: qsTr("select_shop")}
+            PropertyChanges { target: nameText; text: qsTr("Haetaan sijaintia...")}
+            PropertyChanges { target: addressText; text: ""}
             PropertyChanges { target: timer; running: false}
         },
         State {
@@ -34,7 +33,6 @@ Page {
             when: !spot.positionFound && spotSelectedWithoutLocation
             PropertyChanges { target: titleText; opacity: 1.0}
             PropertyChanges { target: addressText; opacity: 1.0}
-            PropertyChanges { target: timeText; opacity: 1.0}
             PropertyChanges { target: mapButton; opacity: 1.0}
             PropertyChanges { target: infoButton; opacity: 1.0}
             PropertyChanges { target: distanceText; opacity: 0.0}
@@ -47,7 +45,6 @@ Page {
             when: spot.positionFound
             PropertyChanges { target: titleText; opacity: 1.0}
             PropertyChanges { target: addressText; opacity: 1.0}
-            PropertyChanges { target: timeText; opacity: 1.0}
             PropertyChanges { target: mapButton; opacity: 1.0}
             PropertyChanges { target: infoButton; opacity: 1.0}
             PropertyChanges { target: distanceText; opacity: 1.0}
@@ -75,15 +72,12 @@ Page {
                 if (spot.distance >= 1000)
                 {
                     distanceText.text = Math.round(spot.distance/1000) + " km"
-                    logoAnimation.running = false
                 }
                 else
                 {
                     distanceText.text = Math.round(spot.distance) + " m"
                 }
             }
-
-            timeText.text = spot.openStatus
 
         }
     }
@@ -94,55 +88,74 @@ Page {
 
     Image {
         anchors.fill: parent
-        source: "qrc:/paperbg.png"
+        source: "qrc:/common/woodenwall.jpg"
     }
+
 
 
     Image {
         id: logo
         anchors.top: parent.top
-        anchors.topMargin: 50
+        anchors.topMargin: 40
         anchors.horizontalCenter: parent.horizontalCenter
-        width: 300
-        height: 300
-        source: "qrc:/common/buoy.png"
+        width: 330
+        height: 330
+        source: "qrc:/common/buoy2.png"
+        rotation: compassPointer.angle
 
-        property int animationPace: 900
 
-        SequentialAnimation {
-            id: logoAnimation
-            running: false
-            alwaysRunToEnd: true
-            loops: Animation.Infinite
+    }
 
-            NumberAnimation { target: logo; property: "scale"; from: 1.0; to: 1.05; duration: logo.animationPace }
-            NumberAnimation { target: logo; property: "scale"; from: 1.05; to: 1.0; duration: logo.animationPace }
+    Column {
+        anchors.centerIn: logo
+        spacing: 10
+
+        Text {
+            id: distanceText
+            color: spotRed
+            text: ""
+            font.pixelSize: 30
+            anchors.horizontalCenter: parent.horizontalCenter
+
+
+            font.family: "Nokia Pure Text"
+            horizontalAlignment: Text.AlignHCenter
+            opacity: 0.0
+
+            SequentialAnimation {
+                id: distanceTextAnimation
+                alwaysRunToEnd: true
+                running: false
+                loops: 1
+
+                NumberAnimation { target: titleText; property: "scale"; from: 1.0; to: 1.1; duration: 300 }
+                NumberAnimation { target: titleText; property: "scale"; from: 1.1; to: 1.0; duration: 300 }
+            }
+        }
+
+        Text {
+            id: waterTemperatureText
+            anchors.horizontalCenter: parent.horizontalCenter
+            text: "Vesi: " + spot.waterTemperature + " °C"
+            font.family: "Nokia Pure Text"
+            color: spotRed
+            font.pixelSize: 30
+
+            onTextChanged: waterTemperatureTextAnimation.restart()
+
+            SequentialAnimation {
+                id: waterTemperatureTextAnimation
+                alwaysRunToEnd: true
+                running: false
+                loops: 1
+
+                NumberAnimation { target: waterTemperatureText; property: "scale"; from: 1.0; to: 1.1; duration: 300 }
+                NumberAnimation { target: waterTemperatureText; property: "scale"; from: 1.1; to: 1.0; duration: 300 }
+            }
         }
     }
 
-    Text {
-        id: distanceText
-        color: spotRed
-        text: ""
-        //font.pixelSize: 28
-        font.pixelSize: 30
-        anchors.bottom: logo.bottom
-        anchors.bottomMargin: 25
-        anchors.horizontalCenter: logo.horizontalCenter
-        font.family: "Nokia Pure Text"
-        horizontalAlignment: Text.AlignHCenter
-        opacity: 0.0
 
-        SequentialAnimation {
-            id: distanceTextAnimation
-            alwaysRunToEnd: true
-            running: false
-            loops: 1
-
-            NumberAnimation { target: titleText; property: "scale"; from: 1.0; to: 1.1; duration: 300 }
-            NumberAnimation { target: titleText; property: "scale"; from: 1.1; to: 1.0; duration: 300 }
-        }
-    }
 
     CompassPointer {
         id: compassPointer
@@ -186,9 +199,23 @@ Page {
         }
     }
 
+    Rectangle {
+        id: sign
+
+        anchors.left: parent.left
+        anchors.top: titleText.top
+        anchors.topMargin: -10
+        anchors.bottom: addressText.text == "" ? nameText.bottom : addressText.bottom
+        anchors.bottomMargin: -10
+        width: parent.width
+        color: "white"
+        opacity: 0.5
+
+    }
+
     Text {
         id: titleText
-        text: nearest ? qsTr("nearest_spot") : qsTr("chosen_spot")
+        text: nearest ? qsTr("Lähin uimapaikka:") : qsTr("Valitsemasi uimapaikka:")
         font.family: "Nokia Pure Text"
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.top: logo.bottom
@@ -213,7 +240,7 @@ Page {
     Text {
         id: nameText
 
-        text: qsTr("waiting_location")
+        text: qsTr("Haetaan sijaintia...")
         font.pixelSize: 38
         anchors { top: titleText.bottom; topMargin: 0; left: parent.left; leftMargin: 4; right: parent.right; rightMargin: 4 }
 
@@ -225,7 +252,6 @@ Page {
         onTextChanged: {
             nameTextAnimation.restart()
             addressTextAnimation.restart()
-            timeTextAnimation.restart()
             compassPointerAnimation.restart()
         }
 
@@ -268,39 +294,15 @@ Page {
         }
     }
 
-    Text {
-        id: timeText
-        text: ""
-        color: spot.isOpen ? spotGreen : spotRed
-        anchors.horizontalCenter: parent.horizontalCenter
-        //font.pointSize: 26
-        font.pixelSize: 34
-        anchors.top: addressText.bottom
-        anchors.topMargin: 2
-        font.family: "Nokia Pure Text"
-        opacity: 0.0
-
-        SequentialAnimation {
-            id: timeTextAnimation
-            alwaysRunToEnd: true
-            running: false
-            loops: 1
-
-            PauseAnimation { duration: 200 }
-            NumberAnimation { target: timeText; property: "scale"; from: 1.0; to: 1.1; duration: 300 }
-            NumberAnimation { target: timeText; property: "scale"; from: 1.1; to: 1.0; duration: 300 }
-        }
-
-    }
 
     Column {
-        anchors {top: timeText.bottom; topMargin: 26; left: parent.left; leftMargin: 30; right: parent.right; rightMargin: 30}
+        anchors {top: sign.bottom; topMargin: 30; left: parent.left; leftMargin: 30; right: parent.right; rightMargin: 30}
         spacing: 20
 
         Button {
             id: mapButton
             anchors.horizontalCenter: parent.horizontalCenter
-            text: qsTr("show_on_map")
+            text: qsTr("Näytä kartalla")
             iconSource: "image://theme/icon-s-location-picker"
             opacity: 0.0
             width: 260
@@ -317,7 +319,7 @@ Page {
         Button {
             id: infoButton
             anchors.horizontalCenter: parent.horizontalCenter
-            text: qsTr("spot_info")
+            text: qsTr("Säätiedot")
             iconSource: "image://theme/icon-s-description"
             opacity: 0.0
             width: mapButton.width
@@ -330,52 +332,13 @@ Page {
 
 
 
-    //    Text {
-    //        id: headingText
-    //        color: "#E63D2C"
-    //        text: "x"
-    //        font.pixelSize: 18
-    //        anchors.top: parent.top
-    //        anchors.topMargin: 15
-    //        font.family: "Nokia Pure Text"
-    //        horizontalAlignment: Text.AlignHCenter
-    //    }
 
-    //    Text {
-    //        id: distanceDebugText
-    //        color: "#E63D2C"
-    //        text: "y"
-    //        font.pixelSize: 18
-    //        anchors.top: headingText.bottom
-    //        anchors.topMargin: 3
-    //        font.family: "Nokia Pure Text"
-    //        horizontalAlignment: Text.AlignHCenter
-    //    }
-
-    //    Text {
-    //        id: statusText
-    //        color: "#E63D2C"
-    //        text: spot.positionFound
-    //        font.pixelSize: 18
-    //        anchors.top: distanceDebugText.bottom
-    //        anchors.topMargin: 3
-    //        font.family: "Nokia Pure Text"
-    //        horizontalAlignment: Text.AlignHCenter
-    //    }
 
     ToolBarLayout {
         id: commonTools
         visible: true
 
-        //        ToolIcon {
-        //            id: catalogButton
-        //            iconId: "toolbar-search"
 
-        //            onClicked: {
-        //                pageStack.push(Qt.resolvedUrl("ProductSearchPage.qml"))
-        //            }
-
-        //        }
 
         ButtonRow {
             id: buttonRow
@@ -383,7 +346,7 @@ Page {
 
             TabButton {
                 id: nearestButton
-                text: qsTr("nearest_spot_button")
+                text: qsTr("Etsi lähin")
                 enabled: spot.positionFound
 
                 onClicked: {
@@ -395,7 +358,7 @@ Page {
 
             TabButton {
                 id: selectButton
-                text: qsTr("select_spot_button")
+                text: qsTr("Valitse...")
 
                 onClicked: {
                     spot.sortByLocation()
@@ -404,10 +367,7 @@ Page {
             }
         }
 
-        //        ToolIcon {
-        //            iconId: "toolbar-view-menu"
-        //            onClicked: (myMenu.status == DialogStatus.Closed) ? myMenu.open() : myMenu.close()
-        //        }
+
 
     }
 

@@ -8,13 +8,14 @@ Page {
 
     Image {
         anchors.fill: parent
-        source: "qrc:/paperbg.png"
+        source: "qrc:/common/woodenwall_light.jpg"
     }
 
     Titlebar {
         id: titleBar
-        text: "Valitse myymälä"
+        text: "Valitse uimapaikka"
         showSeparator: false
+        backGroundOpacity: 0.8
     }
 
     ButtonRow {

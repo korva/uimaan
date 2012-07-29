@@ -91,7 +91,7 @@ void Temperature::setCoordinate(double lat, double lng)
         measurementLocation.setLatitude(m_measurements[i].latitude);
         measurementLocation.setLongitude(m_measurements[i].longitude);
         qreal newDistance = target.distanceTo(measurementLocation);
-        qDebug() << "dist: " << newDistance;
+        //qDebug() << "dist: " << newDistance;
         if(distance == -1)
         {
             distance = newDistance;
@@ -104,9 +104,9 @@ void Temperature::setCoordinate(double lat, double lng)
         }
     }
 
-    qDebug() << "closestIndex: " << closestIndex;
+    //qDebug() << "closestIndex: " << closestIndex;
     m_surfaceTemperature = m_measurements[closestIndex].measurement;
-    qDebug() << "surfTemp: " << m_surfaceTemperature;
+    //qDebug() << "surfTemp: " << m_surfaceTemperature;
     m_airTemperature = 22;
     m_isValid = true;
 
@@ -166,7 +166,7 @@ bool Temperature::parseHTML()
 
         m_measurements[i].measurement = temp;
 
-        qDebug() << "Temp for " << m_measurements[i].name << " is " << m_measurements[i].measurement;
+        //qDebug() << "Temp for " << m_measurements[i].name << " is " << m_measurements[i].measurement;
     }
 
     return true;
@@ -176,7 +176,7 @@ void Temperature::replyFinished(QNetworkReply *reply)
 {
     qDebug() << "reply arrived";
     m_reply = reply->readAll();
-    qDebug() << "reply: " << m_reply;
+    //qDebug() << "reply: " << m_reply;
 
     //empty reply; might be problems with connection.
     if(m_reply == "")

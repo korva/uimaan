@@ -36,7 +36,7 @@ Page {
             horizontalAlignment: Text.AlignHCenter
 
             onTextChanged: {
-                if(compassCalibrationLevel >= 1.0) {
+                if(compassCalibrationLevel >= 0.85) {
                     compassEnabled = true
                     pageStack.push(Qt.resolvedUrl("MainPage.qml"))
                 }

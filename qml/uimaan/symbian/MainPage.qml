@@ -199,8 +199,8 @@ Page {
         anchors.bottom: addressText.bottom
         anchors.bottomMargin: -10
         width: parent.width
-        color: "white"
-        opacity: 0.5
+        color: "black"
+        opacity: 0.7
 
     }
 
@@ -217,6 +217,7 @@ Page {
         //font.pointSize: 22
         font.pixelSize: 28
         opacity: 0.0
+        color: "white"
 
         onTextChanged: titleTextAnimation.restart()
 
@@ -244,6 +245,7 @@ Page {
         elide: Text.ElideRight
         maximumLineCount: 2
         wrapMode: Text.WordWrap
+        color: "white"
 
         onTextChanged: {
             nameTextAnimation.restart()
@@ -269,12 +271,13 @@ Page {
 
         text: "" //spot.address
         //font.pointSize: 16
-        font.pixelSize: 18
+        font.pixelSize: 22
         anchors.top: nameText.bottom
         anchors.topMargin: 2
         font.family: "Nokia Pure Text"
         anchors.horizontalCenter: parent.horizontalCenter
         opacity: 1.0
+        color: "white"
 
 
 

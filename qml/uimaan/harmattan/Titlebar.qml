@@ -7,8 +7,10 @@ Item {
 
     property bool showSeparator: true
     property alias text: titleText.text
+    property alias backGroundOpacity: rect.opacity
 
     Rectangle {
+        id: rect
         anchors.fill: parent
         //color: "#E63D2C"
         color: "grey"

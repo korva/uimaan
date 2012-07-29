@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
     QmlApplicationViewer viewer;
 
-#if defined(MEEGO_EDITION_HARMATTAN) //|| defined(Q_WS_SIMULATOR)
+#if defined(MEEGO_EDITION_HARMATTAN) || defined(Q_WS_SIMULATOR)
     viewer.setMainQmlFile(QLatin1String("qml/uimaan/harmattan/main.qml"));
 #else
     viewer.setMainQmlFile(QLatin1String("qml/uimaan/symbian/main.qml"));
