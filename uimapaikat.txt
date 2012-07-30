@@ -81,7 +81,7 @@ Pori;Kallon uimapaikka;61.590426053;21.466635868
 Merikarvia;Mericampingin uimaranta;61.848028983;21.469679882
 Rauma;Saharannan uimapaikka;61.143210494;21.472169576
 Rauma;Otanlahden maauimala;61.137971319;21.472529951
-Maalahti;+minne simstrand;62.975957769;21.483048740
+Maalahti;Åminne simstrand;62.975957769;21.483048740
 Pori;Karhuluodon uimapaikka;61.578298177;21.496603662
 Uusikaupunki;Karparannan uimapaikka;60.660157075;21.519425852
 Uusikaupunki;Taipaleenjärven uimapaikka;60.723327605;21.524466615
@@ -129,7 +129,7 @@ Hattula;Pelkolan kyläranta;61.041893231;24.278779831
 Vihti;Hopeaniemen uimapaikka;60.395993961;24.283593922
 Vihti;Hiidenrannan uimaranta;60.346258876;24.287878039
 Tornio;Kantojärven uimapaikka;65.981327729;24.288605325
--htäri;Myllymäen uimapaikka;62.525520142;24.294784225
+Ähtäri;Myllymäen uimapaikka;62.525520142;24.294784225
 Soini;Kivijärven uimapaikka;62.741781855;24.301440625
 Pyhäjoki;Pirttikosken uimapaikka;64.410932577;24.301574510
 Sahalahti;Jauksan uimapaikka;61.465517509;24.303285235
@@ -231,7 +231,7 @@ Lohja;Pähkinäniemen uimaranta;60.197884714;23.981729754
 Nummi-Pusula;Kirkonkylän uimaranta;60.466585387;23.982170498
 Lohja;Vohloisten uimaranta;60.228176883;23.982788851
 Lohja;Partioniemen leirikeskuksen uimaranta;60.263977658;23.985167613
--htäri;Peränteen uimapaikka;62.476467158;23.987032642
+Ähtäri;Peränteen uimapaikka;62.476467158;23.987032642
 Kangasala;Halimajärven uimapaikka;61.502612172;23.991866218
 Inkoo;Björkuddens simplats;60.032760880;24.002078294
 Valkeakoski;Lotilan uimaranta;61.278883915;24.005795343
@@ -437,8 +437,8 @@ Lohja;Kisakallion uimaranta;60.324279310;24.042286834
 Valkeakoski;Apian uimaranta;61.267074618;24.043030669
 Lohja;Aurlahden rantauimala;60.247398278;24.053130652
 Karkkila;Vuotinaisten uimala;60.615490050;24.058883470
--htäri;Rantapellon uimapaikka;62.548601502;24.061775937
--htäri;Ouluveden rantauimala;62.549918003;24.065458313
+Ähtäri;Rantapellon uimapaikka;62.548601502;24.061775937
+Ähtäri;Ouluveden rantauimala;62.549918003;24.065458313
 Lohja;Suittilan uimapaikka;60.335852939;24.067671477
 Soini;Laasalan uimaranta;62.892779250;24.067819243
 Inkoo;Djupträsk simplats;60.118641949;24.068110750
@@ -457,7 +457,7 @@ Valkeakoski;Koivuniemen uimapaikka;61.263544606;24.129056076
 Pyhäjoki;Grekunperän uimapaikka;64.363118368;24.137017961
 Inkoo;Svenviken simplats;60.047398632;24.138438065
 Kalvola;Keskuskentän ranta;61.080866995;24.141124665
--htäri;Inhan aseman uimapaikka;62.550118300;24.144017270
+Ähtäri;Inhan aseman uimapaikka;62.550118300;24.144017270
 Tornio;Saarenpään uimapaikka;65.861494656;24.146203487
 Keuruu;Kangasjärven uimapaikka;62.289050007;24.147891431
 Tornio;Palojärven uimapaikka;66.133339836;24.151824404
@@ -550,7 +550,7 @@ Helsinki;Vuosaaren uimaranta;60.202300852;25.159907945
 Jämsänkoski;Oinaalan uimaranta;61.928448228;25.160430959
 Jämsänkoski;Kukkassalmen uimaranta;62.077035523;25.162237288
 Petäjävesi;Olkkosniemen rantauimala;62.262673555;25.163680613
--änekoski;Parantalan ranta;62.640502490;25.516625938
+Äänekoski;Parantalan ranta;62.640502490;25.516625938
 Oulu;Värtön uimapaikka;65.017691143;25.527918385
 Oulu;Parkkisenkankaan uimapaikka;65.018988141;25.532090314
 Kempele;Kalliomonttu, uimapaikka;64.938959750;25.533342346
@@ -562,8 +562,8 @@ Oulu;Pikkaraisen uimapaikka;65.008369373;25.548007309
 Oulu;Lämsänjärven uimapaikka;64.995897363;25.548705729
 Viitasaari;Vuorilahden uimapaikka;62.978468980;25.551323085
 Asikkala;Vääksyn uimapaikka 3;61.162787081;25.554553171
--änekoski;Järvenpään ranta;62.694210618;25.561422569
--änekoski;Hietaman ranta;62.608685850;25.563539437
+Äänekoski;Järvenpään ranta;62.694210618;25.561422569
+Äänekoski;Hietaman ranta;62.608685850;25.563539437
 Lahti;Likolammen uimaranta;60.991736780;25.563774773
 Hollola;Messilän uimapaikka;61.019016891;25.564872131
 Viitasaari;Keihärinkosken uimapaikka;63.110517468;25.567869609
@@ -684,13 +684,13 @@ Asikkala;Kalkkisen uimapaikka;61.295649040;25.669217914
 Tyrnävä;Uimapaikka Murto;64.843160198;25.670213971
 Jyväskylän mlk;Lummelahden uimapaikka;62.271926629;25.673444867
 Jyväskylä;Köhniön uimaranta;62.241601807;25.674200665
--änekoski;Kotakennään salmen uimapaikka;62.602892350;25.694934951
+Äänekoski;Kotakennään salmen uimapaikka;62.602892350;25.694934951
 Yli-Ii;Martimon uimapaikka;65.298125801;25.696675959
 Luhanka;Kirkonkylän uimaranta;61.791393992;25.697190665
 Lahti;Suopursunpuiston uimapaikka;60.978876288;25.702895776
 Jyväskylä;Myllyjärven uimapaikka;62.218684404;25.710600183
 Jyväskylä;Rantueen uimapaikka;62.269128376;25.711736182
--änekoski;Koiviston ranta;62.538515256;25.719090239
+Äänekoski;Koiviston ranta;62.538515256;25.719090239
 Jyväskylän mlk;Kirrin uimapaikka;62.301380727;25.719532552
 Jyväskylän mlk;Heikkilän uimapaikka;62.305326125;25.722121820
 Lahti;Kotiniemen uimaranta;61.011284061;25.725185805
@@ -700,15 +700,15 @@ Jyväskylän mlk;Kotirannan uimapaikka;62.286893342;25.726950227
 Lahti;Takkulan uimaranta;61.024372004;25.729174126
 Korpilahti;Putkilahden uimapaikka;61.880230428;25.729634862
 Jyväskylä;Sääksjärven uimaranta;62.179081739;25.730950178
--änekoski;Kirkon ranta uinti/avantouinti;62.607856910;25.731293629
+Äänekoski;Kirkon ranta uinti/avantouinti;62.607856910;25.731293629
 Jyväskylän mlk;Pappilanrinteen uimapaikka;62.287301484;25.731345548
--änekoski;Kasperin ranta;62.614723512;25.731506872
--änekoski;Lossinranta;62.634739845;25.732132966
+Äänekoski;Kasperin ranta;62.614723512;25.731506872
+Äänekoski;Lossinranta;62.634739845;25.732132966
 Jyväskylä;Mattilanniemen uimapaikka;62.229212434;25.732190372
 Orimattila;Virenojan uimaranta;60.859390503;25.733692588
 Luhanka;Kesäniemen uimaranta;61.740385965;25.738808005
 Porvoo;Staffaksen uimaranta;60.402704348;25.739199582
--änekoski;Kellokannan uimapaikka;62.622207609;25.739488099
+Äänekoski;Kellokannan uimapaikka;62.622207609;25.739488099
 Porvoo;Tervajärven uimala;60.389466731;25.742287106
 Rovaniemi;Ounaskosken uimaranta;66.501235766;25.743602801
 Jyväskylä;Tuomion uimaranta;62.255390025;25.744121458
@@ -801,7 +801,7 @@ Lappeenranta;Moision uimapaikka;60.945956441;28.092647526
 Rautavaara;Syväkankaisen uimapaikka;63.408051023;28.098927326
 Nilsiä;Pappilan uimapaikka;63.199185971;28.100063845
 Lappeenranta;Korkea-ahon uimaranta;60.974835694;28.101819664
-Varpaisjärvi;-länteen uimapaikka;63.466933313;28.116529134
+Varpaisjärvi;Älänteen uimapaikka;63.466933313;28.116529134
 Posio;Jumiskon uimapaikka;66.369422411;28.120687732
 Juankoski;Kesämäen uimapaikka;63.038549849;28.122009795
 Lappeenranta;Sammonlahden uimaranta;61.052145061;28.123885386
@@ -985,19 +985,19 @@ Karkkila;Saarlammen uimala;60.507608291;24.156493842
 Halsua;Halsuan järven uimaranta;63.458802965;24.158831761
 Tornio;Kivirannan uimapaikka;65.857563573;24.162159654
 Lohja;Lehmijärven uimapaikka;60.307197327;24.164600940
--htäri;Inhan tehtaan uimapaikka;62.518936814;24.165676073
+Ähtäri;Inhan tehtaan uimapaikka;62.518936814;24.165676073
 Kangasala;Raikun uimapaikka;61.409300105;24.166408622
 Tornio;Aapajärven uimapaikka;66.078978975;24.167092092
--htäri;Mekkorannan rantauimala;62.539385998;24.171235475
+Ähtäri;Mekkorannan rantauimala;62.539385998;24.171235475
 Tornio;Pirkkiön uimapaikka;65.828456368;24.180632275
 Karkkila;Pyhäjärven uimala;60.538196730;24.190012151
 Pyhäjoki;Pyhäluodon rantauimala;64.472392373;24.196534703
 Karkkila;Tuorilan uimala;60.546630758;24.197339592
 Tornio;Yliliakan uimapaikka;65.935130833;24.199380805
 Lohja;Nälköönlammen uimaranta;60.299491941;24.206129495
--htäri;-htärinrannan uimapaikka;62.702032122;24.009459154
+Ähtäri;Ähtärinrannan uimapaikka;62.702032122;24.009459154
 Kangasala;Suoramajärven uimapaikka;61.461499269;24.011824834
--htäri;Pusaan uimapaikka;62.456843396;24.011891611
+Ähtäri;Pusaan uimapaikka;62.456843396;24.011891611
 Saarijärvi;Summassaaren uimaranta;62.658839177;25.335502322
 Liminka;Rantakylän uimapaikka;64.807573827;25.345366916
 Oulunsalo;Papinjärven uimapaikka;64.935957355;25.346735759
@@ -1192,7 +1192,7 @@ Helsinki;Puotilan uimaranta;60.209247484;25.109980967
 Vantaa;Vantaan ulkoilukeskus Kuusijärvi uinti;60.313527897;25.113385771
 Rovaniemen mlk;Ylikylän uimapaikka;66.536954504;25.678749570
 Lahti;Merrasjärven uimaranta;61.021146071;25.679270519
--änekoski;Mämmen ranta;62.655892598;25.679922551
+Äänekoski;Mämmen ranta;62.655892598;25.679922551
 Muurame;Kylänlahden uimaranta;62.131424806;25.681454669
 Jyväskylän mlk;Korttajärven uimapaikka;62.329509976;25.681691721
 Muurame;Kotirannan uimaranta;62.134218368;25.683614631
@@ -1202,7 +1202,7 @@ Jyväskylä;Vuorilammen uimapaikka;62.260577884;25.690808839
 Sysmä;Rantauimala;61.498566699;25.691543023
 Lahti;Möysän uimaranta;60.979737622;25.691721860
 Askola;Tiiläänjärven uimapaikka;60.537530121;25.692141906
--änekoski;Likolahden ranta;62.625300326;25.692176699
+Äänekoski;Likolahden ranta;62.625300326;25.692176699
 Viitasaari;Lonnikon uimapaikka;62.996141746;25.693565461
 Varkaus;Honkakosken uimaranta;62.352626174;27.797477627
 Lemi;Lahnajärven rantauimala;61.065127067;27.797542899
@@ -1248,7 +1248,7 @@ Nivala;Karvoskylän uimapaikka;63.879164036;25.156313128
 Jämsänkoski;Yläkosken ranta;61.923199608;25.158575799
 Valkeakoski;Aholanrannan uimapaikka;61.219435804;24.015696237
 Tampere;Pulesjärvi;61.602521201;24.032644655
--htäri;Mustikkavuoren sauna;62.553848889;24.047465790
+Ähtäri;Mustikkavuoren sauna;62.553848889;24.047465790
 Valkeakoski;Sointulan uimapaikka;61.275833343;24.067560890
 Valkeakoski;Leppälän uimapaikka;61.263941717;24.132544482
 Pyhäjoki;Helaakosken uimaranta;64.374156957;24.337893745
@@ -1296,8 +1296,8 @@ Asikkala;Urajärven uimapaikka;61.141665329;25.788200598
 Jyväskylä;Halssilan uimapaikka;62.239502476;25.792204672
 Viitasaari;Jurvansalon uimapaikka;63.048101846;25.792299986
 Viitasaari;Niinilahden uimapaikka;62.933527701;25.795449721
--änekoski;Kovalan ranta;62.608569192;25.796724293
--änekoski;Ruotinkylän ranta;62.618684662;25.798067981
+Äänekoski;Kovalan ranta;62.608569192;25.796724293
+Äänekoski;Ruotinkylän ranta;62.618684662;25.798067981
 Tyrnävä;Uimapaikka Polvenkangas ampumarata;64.784588810;25.800802228
 Myrskylä;Kotojärven uimapaikka;60.584475898;25.807383103
 Jyväskylä;Kangaslammen uimapaikka;62.271680965;25.809711905
@@ -1713,7 +1713,7 @@ Kansanterveyslaitos, SYKE;Laajalahti;63.799419573;23.009671256
 Kansanterveyslaitos, SYKE;Öja;63.829031971;22.919440787
 Kansanterveyslaitos, SYKE;Suntinsuun uimaranta;63.856422507;23.113429155
 Kansanterveyslaitos, SYKE;Molpe;62.866749055;21.249164147
-Kansanterveyslaitos, SYKE;-ijänniemi;60.495079148;26.988511190
+Kansanterveyslaitos, SYKE;Äijänniemi;60.495079148;26.988511190
 Kansanterveyslaitos, SYKE;Tampsan monttu;60.518494234;26.901128277
 Kansanterveyslaitos, SYKE;Santalahti;60.436133987;26.864259510
 Kansanterveyslaitos, SYKE;Likolampi;60.991799159;25.638097360

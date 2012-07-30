@@ -62,11 +62,11 @@ Page {
     Label {
         id: label4
         anchors {top: label3.bottom; topMargin: 12; left: parent.left; leftMargin: 10; right: parent.right; rightMargin: 10 }
-        font.pixelSize: 20
+        font.pixelSize: 22
         font.family: "Nokia Pure Text"
         horizontalAlignment: Text.AlignHCenter
         textFormat: Text.RichText
-        text: "Kaikki sovelluksen data on peräisin OIVA - Ympäristö- ja paikkatietopalvelusta."
+        text: "Tiedot uimapaikoista ovat peräisin OIVA - Ympäristö- ja paikkatietopalvelusta. (c) Valtion ympäristöhallinnon virastot."
 
 
     }
@@ -83,7 +83,7 @@ Page {
     Label {
         id: label6
         anchors {top: button4.bottom; topMargin: 10; left: parent.left; leftMargin: 10; right: parent.right; rightMargin: 10 }
-        font.pixelSize: 20
+        font.pixelSize: 22
         font.family: "Nokia Pure Text"
         horizontalAlignment: Text.AlignHCenter
         textFormat: Text.RichText
@@ -102,7 +102,7 @@ Page {
     Label {
         id: label7
         anchors {top: button6.bottom; topMargin: 10; left: parent.left; leftMargin: 10; right: parent.right; rightMargin: 10 }
-        font.pixelSize: 20
+        font.pixelSize: 22
         font.family: "Nokia Pure Text"
         horizontalAlignment: Text.AlignHCenter
         text: "Kysyttävää, kommentteja, ehdotuksia, haukkuja? Lähetäthän palautetta."
@@ -114,7 +114,18 @@ Page {
         id: button7
         anchors { top: label7.bottom; topMargin: 6; horizontalCenter: parent.horizontalCenter }
         text: "Kirjoita palaute"
-        onClicked: Qt.openUrlExternally("mailto:korva@ovi.com?subject=UImaan/Palaute&body=Palautetta N9 versiosta 1.0:")
+        onClicked: Qt.openUrlExternally("mailto:korva@ovi.com?subject=Uimaan/Palaute&body=Palautetta N9 versiosta 1.0:")
+    }
+
+    Label {
+        id: label8
+        anchors {top: button7.bottom; topMargin: 20; left: parent.left; leftMargin: 10; right: parent.right; rightMargin: 10 }
+        font.pixelSize: 20
+        font.family: "Nokia Pure Text"
+        horizontalAlignment: Text.AlignHCenter
+        text: "Background image from http://fav.me/d1igijr \n Buoy image (c) VectorStock "
+
+
     }
 
 

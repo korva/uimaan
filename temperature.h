@@ -51,11 +51,13 @@ private:
     QNetworkAccessManager *m_manager;
     QString m_reply;
     bool m_loading;
+    bool m_parsingOk;
 
     QList<Measurement> m_measurements;
 
     bool parseHTML();
     void addMeasurementPoint(QString name, double latitude, double longitude);
+    void getMeasurement(); // gets the nearest temperature if coordinate and data are available. Emits ready() if so.
     
 };
 

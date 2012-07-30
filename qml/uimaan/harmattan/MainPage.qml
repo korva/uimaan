@@ -140,6 +140,7 @@ Page {
             font.family: "Nokia Pure Text"
             color: spotRed
             font.pixelSize: 30
+            visible: spot.temperatureDataAvailable
 
             onTextChanged: waterTemperatureTextAnimation.restart()
 
@@ -152,6 +153,13 @@ Page {
                 NumberAnimation { target: waterTemperatureText; property: "scale"; from: 1.0; to: 1.1; duration: 300 }
                 NumberAnimation { target: waterTemperatureText; property: "scale"; from: 1.1; to: 1.0; duration: 300 }
             }
+        }
+    }
+
+    MouseArea {
+        anchors.fill: logo
+        onClicked: {
+            pageStack.push(Qt.resolvedUrl("InfoPage.qml"))
         }
     }
 

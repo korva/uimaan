@@ -47,7 +47,7 @@ bool Spot::initialize(QString data)
     m_longitude = data.section(SEPARATOR, 3, 3).toFloat();
 
 
-    qDebug() << m_name << m_city << m_latitude << m_longitude;
+    //qDebug() << m_name << m_city << m_latitude << m_longitude;
 
     return true;
 }

@@ -10,7 +10,7 @@ Page {
 
     Image {
         anchors.fill: parent
-        source: "qrc:/paperbg.png"
+        source: "qrc:/common/woodenwall_light.jpg"
     }
 
 
@@ -29,9 +29,7 @@ Page {
             color: spotRed
             text: calibrationLevelInt + " %"
             font.pixelSize: 30
-            anchors.bottom: logo.bottom
-            anchors.bottomMargin: 25
-            anchors.horizontalCenter: logo.horizontalCenter
+            anchors.centerIn: logo
             font.family: "Nokia Pure Text"
             horizontalAlignment: Text.AlignHCenter
 
@@ -63,7 +61,7 @@ Page {
 
     Text {
         id: instructionText
-        text: "Että voisin opastaa sinut paremmin perille, kompassisi pitäisi kalibroida.\nPyörittele luuriasi ympäri hetki."
+        text: "Voisin opastaa sinut helpommin perille, jos kalibroimme kompassisi ensin.\nPyörittele luuriasi ympäri hetki."
         font.family: "Nokia Pure Text"
         anchors.top: helloText.bottom
         anchors.topMargin: 2

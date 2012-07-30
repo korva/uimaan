@@ -48,6 +48,8 @@ Page {
         clip: true
         model: spotModel
         delegate: SpotListDelegate { }
+
+
     }
 
     ScrollDecorator {
