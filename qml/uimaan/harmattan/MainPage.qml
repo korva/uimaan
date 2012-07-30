@@ -140,6 +140,7 @@ Page {
             font.family: "Nokia Pure Text"
             color: spotRed
             font.pixelSize: 30
+            visible: spot.temperatureDataAvailable
 
             onTextChanged: waterTemperatureTextAnimation.restart()
 

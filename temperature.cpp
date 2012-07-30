@@ -14,6 +14,7 @@ Temperature::Temperature(QObject *parent) :
     m_longitude = 0;
     m_reply = "";
     m_loading = true;
+    m_parsingOk = false;
 
     m_manager = new QNetworkAccessManager(this);
     connect(m_manager, SIGNAL(finished(QNetworkReply*)),
@@ -80,8 +81,26 @@ void Temperature::setCoordinate(double lat, double lng)
 {
     m_latitude = lat;
     m_longitude = lng;
+    if(m_parsingOk) getMeasurement();
+    return;
+}
 
-    QGeoCoordinate target(lat, lng);
+void Temperature::getMeasurement()
+{
+    if(m_latitude == 0 || m_longitude == 0)
+    {
+        qDebug() << "Can't measure, no coordinate set";
+        return;
+
+    }
+
+    if(!m_parsingOk)
+    {
+        qDebug() << "Can't measure, no data available";
+        return;
+    }
+
+    QGeoCoordinate target(m_latitude, m_longitude);
     QGeoCoordinate measurementLocation;
     double distance = -1;
     int closestIndex = 0;
@@ -111,6 +130,7 @@ void Temperature::setCoordinate(double lat, double lng)
     m_isValid = true;
 
     emit ready();
+    return;
 
 }
 
@@ -187,8 +207,13 @@ void Temperature::replyFinished(QNetworkReply *reply)
         return;
     }
 
-    bool ok = parseHTML();
-    if(!ok) qDebug() << "Parsing failed";
+    m_parsingOk = parseHTML();
+    if(!m_parsingOk) {
+        qDebug() << "Parsing failed";
+    }
+    else {
+        getMeasurement();
+    }
 
     m_loading = false;
 
@@ -205,4 +230,5 @@ void Temperature::networkError()
     qDebug() << "authorization error";
     //emit error();
     m_loading = false;
+    m_isValid = false;
 }

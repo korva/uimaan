@@ -19,10 +19,6 @@ class SpotFinder : public QObject
 
     Q_PROPERTY(QString name READ name NOTIFY nameChanged)
     Q_PROPERTY(QString address READ address NOTIFY addressChanged)
-    Q_PROPERTY(QString postcode READ postcode NOTIFY postcodeChanged)
-    Q_PROPERTY(QString city READ city NOTIFY cityChanged)
-    Q_PROPERTY(QString phone READ phone NOTIFY phoneChanged)
-    Q_PROPERTY(QString email READ email NOTIFY emailChanged)
     Q_PROPERTY(QString additionalInfo READ additionalInfo NOTIFY additionalInfoChanged)
     Q_PROPERTY(qreal distance READ distance NOTIFY distanceChanged)
     Q_PROPERTY(qreal azimuth READ azimuth NOTIFY azimuthChanged)
@@ -33,7 +29,9 @@ class SpotFinder : public QObject
     Q_PROPERTY(bool positionFound READ positionFound NOTIFY positionFoundChanged)
     Q_PROPERTY(bool spotFound READ spotFound NOTIFY spotFoundChanged)
     Q_PROPERTY(SpotModel* model READ model WRITE setModel NOTIFY modelChanged)
+    Q_PROPERTY(bool temperatureDataAvailable READ temperatureDataAvailable NOTIFY temperatureDataAvailableChanged)
     //Q_PROPERTY(QString selectedSpot READ selectedSpot WRITE setSelectedSpot)
+
 
     Q_PROPERTY(QString waterTemperature READ waterTemperature NOTIFY waterTemperatureChanged)
     Q_PROPERTY(QString airTemperature READ airTemperature NOTIFY airTemperatureChanged)
@@ -48,10 +46,6 @@ public:
 
     QString name() const;
     QString address() const;
-    QString postcode() const;
-    QString city() const;
-    QString phone() const;
-    QString email() const;
     QString additionalInfo() const;
 
     qreal distance() const;
@@ -63,6 +57,7 @@ public:
     qreal currentLongitude() const;
     bool positionFound() const;
     bool spotFound() const;
+    bool temperatureDataAvailable();
 
     QString waterTemperature() const;
     QString airTemperature() const;
@@ -71,16 +66,14 @@ public:
     void setModel(QObject* model);
 
     Q_INVOKABLE void launchMaps() const;
+    Q_INVOKABLE double latitudeAtIndex(int index);
+    Q_INVOKABLE double longitudeAtIndex(int index);
+
 
 signals:
-    //void resultFound();
-    //void error(QString errormsg);
+
     void nameChanged();
     void addressChanged();
-    void postcodeChanged();
-    void cityChanged();
-    void phoneChanged();
-    void emailChanged();
     void additionalInfoChanged();
     void distanceChanged();
     void azimuthChanged();
@@ -95,9 +88,11 @@ signals:
     void currentLongitudeChanged();
     void waterTemperatureChanged();
     void airTemperatureChanged();
+    void temperatureDataAvailableChanged();
 
 public slots:
     void positionUpdated(const QGeoPositionInfo &info);
+    void temperatureDataUpdated();
 
 private:
     QGeoPositionInfoSource *m_source;
@@ -107,8 +102,6 @@ private:
     qreal m_distance;
     bool m_positionFound;
     bool m_spotFound;
-    bool m_isOpen;
-
 
     SpotModel* m_model;
     Spot* m_selectedSpot;

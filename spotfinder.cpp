@@ -10,7 +10,6 @@ SpotFinder::SpotFinder(QObject *parent) :
     m_distance = 0;
     m_positionFound = false;
     m_spotFound = false;
-    m_isOpen = false;
     m_targetCoordinate = NULL;
     m_currentCoordinate = NULL;
     m_selectedSpot = NULL;
@@ -29,7 +28,7 @@ SpotFinder::SpotFinder(QObject *parent) :
     //m_model = new SpotModel();
 
     m_temperature = new Temperature();
-    connect(m_temperature, SIGNAL(ready()), this, SIGNAL(waterTemperatureChanged()));
+    connect(m_temperature, SIGNAL(ready()), this, SLOT(temperatureDataUpdated()));
 
     emit initializationComplete();
 
@@ -81,7 +80,7 @@ void SpotFinder::positionUpdated(const QGeoPositionInfo &info)
 
 void SpotFinder::selectSpot(int index)
 {
-    //qDebug() << "SpotFinder::selectSpot";
+    qDebug() << "SpotFinder::selectSpot with index " << index;
 
     if (m_model == NULL)
     {
@@ -90,6 +89,14 @@ void SpotFinder::selectSpot(int index)
         return;
     }
 
+    if (index < 0)
+    {
+       qDebug() << "SpotFinder::selectSpot index < 0";
+       m_spotFound = false;
+    }
+
+
+    m_selectedSpot = NULL;
     m_selectedSpot = m_model->spotAt(index);
 
     if (m_selectedSpot == NULL)
@@ -108,10 +115,6 @@ void SpotFinder::selectSpot(int index)
 
     emit nameChanged();
     emit addressChanged();
-    emit postcodeChanged();
-    emit cityChanged();
-    emit phoneChanged();
-    emit emailChanged();
     emit additionalInfoChanged();
     emit spotFoundChanged();
     emit targetChanged();
@@ -206,28 +209,6 @@ QString SpotFinder::address() const
     else return m_selectedSpot->address();
 }
 
-QString SpotFinder::postcode() const
-{
-    if (!m_selectedSpot) return "";
-    return m_selectedSpot->postcode();
-}
-
-QString SpotFinder::city() const
-{
-    if (!m_selectedSpot) return "";
-    return m_selectedSpot->city();
-}
-
-QString SpotFinder::phone() const
-{
-    if (!m_selectedSpot) return "";
-    return m_selectedSpot->phone();
-}
-QString SpotFinder::email() const
-{
-    if (!m_selectedSpot) return "";
-    return m_selectedSpot->email();
-}
 
 QString SpotFinder::additionalInfo() const
 {
@@ -281,6 +262,35 @@ QString SpotFinder::waterTemperature() const
 QString SpotFinder::airTemperature() const
 {
     if(m_temperature) return QString::number(m_temperature->airTemperature());
+    else return 0;
+}
+
+bool SpotFinder::temperatureDataAvailable()
+{
+    return m_temperature->isValid();
+}
+
+void SpotFinder::temperatureDataUpdated()
+{
+
+    emit temperatureDataAvailableChanged();
+    emit waterTemperatureChanged();
+
+}
+
+double SpotFinder::latitudeAtIndex(int index)
+{
+    if (!m_model) return 0;
+    Spot *temp = m_model->spotAt(index);
+    if (temp) return temp->latitude();
+    else return 0;
+}
+
+double SpotFinder::longitudeAtIndex(int index)
+{
+    if (!m_model) return 0;
+    Spot *temp = m_model->spotAt(index);
+    if (temp) return temp->longitude();
     else return 0;
 }
 
