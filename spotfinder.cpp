@@ -80,8 +80,6 @@ void SpotFinder::positionUpdated(const QGeoPositionInfo &info)
 
 void SpotFinder::selectSpot(int index)
 {
-    qDebug() << "SpotFinder::selectSpot with index " << index;
-
     if (m_model == NULL)
     {
         qDebug() << "SpotFinder::selectSpot no model!";

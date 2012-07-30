@@ -156,6 +156,13 @@ Page {
         }
     }
 
+    MouseArea {
+        anchors.fill: logo
+        onClicked: {
+            pageStack.push(Qt.resolvedUrl("InfoPage.qml"))
+        }
+    }
+
 
 
     CompassPointer {

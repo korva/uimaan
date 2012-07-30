@@ -66,7 +66,7 @@ Page {
         font.family: "Nokia Pure Text"
         horizontalAlignment: Text.AlignHCenter
         textFormat: Text.RichText
-        text: "Kaikki sovelluksen data on peräisin OIVA - Ympäristö- ja paikkatietopalvelusta."
+        text: "Tiedot uimapaikoista ovat peräisin OIVA - Ympäristö- ja paikkatietopalvelusta. (c) Valtion ympäristöhallinnon virastot."
 
 
     }
