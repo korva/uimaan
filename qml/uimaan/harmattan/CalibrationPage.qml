@@ -17,10 +17,10 @@ Page {
     Image {
         id: logo
         anchors.top: parent.top
-        anchors.topMargin: 50
+        anchors.topMargin: 40
         anchors.horizontalCenter: parent.horizontalCenter
-        width: 300
-        height: 300
+        width: 330
+        height: 330
         source: "qrc:/common/buoy.png"
         //opacity: compassCalibrationLevel
 

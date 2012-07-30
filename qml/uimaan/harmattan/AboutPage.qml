@@ -96,7 +96,7 @@ Page {
         id: button6
         anchors { top: label6.bottom; topMargin: 6; horizontalCenter: parent.horizontalCenter }
         text: "Avaa Nokia Store"
-        onClicked: Qt.openUrlExternally("http://store.ovi.com/content/271394")
+        onClicked: Qt.openUrlExternally("http://store.ovi.com/content/301843")
     }
 
     Label {

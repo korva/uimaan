@@ -100,7 +100,7 @@ Page {
         anchors.horizontalCenter: parent.horizontalCenter
         width: 330
         height: 330
-        source: "qrc:/common/buoy2.png"
+        source: "qrc:/common/buoy.png"
         rotation: compassPointer.angle
 
 
@@ -189,7 +189,9 @@ Page {
         id: aboutButton
         anchors { top: parent.top; topMargin: 18; right: parent.right; rightMargin: 18 }
         source: "qrc:/about.png"
-        scale: 1.2
+        width: 50
+        height: 50
+
 
         Rectangle {
             width: parent.width + 16
