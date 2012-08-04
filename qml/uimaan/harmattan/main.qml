@@ -52,6 +52,7 @@ PageStackWindow {
     SpotFinder {
         id: spot
         model: spotModel
+        locationEnabled: false // by default, don't allow location updates
 
         Component.onCompleted: {
             console.log("init complete")

@@ -15,6 +15,15 @@ Page {
         if(status === PageStatus.Active) mapButton.enabled = true
     }
 
+    Component.onCompleted: {
+        locationDialog.open()
+        //spot.locationEnabled = true
+    }
+
+    function enableLocationUpdates() {
+        spot.locationEnabled = true
+    }
+
 
     states: [
         State {
@@ -346,7 +355,7 @@ Page {
 
     ToolBarLayout {
         id: commonTools
-        visible: true
+        visible: false
 
 
 
@@ -378,6 +387,63 @@ Page {
         }
 
 
+
+    }
+
+    Dialog {
+        id: locationDialog
+
+        content:Item {
+            id: name
+            height: 50
+            width: parent.width
+            Text {
+                id: text
+                font.pixelSize: 22
+                anchors.centerIn: parent
+                color: "white"
+                text: "Saako Uimaan käyttää nykyistä sijaintiasi?"
+            }
+        }
+
+        buttons: Column {
+            //style: ButtonStyle { }
+            //anchors.horizontalCenter: parent.horizontalCenter
+            Button {
+                text: "Kyllä"
+                onClicked: {
+
+                    locationDialog.accept()
+                    commonTools.visible = true
+                }
+            }
+            Button {
+                text: "Kyllä, ja älä kysy enää"
+                onClicked: {
+
+                    locationDialog.accept()
+                    commonTools.visible = true
+                }
+            }
+            Button {
+                text: "Ei nyt"
+                onClicked: {
+
+                    locationDialog.reject()
+                    commonTools.visible = true
+                }
+            }
+
+
+        }
+
+        onAccepted: {
+            enableLocationUpdates()
+        }
+
+        onRejected: {
+            //spot.locationEnabled = false
+        }
 
     }
 

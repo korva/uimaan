@@ -10,20 +10,22 @@ SpotFinder::SpotFinder(QObject *parent) :
     m_distance = 0;
     m_positionFound = false;
     m_spotFound = false;
+    m_locationEnabled = false;
     m_targetCoordinate = NULL;
     m_currentCoordinate = NULL;
     m_selectedSpot = NULL;
     m_model = NULL;
 
-    m_source = QGeoPositionInfoSource::createDefaultSource(0);
+//    m_source = QGeoPositionInfoSource::createDefaultSource(this);
 
-    if (m_source) {
-        connect(m_source, SIGNAL(positionUpdated(QGeoPositionInfo)),
-                this, SLOT(positionUpdated(QGeoPositionInfo)));
-        m_source->setUpdateInterval(2000);
-        m_source->startUpdates();
-        //qDebug() << "position source created";
-    }
+//    if (m_source) {
+//        connect(m_source, SIGNAL(positionUpdated(QGeoPositionInfo)),
+//                this, SLOT(positionUpdated(QGeoPositionInfo)));
+//        m_source->setUpdateInterval(2000);
+//        // don't start updates until there is clearance
+//        //m_source->startUpdates();
+//        //qDebug() << "position source created";
+//    }
 
     //m_model = new SpotModel();
 
@@ -39,9 +41,45 @@ SpotFinder::~SpotFinder()
     if (m_source) delete m_source;
 }
 
+void SpotFinder::setLocationEnabled(bool enabled)
+{
+    qDebug() << "setLocEn " << enabled;
+    // enable location updates based on m_locationEnabled
+
+    m_locationEnabled = enabled;
+
+    if(!enabled) {
+        if(m_source) m_source->stopUpdates();
+        emit locationEnabledChanged();
+        return;
+    }
+
+    if(!m_source)
+    {
+        qDebug() << "No location service available, creating...";
+        m_source = QGeoPositionInfoSource::createDefaultSource(this);
+
+        if (m_source) {
+            connect(m_source, SIGNAL(positionUpdated(QGeoPositionInfo)),
+                    this, SLOT(positionUpdated(QGeoPositionInfo)));
+            m_source->setUpdateInterval(2000);
+        }
+    }
+
+    m_source->startUpdates();
+    emit locationEnabledChanged();
+    return;
+}
+
+bool SpotFinder::locationEnabled() const
+{
+    qDebug() << "LocEn";
+    return m_locationEnabled;
+}
+
 void SpotFinder::positionUpdated(const QGeoPositionInfo &info)
 {
-    //qDebug() << "position update";
+    qDebug() << "position update";
 
     // save current location
     if(m_currentCoordinate) delete m_currentCoordinate;

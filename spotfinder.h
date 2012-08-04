@@ -30,6 +30,7 @@ class SpotFinder : public QObject
     Q_PROPERTY(bool spotFound READ spotFound NOTIFY spotFoundChanged)
     Q_PROPERTY(SpotModel* model READ model WRITE setModel NOTIFY modelChanged)
     Q_PROPERTY(bool temperatureDataAvailable READ temperatureDataAvailable NOTIFY temperatureDataAvailableChanged)
+    Q_PROPERTY(bool locationEnabled READ locationEnabled WRITE setLocationEnabled NOTIFY locationEnabledChanged)
     //Q_PROPERTY(QString selectedSpot READ selectedSpot WRITE setSelectedSpot)
 
 
@@ -59,12 +60,15 @@ public:
     bool positionFound() const;
     bool spotFound() const;
     bool temperatureDataAvailable();
+    bool locationEnabled() const;
 
     QString waterTemperature() const;
     QString airTemperature() const;
 
     SpotModel* model();
     void setModel(QObject* model);
+
+    void setLocationEnabled(bool enabled);
 
     Q_INVOKABLE void launchMaps() const;
     Q_INVOKABLE double latitudeAtIndex(int index);
@@ -90,6 +94,7 @@ signals:
     void waterTemperatureChanged();
     void airTemperatureChanged();
     void temperatureDataAvailableChanged();
+    void locationEnabledChanged();
 
 public slots:
     void positionUpdated(const QGeoPositionInfo &info);
@@ -103,6 +108,7 @@ private:
     qreal m_distance;
     bool m_positionFound;
     bool m_spotFound;
+    bool m_locationEnabled;
 
     SpotModel* m_model;
     Spot* m_selectedSpot;
