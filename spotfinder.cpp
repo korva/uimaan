@@ -263,6 +263,12 @@ QString SpotFinder::airTemperature() const
     else return 0;
 }
 
+QString SpotFinder::measurementLocation() const
+{
+    if(m_temperature) return m_temperature->measurementLocation();
+    else return "";
+}
+
 bool SpotFinder::temperatureDataAvailable()
 {
     return m_temperature->isValid();

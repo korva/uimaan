@@ -28,7 +28,7 @@ Item {
         font.family: "Nokia Pure Text"
         //font.pointSize: 18
         font.pixelSize: 16
-        color: "grey"
+        color: "black"
         elide: Text.ElideRight
     }
 

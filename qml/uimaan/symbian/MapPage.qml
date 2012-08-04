@@ -5,6 +5,7 @@ import QtMobility.location 1.2
 Page {
 
     tools: mapTools
+    orientationLock: PageOrientation.LockPortrait
 
     //    function populateMap() {
     //        for (i=0;i<=20;i++) {
@@ -93,6 +94,28 @@ Page {
                 lastX = -1
                 lastY = -1
             }
+        }
+
+        // add 20 nearest spots to map too
+        Repeater {
+            onItemAdded: {
+                map.addMapObject(item)
+                centerMap()
+            }
+            onItemRemoved: {
+                //map.removeMapObject(item)
+            }
+            model: 0
+
+            Component.onCompleted: if(nearest) model = 20
+
+            SpotMapDelegate {
+                lat: spot.latitudeAtIndex(index+1)
+                lng: spot.longitudeAtIndex(index+1)
+                spotIndex: index+1
+            }
+
+
         }
     }
 

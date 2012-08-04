@@ -8,7 +8,7 @@ Page {
 
     Image {
         anchors.fill: parent
-        source: "qrc:/paperbg.png"
+        source: "qrc:/common/woodenwall_light.jpg"
 
 
     }
@@ -54,7 +54,7 @@ Page {
     Label {
         id: label3
         anchors {top: label2.bottom; topMargin: 12; left: parent.left; leftMargin: 4; right: parent.right; rightMargin: 4 }
-        font.pixelSize: 20
+        font.pixelSize: 22
         font.family: "Nokia Pure Text"
         horizontalAlignment: Text.AlignHCenter
         text: "Löydä lähin uimapaikka. Helposti!"
@@ -65,7 +65,7 @@ Page {
     Label {
         id: label4
         anchors {top: label3.bottom; topMargin: 12; left: parent.left; leftMargin: 4; right: parent.right; rightMargin: 4 }
-        font.pixelSize: 14
+        font.pixelSize: 18
         font.family: "Nokia Pure Text"
         horizontalAlignment: Text.AlignHCenter
         platformInverted: true
@@ -88,7 +88,7 @@ Page {
     Label {
         id: label6
         anchors {top: button4.bottom; topMargin: 10; left: parent.left; leftMargin: 10; right: parent.right; rightMargin: 10 }
-        font.pixelSize: 14
+        font.pixelSize: 18
         font.family: "Nokia Pure Text"
         horizontalAlignment: Text.AlignHCenter
         textFormat: Text.RichText
@@ -104,13 +104,13 @@ Page {
         anchors { top: label6.bottom; topMargin: 6; horizontalCenter: parent.horizontalCenter }
         text: "Avaa Nokia Store"
         platformInverted: true
-        onClicked: Qt.openUrlExternally("http://store.ovi.com/content/275939")
+        onClicked: Qt.openUrlExternally("http://store.ovi.com/content/303054")
     }
 
     Label {
         id: label7
         anchors {top: button6.bottom; topMargin: 10; left: parent.left; leftMargin: 10; right: parent.right; rightMargin: 10 }
-        font.pixelSize: 14
+        font.pixelSize: 18
         font.family: "Nokia Pure Text"
         horizontalAlignment: Text.AlignHCenter
         text: "Kysyttävää, kommentteja, ehdotuksia, haukkuja? Lähetäthän palautetta."

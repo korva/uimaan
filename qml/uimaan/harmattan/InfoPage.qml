@@ -13,7 +13,7 @@ Page {
 
     Titlebar {
         id: titleBar
-        text: "Säätila"
+        text: "Säätiedot"
     }
 
     BusyIndicator {
@@ -34,13 +34,47 @@ Page {
             spacing: 10
 
             Label {
+                id: data
+                anchors {left: parent.left; leftMargin: 10; right: parent.right; rightMargin: 10 }
+                font.pixelSize: 26
+                font.family: "Nokia Pure Text"
+                horizontalAlignment: Text.AlignLeft
+                textFormat: Text.RichText
+                text: spot.temperatureDataAvailable ? "Arvioitu veden lämpötila: " + spot.waterTemperature + " °C" : "Huomio: vesien lämpötilatietojen hakeminen ei onnistunut. Voit edelleen toki selata uimapaikkoja. Koita tarjeta :)"
+
+            }
+
+            Label {
+                id: location
+                anchors {left: parent.left; leftMargin: 10; right: parent.right; rightMargin: 10 }
+                font.pixelSize: 26
+                font.family: "Nokia Pure Text"
+                horizontalAlignment: Text.AlignLeft
+                textFormat: Text.RichText
+                text: spot.temperatureDataAvailable ? "Mittauspiste: " + spot.measurementLocation() : ""
+
+            }
+
+            Label {
                 id: label
                 anchors {left: parent.left; leftMargin: 10; right: parent.right; rightMargin: 10 }
                 font.pixelSize: 26
                 font.family: "Nokia Pure Text"
                 horizontalAlignment: Text.AlignLeft
                 textFormat: Text.RichText
-                text: "Ladataan lämpötilatietoja..."
+                text: "Huomio: ilmoitettu veden lämpötila on karkea arvio perustuen lähimpään mittaustulokseen Ympäristöhallinnon sivustolta."
+                visible: spot.temperatureDataAvailable
+
+            }
+
+            Label {
+                id: label2
+                anchors {left: parent.left; leftMargin: 10; right: parent.right; rightMargin: 10 }
+                font.pixelSize: 26
+                font.family: "Nokia Pure Text"
+                horizontalAlignment: Text.AlignLeft
+                textFormat: Text.RichText
+                text: "Huomio: ilmoitettu veden lämpötila on karkea arvio perustuen lähimpään mittaustulokseen Ympäristöhallinnon sivustolta."
 
             }
 
@@ -51,12 +85,10 @@ Page {
                 source: "http://wwwi3.ymparisto.fi/i3/tilanne/fin/Lampotila/image/lampo.gif"
 
                 onStatusChanged: {
-                    if(status === Image.Error) {
-                        label.text = "Huomio: vesien lämpötilatietojen hakeminen ei onnistunut. Voit edelleen selata uimapaikkoja. Koita tarjeta :)"
-                    }
-                    else if (status === Image.Ready)
+
+                    if (status === Image.Ready)
                     {
-                        label.text = "Huomio: ilmoitettu veden lämpötila on karkea arvio perustuen lähimpään mittaustulokseen Ympäristöhallinnon sivustolta. Allaoleva kuva selvittää mittauspisteiden sijaintia.\n(c) Valtion ympäristöhallinto"
+                        label2.text = "Allaoleva kuva selvittää mittauspisteiden sijaintia.(c) Valtion ympäristöhallinto"
 
                     }
                 }

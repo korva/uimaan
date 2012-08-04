@@ -9,10 +9,10 @@ QML_IMPORT_PATH =
 QT += core network
 
 # Dev UID
-symbian:TARGET.UID3 = 0xE160B555
+#symbian:TARGET.UID3 = 0xE160B555
 
 #Store UID
-#symbian:TARGET.UID3 = 0x2004b4c9
+symbian:TARGET.UID3 = 0x2004b4cb
 
 # Smart Installer package's UID
 # This UID is from the protected range and therefore the package will

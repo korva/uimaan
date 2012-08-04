@@ -55,11 +55,23 @@ Page {
         center: spotCoordinate
 
         MapImage {
+            id: mapImage
             source: "qrc:/mapicon.png"
             coordinate: spotCoordinate
             offset.x: -width/2
             offset.y: -height/2
         }
+
+//        MapText {
+//            coordinate: spotCoordinate
+////            offset.x: -width/2
+////            offset.y: 40
+//            color: spotRed
+//            font.family: "Nokia Pure Text"
+//            font.pixelSize: 24
+//            text: spot.name
+//            visible: map.zoomLevel > 12
+//        }
 
         MapImage {
             source: "qrc:/usericon.png"
@@ -104,6 +116,7 @@ Page {
         Repeater {
             onItemAdded: {
                 map.addMapObject(item)
+                centerMap()
             }
             onItemRemoved: {
                 //map.removeMapObject(item)

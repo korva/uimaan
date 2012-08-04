@@ -25,7 +25,7 @@ Page {
             PropertyChanges { target: infoButton; opacity: 0.0}
             PropertyChanges { target: distanceText; opacity: 0.0}
             PropertyChanges { target: nameText; text: "Haetaan sijaintiasi..."}
-            PropertyChanges { target: addressText; text: "Jos on kiire, valitse uimapaikka valikosta"}
+            PropertyChanges { target: addressText; text: "Voit myös valita uimapaikan valikosta"}
             PropertyChanges { target: timer; running: false}
         },
         State {
@@ -97,24 +97,13 @@ Page {
     Image {
         id: logo
         anchors.top: parent.top
-        anchors.topMargin: 40
+        anchors.topMargin: 30
         anchors.horizontalCenter: parent.horizontalCenter
         width: 260
         height: 260
-        source: "qrc:/common/buoy2.png"
+        source: "qrc:/common/buoy.png"
         rotation: compassPointer.angle
 
-        property int animationPace: 900
-
-        SequentialAnimation {
-            id: logoAnimation
-            running: false
-            alwaysRunToEnd: true
-            loops: Animation.Infinite
-
-            NumberAnimation { target: logo; property: "scale"; from: 1.0; to: 1.05; duration: logo.animationPace }
-            NumberAnimation { target: logo; property: "scale"; from: 1.05; to: 1.0; duration: logo.animationPace }
-        }
     }
 
     Column {
@@ -151,6 +140,7 @@ Page {
             font.family: "Nokia Pure Text"
             color: spotRed
             font.pixelSize: 20
+            visible: spot.temperatureDataAvailable
 
             onTextChanged: waterTemperatureTextAnimation.restart()
 
@@ -166,7 +156,12 @@ Page {
         }
     }
 
-
+    MouseArea {
+        anchors.fill: logo
+        onClicked: {
+            pageStack.push(Qt.resolvedUrl("InfoPage.qml"))
+        }
+    }
 
     CompassPointer {
         id: compassPointer

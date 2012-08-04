@@ -10,6 +10,7 @@ Temperature::Temperature(QObject *parent) :
     m_isValid = false;
     m_surfaceTemperature = "";
     m_airTemperature = 0;
+    m_measurementLocation = "";
     m_latitude = 0;
     m_longitude = 0;
     m_reply = "";
@@ -45,11 +46,11 @@ Temperature::Temperature(QObject *parent) :
     addMeasurementPoint("Päijänne,Päijätsalo", 61.8566069,25.5907664);
     addMeasurementPoint("Tuusulanjärvi", 60.4363177,25.0664111);
     addMeasurementPoint("Lohjanjärvi", 60.2510791,24.0467543);
-    addMeasurementPoint("Säkylän Pyhäjärvi", 61.0000937,22.3112873);
+    addMeasurementPoint("SäkylänPyhäjärvi", 61.0000937,22.3112873);
     addMeasurementPoint("Längelmävesi,Kaivanto", 61.591757,24.4486032);
     addMeasurementPoint("Pääjärvi,Lammi", 61.0591884,25.1485557);
     addMeasurementPoint("Kitusjärvi,Virrat", 62.2752067,23.7998209); //ei varma
-    addMeasurementPoint("Kuivajärvi,Saari, Tammela", 60.7679053,23.8324817); //ei varma
+    addMeasurementPoint("Kuivajärvi,Saari,Tammela", 60.7679053,23.8324817); //ei varma
     addMeasurementPoint("Näsijärvi,Kyrönlahti", 61.7060793,23.6429305);
     addMeasurementPoint("Lappajärvi,Halkosaari", 63.2094423,23.7346149);
     addMeasurementPoint("Pesiöjärvi,Suomussalmi", 64.9445726,28.6695489);
@@ -125,6 +126,7 @@ void Temperature::getMeasurement()
 
     //qDebug() << "closestIndex: " << closestIndex;
     m_surfaceTemperature = m_measurements[closestIndex].measurement;
+    m_measurementLocation = m_measurements[closestIndex].name + " (" + QString::number(qRound(distance/1000)) + " km)";
     //qDebug() << "surfTemp: " << m_surfaceTemperature;
     m_airTemperature = 22;
     m_isValid = true;
@@ -142,6 +144,11 @@ bool Temperature::isValid() const
 QString Temperature::waterTemperature() const
 {
     return m_surfaceTemperature;
+}
+
+QString Temperature::measurementLocation() const
+{
+    return m_measurementLocation;
 }
 
 qreal Temperature::airTemperature() const

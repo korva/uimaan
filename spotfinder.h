@@ -43,6 +43,7 @@ public:
     Q_INVOKABLE void selectSpot(int index);
     Q_INVOKABLE void sortByLocation();
     Q_INVOKABLE void sortByName();
+    Q_INVOKABLE QString measurementLocation() const;
 
     QString name() const;
     QString address() const;

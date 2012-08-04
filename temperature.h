@@ -21,6 +21,7 @@ public:
     bool isValid() const;
     QString waterTemperature() const;
     qreal airTemperature() const;
+    QString measurementLocation() const;
 
     struct Measurement {
         QString name;
@@ -45,6 +46,7 @@ private:
     bool m_isValid;
     QString m_surfaceTemperature;
     qreal m_airTemperature;
+    QString m_measurementLocation;
     double m_latitude;
     double m_longitude;
 
