@@ -1,10 +1,10 @@
 import QtQuick 1.1
 import com.nokia.meego 1.0
+import "Storage.js" as Storage
 
 Page {
     id: infoPage
     orientationLock: PageOrientation.LockPortrait
-
 
     Image {
         anchors.fill: parent
@@ -36,7 +36,8 @@ Page {
             text: "Kyllä, ja älä kysy enää"
             onClicked: {
                 spot.locationEnabled = true
-                // write to settings database
+                Storage.initialize()
+                Storage.setSetting("locationEnabled",true);
                 pageStack.push(Qt.resolvedUrl("MainPage.qml"))
             }
         }

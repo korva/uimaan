@@ -3,6 +3,7 @@ import com.nokia.meego 1.0
 import SpotFinder 1.0
 import SpotModel 1.0
 import QtMobility.sensors 1.1
+import "Storage.js" as Storage
 
 PageStackWindow {
     id: appWindow
@@ -12,6 +13,7 @@ PageStackWindow {
 
     // true if compass is calibrated
     property bool compassEnabled: false
+    property bool locationEnabledPermanently: false
 
     property real compassAzimuth: 0.0
     property real compassCalibrationLevel: 0.0
@@ -22,10 +24,6 @@ PageStackWindow {
 
     property string spotGreen: "#49b534"
     property string spotRed: "#E63D2C"
-
-    //initialPage: splashPage
-
-
 
     Compass {
         id: compass
@@ -48,7 +46,9 @@ PageStackWindow {
         //locationEnabled: false // by default, don't allow location updates
 
         Component.onCompleted: {
-            console.log("init complete")
+            // get the location setting from persistent db
+            Storage.initialize();
+            locationEnabledPermanently = Storage.getSetting("locationEnabled");
             if(compassCalibrationLevel < compassCalibrationTreshold) pageStack.push(Qt.resolvedUrl("CalibrationPage.qml"))
             else {
                 compassEnabled = true
