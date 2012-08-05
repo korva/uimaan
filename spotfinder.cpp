@@ -16,19 +16,6 @@ SpotFinder::SpotFinder(QObject *parent) :
     m_selectedSpot = NULL;
     m_model = NULL;
 
-//    m_source = QGeoPositionInfoSource::createDefaultSource(this);
-
-//    if (m_source) {
-//        connect(m_source, SIGNAL(positionUpdated(QGeoPositionInfo)),
-//                this, SLOT(positionUpdated(QGeoPositionInfo)));
-//        m_source->setUpdateInterval(2000);
-//        // don't start updates until there is clearance
-//        //m_source->startUpdates();
-//        //qDebug() << "position source created";
-//    }
-
-    //m_model = new SpotModel();
-
     m_temperature = new Temperature();
     connect(m_temperature, SIGNAL(ready()), this, SLOT(temperatureDataUpdated()));
 
@@ -43,7 +30,7 @@ SpotFinder::~SpotFinder()
 
 void SpotFinder::setLocationEnabled(bool enabled)
 {
-    qDebug() << "setLocEn " << enabled;
+
     // enable location updates based on m_locationEnabled
 
     m_locationEnabled = enabled;
@@ -56,13 +43,13 @@ void SpotFinder::setLocationEnabled(bool enabled)
 
     if(!m_source)
     {
-        qDebug() << "No location service available, creating...";
         m_source = QGeoPositionInfoSource::createDefaultSource(this);
 
         if (m_source) {
             connect(m_source, SIGNAL(positionUpdated(QGeoPositionInfo)),
                     this, SLOT(positionUpdated(QGeoPositionInfo)));
             m_source->setUpdateInterval(2000);
+            m_source->startUpdates();
         }
     }
 
@@ -73,13 +60,12 @@ void SpotFinder::setLocationEnabled(bool enabled)
 
 bool SpotFinder::locationEnabled() const
 {
-    qDebug() << "LocEn";
     return m_locationEnabled;
 }
 
 void SpotFinder::positionUpdated(const QGeoPositionInfo &info)
 {
-    qDebug() << "position update";
+    //qDebug() << "position update";
 
     // save current location
     if(m_currentCoordinate) delete m_currentCoordinate;

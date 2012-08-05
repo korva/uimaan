@@ -8,6 +8,8 @@ Page {
 
     property int calibrationLevelInt: compassCalibrationLevel * 100
 
+    Component.onCompleted: console.log("comp...")
+
     Image {
         anchors.fill: parent
         source: "qrc:/common/woodenwall_light.jpg"
@@ -34,9 +36,10 @@ Page {
             horizontalAlignment: Text.AlignHCenter
 
             onTextChanged: {
+
                 if(compassCalibrationLevel >= 0.85) {
                     compassEnabled = true
-                    pageStack.push(Qt.resolvedUrl("MainPage.qml"))
+                    pageStack.push(Qt.resolvedUrl("LocationPage.qml"))
                 }
             }
 
@@ -94,7 +97,7 @@ Page {
 
         onClicked: {
             compassEnabled = false
-            pageStack.push(Qt.resolvedUrl("MainPage.qml"))
+            pageStack.push(Qt.resolvedUrl("LocationPage.qml"))
         }
     }
 

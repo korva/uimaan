@@ -7,19 +7,6 @@ Page {
     tools: mapTools
     orientationLock: PageOrientation.LockPortrait
 
-    //    function populateMap() {
-    //        for (i=0;i<=20;i++) {
-    //            map.addMapObject(MapCircle {
-
-
-    //                                 center: Coordinate { latitude: lat; longitude: lng }
-    //                                 color: "#80FF0000"
-    //                                 radius: 1000
-
-    //                             } )
-    //        }
-    //    }
-
     function centerMap() {
         // hack to enable map update... :(
         map.center = userCoordinate
@@ -78,6 +65,7 @@ Page {
             coordinate: userCoordinate
             offset.x: -width/2
             offset.y: -height/2
+            visible: spot.positionFound
         }
 
 

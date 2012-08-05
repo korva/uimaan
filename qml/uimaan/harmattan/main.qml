@@ -35,13 +35,6 @@ PageStackWindow {
 
             compassAzimuth = reading.azimuth
             compassCalibrationLevel = reading.calibrationLevel
-            //console.log("calib: " + reading.calibrationLevel)
-
-            //compassPointer.angle = -reading.azimuth + spot.azimuth + 270
-
-//            headingText.text = reading.azimuth + " (" + reading.calibrationLevel + ")"
-//            distanceDebugText.text = spot.distance + "m (" + spot.azimuth + ")"
-
         }
     }
 
@@ -52,16 +45,18 @@ PageStackWindow {
     SpotFinder {
         id: spot
         model: spotModel
-        locationEnabled: false // by default, don't allow location updates
+        //locationEnabled: false // by default, don't allow location updates
 
         Component.onCompleted: {
             console.log("init complete")
             if(compassCalibrationLevel < compassCalibrationTreshold) pageStack.push(Qt.resolvedUrl("CalibrationPage.qml"))
             else {
                 compassEnabled = true
-                pageStack.push(Qt.resolvedUrl("MainPage.qml"))
+                pageStack.push(Qt.resolvedUrl("LocationPage.qml"))
             }
         }
 
     }
+
+
 }

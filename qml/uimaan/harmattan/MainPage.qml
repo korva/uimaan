@@ -6,7 +6,7 @@ Page {
     id: mainPage
     orientationLock: PageOrientation.LockPortrait
     tools: commonTools
-    state: "noPosition"
+    //state: "noPosition"
 
 
 
@@ -15,60 +15,11 @@ Page {
         if(status === PageStatus.Active) mapButton.enabled = true
     }
 
-    Component.onCompleted: {
-        locationDialog.open()
-        //spot.locationEnabled = true
-    }
-
-    function enableLocationUpdates() {
-        spot.locationEnabled = true
-    }
-
-
-    states: [
-        State {
-            name: "noPosition"
-            when: !spot.positionFound && !spotSelectedWithoutLocation
-            PropertyChanges { target: titleText; opacity: 0.0}
-            PropertyChanges { target: mapButton; opacity: 0.0}
-            PropertyChanges { target: infoButton; opacity: 0.0}
-            PropertyChanges { target: distanceText; opacity: 0.0}
-            PropertyChanges { target: nameText; text: qsTr("Haetaan sijaintia...")}
-            PropertyChanges { target: addressText; text: ""}
-            PropertyChanges { target: timer; running: false}
-        },
-        State {
-            name: "noPositionSpotSelected"
-            when: !spot.positionFound && spotSelectedWithoutLocation
-            PropertyChanges { target: titleText; opacity: 1.0}
-            PropertyChanges { target: addressText; opacity: 1.0}
-            PropertyChanges { target: mapButton; opacity: 1.0}
-            PropertyChanges { target: infoButton; opacity: 1.0}
-            PropertyChanges { target: distanceText; opacity: 0.0}
-            PropertyChanges { target: nameText; text: spot.name}
-            PropertyChanges { target: addressText; text: spot.address}
-            PropertyChanges { target: timer; running: true}
-        },
-        State {
-            name: "Position"
-            when: spot.positionFound
-            PropertyChanges { target: titleText; opacity: 1.0}
-            PropertyChanges { target: addressText; opacity: 1.0}
-            PropertyChanges { target: mapButton; opacity: 1.0}
-            PropertyChanges { target: infoButton; opacity: 1.0}
-            PropertyChanges { target: distanceText; opacity: 1.0}
-            PropertyChanges { target: nameText; text: spot.name}
-            PropertyChanges { target: addressText; text: spot.address}
-            PropertyChanges { target: timer; running: true}
-        }
-
-    ]
-
     Timer {
         id: timer
         interval: 200
         repeat: true
-        running: false
+        running: spot.positionFound
 
         onTriggered: {
 
@@ -91,16 +42,10 @@ Page {
         }
     }
 
-
-
-
-
     Image {
         anchors.fill: parent
         source: "qrc:/common/woodenwall.jpg"
     }
-
-
 
     Image {
         id: logo
@@ -111,8 +56,6 @@ Page {
         height: 330
         source: "qrc:/common/buoy.png"
         rotation: compassPointer.angle
-
-
     }
 
     Column {
@@ -125,11 +68,9 @@ Page {
             text: ""
             font.pixelSize: 30
             anchors.horizontalCenter: parent.horizontalCenter
-
-
             font.family: "Nokia Pure Text"
             horizontalAlignment: Text.AlignHCenter
-            opacity: 0.0
+            visible: spot.positionFound
 
             SequentialAnimation {
                 id: distanceTextAnimation
@@ -180,7 +121,7 @@ Page {
         y: logo.y + logo.height/2
         radius: logo.width / 2 + 15
         running: true
-        opacity: compassEnabled && spot.positionFound
+        visible: compassEnabled && spot.positionFound
 
         SequentialAnimation {
             id: compassPointerAnimation
@@ -222,7 +163,7 @@ Page {
         id: sign
 
         anchors.left: parent.left
-        anchors.top: titleText.top
+        anchors.top: titleText.visible ? titleText.top : nameText.top
         anchors.topMargin: -10
         anchors.bottom: addressText.text == "" ? nameText.bottom : addressText.bottom
         anchors.bottomMargin: -10
@@ -241,7 +182,7 @@ Page {
         anchors.topMargin: 30
         //font.pointSize: 22
         font.pixelSize: 34
-        opacity: 0.0
+        visible: spot.spotFound
 
         onTextChanged: titleTextAnimation.restart()
 
@@ -259,13 +200,12 @@ Page {
     Text {
         id: nameText
 
-        text: qsTr("Haetaan sijaintia...")
+        text: spot.spotFound ? spot.name : (spot.locationEnabled ? qsTr("Haetaan sijaintiasi...") : qsTr("Sijaintisi ei tiedossa"))
         font.pixelSize: 38
         anchors { top: titleText.bottom; topMargin: 0; left: parent.left; leftMargin: 4; right: parent.right; rightMargin: 4 }
 
         font.family: "Nokia Pure Text"
         horizontalAlignment: Text.AlignHCenter
-        anchors.horizontalCenter: parent.horizontalCenter
         elide: Text.ElideRight
 
         onTextChanged: {
@@ -290,14 +230,14 @@ Page {
     Text {
         id: addressText
 
-        text: "" //spot.address
+        text: spot.spotFound ? spot.address : (spot.locationEnabled ? qsTr("Odota tai valitse uimapaikka valikosta") : qsTr("Valitse uimapaikka valikosta"))
         //font.pointSize: 16
         font.pixelSize: 24
         anchors.top: nameText.bottom
         anchors.topMargin: 2
         font.family: "Nokia Pure Text"
         anchors.horizontalCenter: parent.horizontalCenter
-        opacity: 1.0
+
 
 
 
@@ -323,7 +263,7 @@ Page {
             anchors.horizontalCenter: parent.horizontalCenter
             text: qsTr("Näytä kartalla")
             iconSource: "image://theme/icon-s-location-picker"
-            opacity: 0.0
+            visible: spot.spotFound
             width: 260
             enabled: true
 
@@ -340,7 +280,7 @@ Page {
             anchors.horizontalCenter: parent.horizontalCenter
             text: qsTr("Säätiedot")
             iconSource: "image://theme/icon-s-description"
-            opacity: 0.0
+            visible: spot.spotFound
             width: mapButton.width
 
             onClicked: pageStack.push(Qt.resolvedUrl("InfoPage.qml"))
@@ -380,7 +320,8 @@ Page {
                 text: qsTr("Valitse...")
 
                 onClicked: {
-                    spot.sortByLocation()
+                    if (spot.positionAvailable) spot.sortByLocation()
+                    else spot.sortByName()
                     pageStack.push(Qt.resolvedUrl("SelectPage.qml"))
                 }
             }
@@ -390,62 +331,6 @@ Page {
 
     }
 
-    Dialog {
-        id: locationDialog
-
-        content:Item {
-            id: name
-            height: 50
-            width: parent.width
-            Text {
-                id: text
-                font.pixelSize: 22
-                anchors.centerIn: parent
-                color: "white"
-                text: "Saako Uimaan käyttää nykyistä sijaintiasi?"
-            }
-        }
-
-        buttons: Column {
-            //style: ButtonStyle { }
-            //anchors.horizontalCenter: parent.horizontalCenter
-            Button {
-                text: "Kyllä"
-                onClicked: {
-
-                    locationDialog.accept()
-                    commonTools.visible = true
-                }
-            }
-            Button {
-                text: "Kyllä, ja älä kysy enää"
-                onClicked: {
-
-                    locationDialog.accept()
-                    commonTools.visible = true
-                }
-            }
-            Button {
-                text: "Ei nyt"
-                onClicked: {
-
-                    locationDialog.reject()
-                    commonTools.visible = true
-                }
-            }
-
-
-        }
-
-        onAccepted: {
-            enableLocationUpdates()
-        }
-
-        onRejected: {
-            //spot.locationEnabled = false
-        }
-
-    }
 
 
 }
