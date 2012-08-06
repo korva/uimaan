@@ -1,9 +1,8 @@
 //storage.js
-.pragma library
 
 // First, let's create a short helper function to get the database connection
 function getDatabase() {
-     return openDatabaseSync("MyAppName", "1.0", "StorageDatabase", 100000);
+     return openDatabaseSync("Uimaan", "1.0", "SettingsDatabase", 100000);
 }
 
 // At the start of the application, we can initialize the tables we need if they haven't been created yet
@@ -15,6 +14,7 @@ function initialize() {
             // If the table exists, this is skipped
             tx.executeSql('CREATE TABLE IF NOT EXISTS settings(setting TEXT UNIQUE, value TEXT)');
       });
+    console.log("db init");
 }
 
 // This function is used to write a setting into the database
@@ -32,7 +32,9 @@ function setSetting(setting, value) {
                 res = "Error";
               }
         }
+
   );
+    console.log("Setting saved: " + res);
   // The function returns “OK” if it was successful, or “Error” if it wasn't
   return res;
 }
@@ -48,6 +50,8 @@ function getSetting(setting) {
          res = false;
      }
   })
+
+    console.log("Setting fetched: " + res);
   // The function returns “Unknown” if the setting was not found in the database
   // For more advanced projects, this should probably be handled through error codes
   return res

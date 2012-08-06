@@ -39,7 +39,9 @@ Page {
 
                 if(compassCalibrationLevel >= 0.85) {
                     compassEnabled = true
-                    pageStack.push(Qt.resolvedUrl("LocationPage.qml"))
+                    if (locationEnabledPermanently) pageStack.push(Qt.resolvedUrl("MainPage.qml"))
+                    else pageStack.push(Qt.resolvedUrl("LocationPage.qml"))
+
                 }
             }
 
@@ -97,7 +99,9 @@ Page {
 
         onClicked: {
             compassEnabled = false
-            pageStack.push(Qt.resolvedUrl("LocationPage.qml"))
+            if (locationEnabledPermanently) pageStack.push(Qt.resolvedUrl("MainPage.qml"))
+            else pageStack.push(Qt.resolvedUrl("LocationPage.qml"))
+
         }
     }
 

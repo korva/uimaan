@@ -43,16 +43,19 @@ PageStackWindow {
     SpotFinder {
         id: spot
         model: spotModel
-        //locationEnabled: false // by default, don't allow location updates
+        locationEnabled: locationEnabledPermanently // by default, don't allow location updates
 
         Component.onCompleted: {
             // get the location setting from persistent db
             Storage.initialize();
             locationEnabledPermanently = Storage.getSetting("locationEnabled");
+
+            // show calib page first, then location setting if needed
             if(compassCalibrationLevel < compassCalibrationTreshold) pageStack.push(Qt.resolvedUrl("CalibrationPage.qml"))
             else {
                 compassEnabled = true
-                pageStack.push(Qt.resolvedUrl("LocationPage.qml"))
+                if (locationEnabledPermanently) pageStack.push(Qt.resolvedUrl("MainPage.qml"))
+                else pageStack.push(Qt.resolvedUrl("LocationPage.qml"))
             }
         }
 
