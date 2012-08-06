@@ -320,8 +320,9 @@ Page {
                 text: qsTr("Valitse...")
 
                 onClicked: {
-                    if (spot.positionAvailable) spot.sortByLocation()
+                    if (spot.positionFound) spot.sortByLocation()
                     else spot.sortByName()
+
                     pageStack.push(Qt.resolvedUrl("SelectPage.qml"))
                 }
             }

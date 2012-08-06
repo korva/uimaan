@@ -14,7 +14,7 @@ function initialize() {
             // If the table exists, this is skipped
             tx.executeSql('CREATE TABLE IF NOT EXISTS settings(setting TEXT UNIQUE, value TEXT)');
       });
-    console.log("db init");
+
 }
 
 // This function is used to write a setting into the database
@@ -34,7 +34,7 @@ function setSetting(setting, value) {
         }
 
   );
-    console.log("Setting saved: " + res);
+
   // The function returns “OK” if it was successful, or “Error” if it wasn't
   return res;
 }
@@ -51,7 +51,7 @@ function getSetting(setting) {
      }
   })
 
-    console.log("Setting fetched: " + res);
+
   // The function returns “Unknown” if the setting was not found in the database
   // For more advanced projects, this should probably be handled through error codes
   return res

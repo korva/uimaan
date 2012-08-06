@@ -13,13 +13,19 @@ Page {
 
     Column {
         anchors.centerIn: parent
-        spacing: 10
+        spacing: 16
+
+        width: parent.width
 
         Label {
-            anchors.horizontalCenter: parent.horizontalCenter
+
+            anchors.margins: 6
+            width: parent.width
             text: "Saako Uimaan käyttää nykyistä sijaintiasi?"
             font.family: "Nokia Pure Text"
-            font.pixelSize: 26
+            font.pixelSize: 30
+            wrapMode: Text.WordWrap
+            horizontalAlignment: Text.AlignHCenter
         }
 
         Button {

@@ -209,7 +209,7 @@ void Temperature::replyFinished(QNetworkReply *reply)
     if(m_reply == "")
     {
         //emit error();
-        qDebug() << "empty reply";
+        //qDebug() << "empty reply";
         m_loading = false;
         return;
     }
