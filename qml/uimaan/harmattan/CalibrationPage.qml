@@ -8,8 +8,6 @@ Page {
 
     property int calibrationLevelInt: compassCalibrationLevel * 100
 
-    Component.onCompleted: console.log("comp...")
-
     Image {
         anchors.fill: parent
         source: "qrc:/common/woodenwall_light.jpg"

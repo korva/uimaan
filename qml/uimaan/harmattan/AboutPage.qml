@@ -1,5 +1,6 @@
 import QtQuick 1.1
 import com.nokia.meego 1.0
+import "Storage.js" as Storage
 
 Page {
     id: infoPage
@@ -117,9 +118,44 @@ Page {
         onClicked: Qt.openUrlExternally("mailto:korva@ovi.com?subject=Uimaan/Palaute&body=Palautetta N9 versiosta 1.0:")
     }
 
+    Row {
+        id: row
+        anchors {top: button7.bottom; topMargin: 20; horizontalCenter: parent.horizontalCenter }
+        spacing: 20
+
+        Switch {
+            id: positionSwitch
+
+
+            onCheckedChanged: {
+
+                // allow position updates for this session, but not as default.
+                if(checked) {
+                    spot.locationEnabled = true
+                }
+                // block location updates as default too
+                else {
+                    spot.locationEnabled = false
+                    Storage.initialize()
+                    Storage.setSetting("locationEnabled",false);
+                }
+            }
+
+            Component.onCompleted: checked = spot.locationEnabled
+        }
+
+        Label {
+            anchors.verticalCenter: parent.verticalCenter
+            font.pixelSize: 22
+            font.family: "Nokia Pure Text"
+            text: "Salli sijaintitietosi käyttäminen"
+        }
+
+    }
+
     Label {
         id: label8
-        anchors {top: button7.bottom; topMargin: 20; left: parent.left; leftMargin: 10; right: parent.right; rightMargin: 10 }
+        anchors {top: row.bottom; topMargin: 20; left: parent.left; leftMargin: 10; right: parent.right; rightMargin: 10 }
         font.pixelSize: 20
         font.family: "Nokia Pure Text"
         horizontalAlignment: Text.AlignHCenter

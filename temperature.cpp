@@ -90,14 +90,14 @@ void Temperature::getMeasurement()
 {
     if(m_latitude == 0 || m_longitude == 0)
     {
-        qDebug() << "Can't measure, no coordinate set";
+        //qDebug() << "Can't measure, no coordinate set";
         return;
 
     }
 
     if(!m_parsingOk)
     {
-        qDebug() << "Can't measure, no data available";
+        //qDebug() << "Can't measure, no data available";
         return;
     }
 
@@ -201,7 +201,7 @@ bool Temperature::parseHTML()
 
 void Temperature::replyFinished(QNetworkReply *reply)
 {
-    qDebug() << "reply arrived";
+    //qDebug() << "reply arrived";
     m_reply = reply->readAll();
     //qDebug() << "reply: " << m_reply;
 

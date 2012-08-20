@@ -35,12 +35,14 @@ void SpotFinder::setLocationEnabled(bool enabled)
 
     m_locationEnabled = enabled;
 
+    // just stop updating location when disabled
     if(!enabled) {
         if(m_source) m_source->stopUpdates();
         emit locationEnabledChanged();
         return;
     }
 
+    // create a new position source if not existing yet
     if(!m_source)
     {
         m_source = QGeoPositionInfoSource::createDefaultSource(this);
@@ -49,7 +51,6 @@ void SpotFinder::setLocationEnabled(bool enabled)
             connect(m_source, SIGNAL(positionUpdated(QGeoPositionInfo)),
                     this, SLOT(positionUpdated(QGeoPositionInfo)));
             m_source->setUpdateInterval(2000);
-            m_source->startUpdates();
         }
     }
 
