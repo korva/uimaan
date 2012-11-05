@@ -11,14 +11,19 @@
 
 QTM_USE_NAMESPACE
 
+// Implements water temperature check
 class Temperature : public QObject
 {
     Q_OBJECT
 public:
     explicit Temperature(QObject *parent = 0);
 
+    // Set the coordinate, nearest measurement will be fetched
     void setCoordinate(double lat, double lng);
+
+    // true if temperature has been fetched
     bool isValid() const;
+
     QString waterTemperature() const;
     qreal airTemperature() const;
     QString measurementLocation() const;

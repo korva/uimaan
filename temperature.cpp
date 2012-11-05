@@ -2,8 +2,6 @@
 
 const QString WEATHERURL = "http://wwwi3.ymparisto.fi/i3/tilanne/fin/Lampotila/Lampotila.htm";
 
-
-
 Temperature::Temperature(QObject *parent) :
     QObject(parent)
 {
@@ -86,18 +84,18 @@ void Temperature::setCoordinate(double lat, double lng)
     return;
 }
 
+// update measurement info based on set location
 void Temperature::getMeasurement()
 {
     if(m_latitude == 0 || m_longitude == 0)
     {
-        //qDebug() << "Can't measure, no coordinate set";
         return;
 
     }
 
+    // check if parsing has been successful
     if(!m_parsingOk)
     {
-        //qDebug() << "Can't measure, no data available";
         return;
     }
 
@@ -111,7 +109,6 @@ void Temperature::getMeasurement()
         measurementLocation.setLatitude(m_measurements[i].latitude);
         measurementLocation.setLongitude(m_measurements[i].longitude);
         qreal newDistance = target.distanceTo(measurementLocation);
-        //qDebug() << "dist: " << newDistance;
         if(distance == -1)
         {
             distance = newDistance;
@@ -124,10 +121,8 @@ void Temperature::getMeasurement()
         }
     }
 
-    //qDebug() << "closestIndex: " << closestIndex;
     m_surfaceTemperature = m_measurements[closestIndex].measurement;
     m_measurementLocation = m_measurements[closestIndex].name + " (" + QString::number(qRound(distance/1000)) + " km)";
-    //qDebug() << "surfTemp: " << m_surfaceTemperature;
     m_airTemperature = 22;
     m_isValid = true;
 
@@ -193,7 +188,6 @@ bool Temperature::parseHTML()
 
         m_measurements[i].measurement = temp;
 
-        //qDebug() << "Temp for " << m_measurements[i].name << " is " << m_measurements[i].measurement;
     }
 
     return true;
@@ -201,15 +195,12 @@ bool Temperature::parseHTML()
 
 void Temperature::replyFinished(QNetworkReply *reply)
 {
-    //qDebug() << "reply arrived";
+
     m_reply = reply->readAll();
-    //qDebug() << "reply: " << m_reply;
 
     //empty reply; might be problems with connection.
     if(m_reply == "")
     {
-        //emit error();
-        //qDebug() << "empty reply";
         m_loading = false;
         return;
     }
@@ -235,7 +226,6 @@ void Temperature::onIgnoreSSLErrors(QNetworkReply *reply, QList<QSslError> error
 void Temperature::networkError()
 {
     qDebug() << "authorization error";
-    //emit error();
     m_loading = false;
     m_isValid = false;
 }

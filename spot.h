@@ -7,11 +7,10 @@
 
 QTM_USE_NAMESPACE
 
+// Spot: a single spot with additional data
 class Spot : public QObject
 {
     Q_OBJECT
-
-    //Q_PROPERTY(QString name READ name NOTIFY nameChanged)
 
 public:
     Spot(QObject *parent = 0);
@@ -36,9 +35,6 @@ public:
 
     void setDistance(qreal amount);
 
-    QTime opens(int day) const;
-    QTime closes(int day) const;
-
     spotSortMode sortMode;
 
 signals:
@@ -58,13 +54,6 @@ private:
     qreal m_latitude;
     qreal m_longitude;
     qreal m_distance;
-
-    QList<QTime> m_openingHours;
-    QList<QTime> m_closingHours;
-
-    void parseTime(QString time);
-
-
 
 
 };

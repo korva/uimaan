@@ -30,14 +30,9 @@ class SpotModel : public QAbstractListModel
     // return Spot pointer at index
     Spot* spotAt(int index);
 
-    // updates info if an Spot with same ID is found
-    // updated fields: times, additional info
-    void updateInfo(Spot *newInfo);
-
     // From QAbstractListModel
     int rowCount(const QModelIndex &parent) const;
     QVariant data(const QModelIndex &index, int role) const;
-
 
 
     private:

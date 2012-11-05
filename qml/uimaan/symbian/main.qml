@@ -40,15 +40,13 @@ PageStackWindow {
         }
     }
 
-//    SplashPage {
-//        id: splashPage
-//    }
-
-
+    // Model of spot locations
+    // Used for ListViews and as parameter to SpotFinder
     SpotModel {
         id: spotModel
     }
 
+    // SpotFinder: methods for interacting with database of spots
     SpotFinder {
         id: spot
         model: spotModel

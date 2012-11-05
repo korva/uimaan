@@ -17,6 +17,7 @@ class SpotFinder : public QObject
 {
     Q_OBJECT
 
+    // Properties of the selected spot
     Q_PROPERTY(QString name READ name NOTIFY nameChanged)
     Q_PROPERTY(QString address READ address NOTIFY addressChanged)
     Q_PROPERTY(QString additionalInfo READ additionalInfo NOTIFY additionalInfoChanged)
@@ -24,15 +25,20 @@ class SpotFinder : public QObject
     Q_PROPERTY(qreal azimuth READ azimuth NOTIFY azimuthChanged)
     Q_PROPERTY(qreal latitude READ latitude NOTIFY latitudeChanged)
     Q_PROPERTY(qreal longitude READ longitude NOTIFY longitudeChanged)
+
     Q_PROPERTY(qreal currentLatitude READ currentLatitude NOTIFY currentLatitudeChanged)
     Q_PROPERTY(qreal currentLongitude READ currentLongitude NOTIFY currentLongitudeChanged)
+
     Q_PROPERTY(bool positionFound READ positionFound NOTIFY positionFoundChanged)
     Q_PROPERTY(bool spotFound READ spotFound NOTIFY spotFoundChanged)
-    Q_PROPERTY(SpotModel* model READ model WRITE setModel NOTIFY modelChanged)
-    Q_PROPERTY(bool temperatureDataAvailable READ temperatureDataAvailable NOTIFY temperatureDataAvailableChanged)
-    Q_PROPERTY(bool locationEnabled READ locationEnabled WRITE setLocationEnabled NOTIFY locationEnabledChanged)
-    //Q_PROPERTY(QString selectedSpot READ selectedSpot WRITE setSelectedSpot)
 
+    Q_PROPERTY(SpotModel* model READ model WRITE setModel NOTIFY modelChanged)
+
+    // true if temperature check has succeeded
+    Q_PROPERTY(bool temperatureDataAvailable READ temperatureDataAvailable NOTIFY temperatureDataAvailableChanged)
+
+    // true if user has given OK for location data usage
+    Q_PROPERTY(bool locationEnabled READ locationEnabled WRITE setLocationEnabled NOTIFY locationEnabledChanged)
 
     Q_PROPERTY(QString waterTemperature READ waterTemperature NOTIFY waterTemperatureChanged)
     Q_PROPERTY(QString airTemperature READ airTemperature NOTIFY airTemperatureChanged)
@@ -44,12 +50,13 @@ public:
     Q_INVOKABLE void selectSpot(int index);
     Q_INVOKABLE void sortByLocation();
     Q_INVOKABLE void sortByName();
+
+    // Location of temperature measurement
     Q_INVOKABLE QString measurementLocation() const;
 
     QString name() const;
     QString address() const;
     QString additionalInfo() const;
-
     qreal distance() const;
     qreal azimuth() const;
     QGeoCoordinate* target() const;

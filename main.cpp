@@ -16,6 +16,7 @@ int main(int argc, char *argv[])
 
     QmlApplicationViewer viewer;
 
+    // Harmattan UI is shown for simulator
 #if defined(MEEGO_EDITION_HARMATTAN) || defined(Q_WS_SIMULATOR)
     viewer.setMainQmlFile(QLatin1String("qml/uimaan/harmattan/main.qml"));
 #else
