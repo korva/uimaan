@@ -2,6 +2,7 @@ Uimaan
 ========
 
 Uimaan in a mobile app to find public swimming places in Finland.
+
 It uses open data from Finland’s environmental administration (OIVA, see http://wwwp2.ymparisto.fi/scripts/oiva.asp)
 Approximation of water temperature is also given. This data comes also from open data source (http://wwwi3.ymparisto.fi/i3/tilanne/fin/Lampotila/Lampotila.htm)
 
@@ -11,7 +12,7 @@ The app is implemented using Qt and QML.
 ToDo
 ----
 
-* Winter mode: list only swimming places with "avato" 
+* Winter mode: list only swimming places with "avanto" 
 
 Build for testing
 -----------------
@@ -22,7 +23,9 @@ Downloads
 ---------
 
 Download and install the app from Nokia Store
+
 [N9 / Nokia Store](http://store.ovi.com/content/301843).
+
 [Symbian / Nokia Store](http://store.ovi.com/content/303054).
 
 License
